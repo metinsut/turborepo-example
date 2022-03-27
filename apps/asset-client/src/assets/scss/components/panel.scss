@@ -1,0 +1,32 @@
+.panel-wrapper {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr;
+}
+
+.panel-title {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panel-title-left {
+  display: grid;
+  align-items: center;
+  grid-gap: 8px;
+  grid-auto-flow: column;
+  justify-self: left;
+}
+
+.panel-title-right {
+  align-items: center;
+}
+
+.panel-action {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+}

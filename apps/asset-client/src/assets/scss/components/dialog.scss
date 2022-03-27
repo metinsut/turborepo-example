@@ -1,0 +1,51 @@
+.small-width {
+  min-width: 560px;
+  max-width: 560px;
+}
+
+.medium-width {
+  min-width: 740px;
+  max-width: 740px;
+}
+
+.large-width {
+  min-width: 1260px;
+  max-width: 1260px;
+}
+
+.dialog-wrapper {
+  display: flex;
+  grid-gap: 16px;
+  grid-template-columns: 1fr;
+  background-color: rgba(var(--white), 1);
+  border-radius: var(--border-16);
+}
+
+.dialog-content {
+  padding: 0px 32px;
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+.dialog-title {
+  padding: 0px 32px;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+
+.dialog-title-right {
+  display: grid;
+  grid-gap: 8px;
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+.dialog-action {
+  padding: 0px 32px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+}

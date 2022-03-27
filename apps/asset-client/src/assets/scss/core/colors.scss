@@ -1,0 +1,125 @@
+// COLORS
+.c-borda1 {
+  color: rgba(var(--borda1), 1);
+}
+
+.c-borda2 {
+  color: rgba(var(--borda2), 1);
+}
+
+.c-main-red {
+  color: rgba(var(--main-red), 1);
+}
+
+.c-main-lightgray {
+  color: rgba(var(--main-lightgray), 1);
+}
+
+.c-main-darkgray {
+  color: rgba(var(--main-darkgray), 1);
+}
+
+.c-main-darkgray-o-8 {
+  color: rgba(var(--main-darkgray), 0.8);
+}
+
+.c-main-green {
+  color: rgba(var(--main-green), 1);
+}
+
+.c-white {
+  color: rgba(var(--white), 1);
+}
+
+.c-main-blue {
+  color: rgba(var(--main-blue), 1);
+}
+
+.c-main-orange {
+  color: rgba(var(--main-orange), 1);
+}
+
+.c-inherit {
+  color: inherit;
+}
+
+// BACKGROUND COLORS
+.bg-none {
+  background-color: transparent;
+}
+
+.bg-borda3 {
+  background-color: rgba(var(--borda3), 1);
+}
+
+.bg-white {
+  background-color: rgba(var(--white), 1);
+}
+
+.bg-gradient-yellow {
+  background: var(--gradient-yellow);
+}
+
+.bg-darkgrey-o-1 {
+  background-color: rgba(var(--main-darkgray), 0.1);
+}
+
+.bg-darkgrey-o-8 {
+  background-color: rgba(var(--main-darkgray), 0.8);
+}
+
+.bg-main-red-o-1 {
+  background-color: rgba(var(--main-red), 0.1);
+}
+
+.bg-darkgray {
+  background-color: rgba(var(--main-darkgray), 1);
+}
+
+.bg-darkgray-o-8 {
+  background-color: rgba(var(--main-darkgray), 0.8);
+}
+
+.bg-lightGrey {
+  background-color: rgba(var(--main-lightgray), 1);
+}
+
+.bg-lightGrey-o-4 {
+  background-color: rgba(var(--main-lightgray), 0.4);
+}
+
+.bg-gradient-lightRed {
+  background: var(--gradient-lightRed);
+}
+
+.bg-gradient-lightGreen {
+  background: var(--gradient-lightGreen);
+}
+
+.bg-gradient-lightBlue {
+  background: var(--gradient-lightBlue);
+}
+
+.bg-gradient-green-o-8 {
+  background: linear-gradient(180deg, rgba(64, 219, 163, 0.8) 0%, rgba(84, 223, 173, 0.8) 100%);
+}
+
+.bg-gradient-yellow-o-8 {
+  background: linear-gradient(180deg, rgba(243, 191, 50, 0.8) 0%, rgba(245, 200, 80, 0.8) 100%);
+}
+
+.bg-gradient-orange-o-8 {
+  background: linear-gradient(180deg, rgba(229, 160, 113, 0.8) 0%, rgba(232, 170, 128, 0.8) 100%);
+}
+
+.bg-gradient-grey-o-8 {
+  background: linear-gradient(180deg, rgba(184, 196, 203, 0.8) 0%, rgba(172, 184, 188, 0.8) 100%);
+}
+
+.bg-gradient-red-o-8 {
+  background: linear-gradient(180deg, rgba(237, 110, 118, 0.8) 0%, rgba(236, 129, 106, 0.8) 100%);
+}
+
+.bg-gradient-darkGrey-o-8 {
+  background: linear-gradient(180deg, rgba(109, 109, 109, 0.8) 0%, rgba(73, 73, 73, 0.8) 100%);
+}

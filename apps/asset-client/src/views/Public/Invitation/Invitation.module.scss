@@ -1,0 +1,99 @@
+.container {
+  display: grid;
+  grid-gap: 8px;
+}
+
+.title {
+  display: grid;
+  grid-gap: 8px;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.action_area {
+  display: flex;
+  grid-gap: 32px;
+  grid-auto-flow: column;
+  margin-top: 16px;
+}
+
+.contentWrapper {
+  align-self: center;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: auto 1fr auto;
+}
+
+.contentWrapper__header-img {
+  width: 224px;
+}
+
+.contentWrapper_body {
+  align-self: center;
+  margin-top: 32px;
+}
+
+.contentFooter {
+  min-height: 100px;
+}
+
+.secondPage {
+  margin: 32px 172px 0 172px;
+}
+
+.secondPage_header {
+  margin-left: 24px;
+}
+
+.personalInfo {
+  margin-top: 16px;
+}
+
+.personalInfo_header {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  min-height: 56px;
+}
+
+.personalInfo_content {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+}
+
+.personalInfo_body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 16px;
+  width: 100%;
+}
+
+.personalInfo_textField {
+  margin-bottom: 16px;
+  padding-left: 8px;
+  width: 50%;
+}
+
+.personalInfo_bottom {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.permissions {
+  padding: 24px;
+  margin-top: 16px;
+}
+
+.permissionCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.permissionCard_innerRow {
+  margin: 16px 0px 0px 40px;
+}

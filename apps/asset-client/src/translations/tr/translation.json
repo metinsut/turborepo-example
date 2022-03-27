@@ -1,0 +1,1958 @@
+{
+  "assets": {
+    "asset_category": "Demirbaş Kategorisi",
+    "assets": "Demirbaşlar",
+    "assets_with_count": "{{count}} Demirbaş",
+    "status_tooltip": {
+      "calibration_completed": "Kalibrasyon: Tamamlanmış",
+      "maintenance_completed": "Bakım: Tamamlanmış",
+      "status_usable": "Statü: Kullanılabilir"
+    },
+    "asset_edit": {
+      "add_an_asset_category_description": "Lighthouse veritabanında bu Marka/Model bulunmuyor. Lütfen buraya tıklayıp bu demirbaşın kategorisini seçin.",
+      "add_an_asset_category_title": "<bold>Demirbaş Kategorisi</bold> Ekle",
+      "asset_add_title": "Yeni bir Demirbaş Ekle",
+      "asset_edit_title": "Demirbaşı Düzenle",
+      "asset_edit_page_header": "{{categoryName}} | {{brandName}} - {{modelName}}",
+      "bottom_bar_desc": "Lütfen demirbaş ile ilgili bilgileri doldurup Onayla butonuna basın",
+      "branch_select_title": "Şube Seçin",
+      "branch_select_desc_1": "Birden fazla şubeye demirbaş eklemek için yetkiniz bulunmakta.",
+      "branch_select_desc_2": "Lütfen aşağıdan bu demirbaşı eklemek istediğiniz şubeyi seçin.",
+      "brand_field_hint": "Marka",
+      "brand_dropdown_hint": "Seçili markalarda arama yapmak için <bold>yazmaya başlayın</bold>",
+      "category_not_selected_title": "Demirbaş Kategorisi <bold>Atanmadı</bold>",
+      "category_not_selected_desc": "Önce <bold>Marka</bold> ve <bold>Model</bold> Seçin",
+      "category_cant_edit_hint": "Güncellenemez. Lighthouse marka ve modeli tanıdığı için bu kategori otomatik olarak atanmıştır.",
+      "category_unknown_brand_model_desc": "Lighthouse veritabanında bu Marka/Model bulunmuyor. Lütfen buraya tıklayıp bu demirbaşın kategorisini seçin.",
+      "click_to_assign_category": "<bold>Kategori</bold> seçmek için tıklayın",
+      "click_to_assign_custody": "<bold>Zimmetli personel</bold> seçmek için tıklayın",
+      "click_to_assign_location": "<bold>Konum</bold> seçmek için tıklayın",
+      "code_field_hint": "Kod",
+      "cost_field_hint": "Alış Fiyatı",
+      "custody": "Zimmetli Personel",
+      "custody_delete_warning": "Zimmet bilgisini demirbaştan kaldırmak istediğinize emin misiniz?",
+      "custody_delete_dialog_title": "Zimmeti Kaldır",
+      "custody_dialog_title": "Zimmet Bilgisi Ata",
+      "custody_dialog_desc": "Bu demirbaşın zimmetleneceği kişiyi seçin",
+      "custody_dialog_cancel": "İptal etmek istediğinize emin misiniz?",
+      "custody_dialog_see_more": "Daha Fazla",
+      "custody_not_selected_title": "Zimmetli Personel <bold>Atanmadı</bold>",
+      "information_title": "Genel Bilgiler",
+      "last_update": "Son Güncelleme",
+      "location_field": "Lokasyon",
+      "location_none_found": "Lokasyon Bulunamadı",
+      "location_not_selected_title": "Konum <strong>Atanmadı</strong>",
+      "location_branch": "<strong>Şube:</strong> {{branchName}}",
+      "location_delete_warning": "Lokasyon bilgisini demirbaştan kaldırmak istediğinize emin misiniz?",
+      "location_delete_dialog_title": "Lokasyonu Kaldır",
+      "not_assigned": "Atanmadı",
+      "main_category_select_title": "Ana Kategori Seçin",
+      "main_category_select_desc_1": "Birden fazla Ana Kategoriye demirbaş ekleme yetkiniz bulunmakta.",
+      "main_category_select_desc_2": "Lütfen aşağıdan bu demirbaşı eklemek istediğiniz ana kategoriyi seçin.",
+      "model_brand_hint": "Önce <bold>Marka</bold> Seçin",
+      "model_dropdown_hint": "Seçili modellerde arama yapmak için <bold>yazmaya başlayın</bold>",
+      "model_field_hint": "Model",
+      "person_search": "Ara",
+      "person_selected_text": "<bold>‘{{ personName }}’</bold> seçildi",
+      "person_selected_multi": "kişi seçildi",
+      "serial_no_field_hint": "Seri No. (Eski)",
+      "serial_no_popup_hint_desc": "Bu alan bu demirbaşı tanımlayan asıl eşsiz değerdir. Bu Admin > Asset > Forms menüsünden değiştirilebilir.",
+      "serial_no_popup_hint_title": "Birincil Anahtar",
+      "unconfirmed": "Onay bekliyor",
+      "category_brand_model_snackbar_message": "Kategori-Marka-Model kombinasyonu onaya gönderildi.",
+      "fcode_field_hint": "F Kodu",
+      "purchased_firm_field_hint": "Satın Alınan Firma",
+      "purchased_date_field_hint": "Satın Alınma Tarihi",
+      "production_date_field_hint": "Cihaz Üretim Tarihi",
+      "contact_person_field_hint": "İlgili Kişi",
+      "contact_email_field_hint": "İlgili Kişinin E-Postası",
+      "contact_phone_field_hint": "İlgili Kişinin Telefon Numarası",
+      "notes_field_hint": "Notlar",
+      "created_user_field_hint": "Oluşturan Kişi",
+      "created_date_field_hint": "Oluşturma Tarihi",
+      "auto_code": "Lighthouse Otomatik Oluşturulan Kodu",
+      "identification_title": "Kimlik",
+      "device_photo_title": "Cihaz Fotoğrafı",
+      "device_info_title": "Cihaz Bilgileri",
+      "purchase_info_title": "Satın Alma Bilgileri",
+      "notes_title": "Notlar",
+      "creation_info_title": "Oluşturma Bilgileri",
+      "operations": {
+        "open_breakdown_request": "<strong>Arıza</strong> Talebi Aç"
+      }
+    },
+    "assetFilter": {
+      "all_contracts": "Tüm Sözleşmeler",
+      "blank": "<i>boş</i>",
+      "brand": "Marka",
+      "branch": "Şube",
+      "category": "Kategori",
+      "category_selected": "{{ count }} kategori seçildi",
+      "category_selected_plural": "{{ count }} kategori seçildi",
+      "code": "ID",
+      "contract_contact": "Sözleşme Yetkilisi",
+      "contract_end_date": "Sözleşme Bitiş Tarihi",
+      "contracts": "Sözleşmeler",
+      "contract_firm": "Sözleşmenin İmzalandığı Firma",
+      "contract_type": "Sözleşme Tipi",
+      "created_by": "Oluşturan Kişi",
+      "custodian_person": "Zimmetli Kişi",
+      "date_of_creation": "Eklenme Tarihi",
+      "date_of_purchase": "Satın Alma Tarihi",
+      "definitions_does_not_have_plan": "Herhangi bir {{ planType }} Planı olmayan demirbaşlar (İşaretlenmiş demirbaşlar hariç)",
+      "definitions_does_not_need_plan": "Herhangi bir {{ planType }} Planına ihtiyacı olmayan demirbaşlar",
+      "f_code": "F-Kodu",
+      "filter": "Filtrele",
+      "filtered_field_count": "<bold>{{count}}</bold> alana göre filtrelendi",
+      "information": "Bilgi",
+      "location": "Konum",
+      "filter_fields": " filtre alanı",
+      "location_filter_multiselect_tooltip": "Birden çok şube seçildiği için lokasyon filtresi yapılamaz.",
+      "location_selected": "{{ count }} konum seçildi",
+      "location_selected_plural": "{{ count }} konum seçildi",
+      "model": "Model",
+      "not_have_contracts": "<i>{{ type }} sözleşmeleri olmayanlar</i>",
+      "not_have_plans": "<i>{{ type }} planları olmayanlar</i>",
+      "not_need_plans": "<i>{{ type }} planlarına ihtiyacı olmayanlar</i>",
+      "no_assigned_contract": "Sözleşmasi olmayan demirbaşlar",
+      "no_contract_contact": "Sözleşme yetkilisi atanmayanları dahil et",
+      "no_contract_firm": "Sözleşmenin imzalandığı firma bilgisi atanmayanları dahil et",
+      "no_custody": "Zimmeti olmayanları dahil et",
+      "no_fcode": "F-Kodu olmayanları dahil et",
+      "no_location": "Konum atanmayanları dahil et",
+      "no_purchase_contact": "Satın alan kişi atanmayanları dahil et",
+      "no_purchased_firm": "Satın alınan firma atanmayanları dahil et",
+      "no_saved_filter_stored": "<i> Kayıtlı filtre yok </i>",
+      "parts_policy": "Parça Politikası",
+      "person_selected": "{{ count }} kişi seçildi",
+      "person_selected_plural": "{{ count }} kişi seçildi",
+      "plan_ending_date": " Planı Bitiş Tarihi",
+      "purchase_contact": "Satın Alan Kişi",
+      "purchased_firm": "Satın Alınan Firma",
+      "save_filter": "Filtreyi Kaydet",
+      "save_filter_dialog_texts": {
+        "filter_will_be_saved": "Belirttiğiniz filtre kaydedilecek.",
+        "filter_will_derive_from_criteria": "Filtreler, seçtiğiniz kriterlerden dinamik olarak sonuçlar çıkaracaktır.",
+        "access_saved_filter": "Kaydedilen filtrelere daha sonra demirbaş listesi başlangıç ​​ekranından veya filtre panelinin alt çubuğundan erişebilirsiniz."
+      },
+      "saved_filters": "Kayıtlı Filtreler",
+      "serial_number": "Seri Numarası",
+      "status": "Statüler",
+
+      "title": "Filtre",
+      "title_of_the_filter": "Filtre Başlığı",
+      "or": "YA DA",
+      "delete_filter_header": "Filtreyi Sil",
+      "delete_filter_description": "Bu filtreyi silmek istediğinize emin misiniz?",
+      "select_custodian": "Zimmetli Seç",
+      "select_filter_custodian": "Zimmetli(leri) filtrelemek için seçin",
+      "select_created": "Oluşturan Kişi seçin",
+      "select_filter_created": "Oluşturan kişi(leri) filtrelemek için seçin",
+      "specify_brand_first": "↑ Önce  <strong>‘Markayı’</strong> belirtin"
+    },
+    "asset_list": {
+      "actions": {
+        "breakdown_request": "<strong>Arıza Talebi</strong> Aç",
+        "retirement_request": "<strong>Retirement Talebi</strong> Aç",
+        "passive_assets": "Demirbaşları <strong>Pasif</strong> Yap",
+        "edit_information": "Demirbaş Bilgilerini <strong>Düzenle</strong>",
+        "edit_contracts": "<strong>Sözleşmeleri Düzenle</strong>",
+        "edit_maintenance_plans": "<strong>Bakım Planlarını</strong> Düzenle",
+        "edit_calibration_plans": "<strong>Kalibrasyon Planlarını</strong> Düzenle",
+        "one_time_maintenance": "<strong>Tek Seferlik Bakım</strong> Oluşturun",
+        "one_time_calibration": "<strong>Tek Seferlik Kalibrasyon</strong> Oluşturun",
+        "group_asset": "Demirbaşları <strong>grupla</strong>",
+        "ungroup_asset": "Demirbaşları <strong>gruptan ayır</strong>",
+        "export_assets": "Demirbaşları <strong>dışa aktar</strong>"
+      },
+      "columns": {
+        "status": "Durum",
+        "code": "Lighthouse Otomatik Oluşturulan Kod",
+        "category": "Kategori",
+        "brand": "Marka",
+        "model": "Model",
+        "location": "Konum"
+      },
+      "add_new_button": "Yeni Ekle",
+      "add_new_single": "<bold>Tekli</bold> demirbaş ekleyin.",
+      "add_new_multi": "<bold>Çoklu</bold> demirbaş ekleyin.",
+      "asset_list_title": "Demirbaş Listesi",
+      "filter_button": "Filtre",
+      "empty_list_desc": "Lighthouse, verdiğiniz parametrelerle herhangi bir demirbaş <strong> bulamıyor </strong>.",
+      "empty_list_info": "Demirbaşlar içinde tekrar arama yapmak için lütfen parametreleri değiştirin."
+    },
+    "protection": {
+      "calibration_field": "Kalibrasyon",
+      "calibration_plan_switch": "<bold>Kalibrasyon</bold> planı <bold>gerektirir</bold>.",
+      "contract_add": "Sözleşme Ekleyin.",
+      "contract_protection_header": "Sözleşme ve Plan Tanımları",
+      "contracts_description": "Demirbaşla ilgili sözleşmeleri ekleyin.<br />Bu sözleşmeler, içerdikleri planlarla ilişkilendirilebilir.",
+      "contracts_title": "Sözleşmeler",
+      "maintenance_field": "Bakım",
+      "maintenance_plan_switch": "<bold>Bakım</bold> planı <bold>gerektirir</bold>.",
+      "plan_add": "Bakım / Kalibrasyon Planı Ekleyin.",
+      "plans_description": "Buraya bakım ve/ya kalibrasyon planları ekleyin, <br /> bunları sözleşmeyle ilişkilendirin veya bağımsız planlar oluşturun.",
+      "plans_title": "Planlar"
+    },
+    "locations": {
+      "select_description": "Lütfen lokasyon seçiniz.",
+      "sub_locations_title": "<bold>{{locationName}}</bold> Altındaki <bold>{{ locationLevelName }}</bold> ",
+      "no_locations": "Lokasyon Yok"
+    },
+    "routes": {
+      "asset_list": "Demirbaş Listesi",
+      "protection_calendar": "Arıza Takvimi",
+      "information": "Genel",
+      "definitions": "Tanımlar",
+      "protection": "Arıza",
+      "performance": "Performans",
+      "costs": "Maliyet",
+      "files": "Dosyalar",
+      "updates": "Güncellemeler",
+      "contracts": "Sözleşmeler"
+    },
+    "statuses": {
+      "usable": "Kullanılabilir",
+      "caution": "Uyarı",
+      "partialDown": "Kısmi Kullanılabilir",
+      "down": "Kullanılamaz",
+      "passive": "Pasif",
+      "retired": "Hek"
+    },
+    "status_description": {
+      "usable": "Bu demirbaş kullanıma hazır.",
+      "caution": "<strong>Korumaya</strong> gitmek için tıklayın.",
+      "partialDown": "<strong>Görevlere</strong> gitmek için tıklayın.",
+      "passive": "Bu tarihten beri basif: <strong>{{date}}</strong>",
+      "down": "<strong>Görevlere</strong> gitmek için tıklayın.",
+      "retired": "Emeklilik Tarihi: <strong>{{date}}</strong>"
+    }
+  },
+  "branches": {
+    "branch_field": "Şube",
+    "branches_with_count": "{{count}} Şube",
+    "wizard_message": "Lütfen aşağıda {{ item }} eklemek istediğiniz şubeleri seçin.",
+    "wizard_more_than_one_branch": "Birden fazla şubeye {{ item }} ekleme yetkiniz var.",
+    "wizard_select_branch": "Şube Seçin",
+    "wizard_select_branches": "Şubeleri Seçin",
+    "wizard_selected_items": "{{count}} Şube seçildi.",
+    "all_branches": "Tüm Şubeler",
+    "branch_filter": "<strong>Şube</strong> Filtresi",
+    "all_branched_selected": "Toplam ({{count}}) Şube Seçildi",
+    "select_all": "Hepsini seç"
+  },
+  "asset_configurations": {
+    "asset_configuration": "Demirbaş Ayarları",
+    "brands": {
+      "add_a_brand": "Marka Ekle",
+      "add_hint": "Markayı",
+      "brand_group_title": "<strong>{{ categoryName }}</strong> Kategorisine Marka Ekle",
+      "brand_model_dialog_bottom_text": "{{ categoryName }} Kategorisine Marka/Model Ekle",
+      "delete_warning": "Bu markayı silmek istediğinize emin misiniz?",
+      "name_field": "Marka Adı",
+      "no_brands_description": "Bu kategoriye marka eklenmemiş.<strong>{{ categoryName }}</strong> kategorisi altına marka eklemek için yukarıdaki butona tıklayabilirsin.",
+      "select_brand": "Marka Seçiniz",
+      "delete_brand": "Marka <strong>Sil</strong>"
+    },
+    "models": {
+      "add_a_model": "Model Ekle",
+      "add_hint": "Modeli",
+      "delete_warning": "Bu modeli silmek istediğinize emin misiniz?",
+      "model": "Model",
+      "model_group_title": "<strong>{{ brandName }}</strong> Markasına Model Ekle",
+      "name_field": "Model Adı",
+      "no_models_description": "Bu markaya model eklenmemiş.<strong>{{ brandName }}</strong> markası altına model eklemek için yukarıdaki butona tıklayabilirsin.",
+      "select_model": "Model Seçiniz",
+      "image_button_descripion": "Bu modele fotoğraf eklemek için tıklayınız",
+      "delete_photo": "Fotoğrafı Sil",
+      "edit_model": "Model Güncelle",
+      "model_name_cant_change_tooltip": "Model adı değiştirilemez. Değişiklik yapmak istiyorsanız, bu modeli silebilirsiniz.",
+      "upload_change_photo": "<strong>Fotoğraf</strong> Yükle / Değiştir",
+      "delete_model": "Model <strong>Sil</strong>"
+    },
+    "categories": {
+      "category_list_title": "Kategori Listesi",
+      "categories": "Kategoriler",
+      "main_categories_title": "Ana Kategoriler",
+      "no_categories_description": "Henüz buraya kategori eklenmemiş. <strong>`{{ categoryName }}`</strong> altında alt kategoriler oluşturmak için aşağıdaki butona tıklayabilirsin.",
+      "sub_categories_title": "<strong>{{ categoryName }}</strong> Alt Kategorileri",
+      "add_new_category": "<strong>Yeni</strong> Bir Kategori Ekle",
+      "edit_category": "Kategori <strong>Güncelle</strong>",
+      "code_field": "Kod",
+      "code_label": "Kod (opsiyonel)",
+      "name_field": "Kategori Adı",
+      "name_label": "Kategori Adı",
+      "has_brand_model_tooltip": "Bu kategoriye ait marka ve modeller mevcuttur, alt kategori ekleyemezsiniz.",
+      "max_level_reached_tooltip": "Bu kategori için maksimum alt kategori sayısına ulaştınız.",
+      "has_unapproved_tooltip": "Bu kategori yetkisiz bir personel tarafından oluşturulmuştur ve henüz onaylanmamıştır. Detayını görmek için tıklayınız.",
+      "has_subcategory_tooltip": "Alt kategorisi olan kategorilere marka/model eklenemez.",
+      "delete_warning": "Seçili kategorileri silmek istediğinize emin misiniz?",
+      "general_admin_can_do": "Bu işlemi yalnızca general admin yapabilir",
+      "context_menu": {
+        "add_edit_brand_model": "Kategori <strong>Marka / Model</strong> Ekle / Güncelle",
+        "edit_category": "Kategori Kod / Başlık <strong>Güncelle</strong>",
+        "move_category": "Kategori <strong>Taşı</strong>",
+        "delete_category": "Kategori<strong>Sil</strong>"
+      },
+      "onboarding": {
+        "asset_categories": "Demirbaş Kategorileri",
+        "info1": "Demirbaş kategorileri ekranından; kullanacağınız demirbaş kategorilerini, bunlara bağlı marka ve modelleri ekleyebilirsiniz. Demirbaş kategorileri ekranını yalnızca admin rolündeki kullanıcılar görebilir.",
+        "info2": "Bu ekrandan gireceğiniz kategori-marka-model eşleşmeleri tüm demirbaşlarınızın standart bir şekilde kaydedilmesini ve raporlanmasını sağlayacaktır. Demirbaş giren kullanıcılar yalnızca marka ve model seçimi yapacak; kategori ise bu ekranda yapacağınız eşleşmeye göre otomatik atanacaktır.",
+        "info3": "Kategoriler ilk açıldığında, Borda'nın şablonu yüklü halde gelecektir. İsterseniz bu şablonu kullanabilir, düzenleyebilir veya silerek kendi kategori yapınızı yükleyebilirsiniz.",
+        "info4": "<strong>Kategoriler en fazla 7 seviyeye altında açılabilir.</strong> Lütfen kategori ağacınızı buna göre planlayın.",
+        "info5": "Bu ekrana daha sonra ‘bilgi’ butonuna tıklayarak da erişebilirsiniz.",
+        "desc1": "Bir kategori içerisine marka ve model kaydetmek için bu kategori altında başka alt-kategori bulunmadığından emin olun. İmleci bu kategorinin üstüne getirdiğinizde ‘Markalar/Modeller Ekle’ butonu ile ilgili aksiyonlara erişebilirsiniz.",
+        "desc2": "Her seviyedeki kategoriye mutlaka isim vermeniz gerekir. Dilerseniz kategorilerinize harf ve rakamlardan oluşan kodlar da verebilirsiniz.",
+        "desc3": "Demirbaş girişi yapan kullanıcı aradığı marka-modeli bulamaz ise kendisi yeni giriş yapabilir. Yeni marka-model-kategori eşleşmeleri görevler sekmesinde onayınıza düşer. Bu eşleşmeleri onaylayabilir, silebilir veya düzenleyebilirsiniz. Yaptığınız düzenleme bu şekilde kaydedilen tüm demirbaşlara yansıtılacaktır. Onayladığınız eşleşmeler bu andan itibaren demirbaş kaydı sırasında tüm kullanıcılara görünür olacaktır.",
+        "category_code": "Kategori Kodu"
+      },
+      "main_category_delete_modal": {
+        "no_delete_title": "Ana Kategori ({{categoryName}}) Silinemedi",
+        "delete_title": "Ana Kategoriyi ({{categoryName}}) Silmeyi Onaylayın",
+        "no_delete_warning": "Lighthouse bu ana kategoriyi silemez. Lütfen aşağıdaki kontrolleri kontrol edin ve tekrar denemek için sorunları çözün.",
+        "delete_warning": "Lighthouse bu ana kategoriyi silmeye hazır.",
+        "no_user": "Bu ana kategori için <strong>hiçbir kullanıcı</strong> yetkili değil",
+        "no_asset": "Bu ana kategori altında kayıtlı <strong>demirbaş yok</strong>",
+        "no_contract": "Bu ana kategoriyle ilişkili hiçbir <strong>sözleşme yok</strong>",
+        "no_plan": "Bu ana kategoriyle ilişkili hiçbir <strong>bakım veya kalibrasyon planı yok</strong>",
+        "check_list_title": "Devam etmek için lütfen aşağıdaki sonuçların her birini <strong>kontrol</strong> edin.",
+        "brand_model": "Ana kategorinin <strong>Marka ve Modelleri silinecek</strong>",
+        "subcategories": "Ana kategorinin <strong>Alt Kategorileri silinecek</strong>",
+        "sub_statuses": "Ana kategorinin <strong>Alt Durumları silinecek</strong>",
+        "auto_flow": "Ana kategorinin <strong>Otomatik Akışları silinecek</strong>",
+        "breakdown_types": "Ana kategorinin <strong>Arıza Tipleri silinecek</strong>",
+        "breakdown_costs": "Ana kategorinin <strong>Arıza Maliyetleri silinecek</strong>",
+        "maintenance_costs": "Ana kategorinin <strong>Bakım Maliyetleri silinecek</strong>",
+        "retirement_reasons": "Ana kategorinin <strong>HEK Sebepleri silinecektir</strong>",
+        "department": "Ana kategorinin <strong>Departmanları silinecektir</strong>",
+        "form_builder": "Ana kategorinin <strong>Formları silinecektir</strong>"
+      }
+    },
+    "routes": {
+      "categories": "Kategoriler",
+      "category_tasks": "Kategori Görevleri",
+      "forms": "Formlar",
+      "categories_v2": "Kategoriler v2"
+    }
+  },
+  "brands": {
+    "add_new_brand_button": "Yeni <bold>Marka</bold> Ekle",
+    "brand": "Marka",
+    "brand_dropdown_not_found": "Marka bulunamadı. '+' butonuna basıp yeni bir marka tanımlayabilirsin.",
+    "brand_group_title": "<strong>{{ categoryName }}</strong> Kategorisine Marka Ekle",
+    "brand_model_dialog_bottom_text": "{{ categoryName }} Kategorisine Marka/Model Ekle",
+    "delete_warning": "Bu markayı silmek istediğinize emin misiniz?",
+    "name_field": "Marka Adı",
+    "no_brands_description": "Bu kategoriye marka eklenmemiş.<strong>{{ categoryName }}</strong> kategorisi altına marka eklemek için yukarıdaki butona tıklayabilirsin.",
+    "no_brand_found": "Marka Bulunamadı",
+    "no_brand_add_hint": "Yukarıdaki ‘<strong>+</strong>’ya basarak <strong>Bu Modeli</strong> Lighthouse'a <strong> Ekleyin </strong>"
+  },
+  "categories": {
+    "add_category_button": "Yeni Kategori Ekle",
+    "asset_configuration": "Demirbaş Ayarları",
+    "brand_model_add_button": "Markalar/Modeller",
+    "categories": "Kategoriler",
+    "category_list_title": "Kategori Listesi",
+    "disabled_category_tooltip": "Bu kategoriye ait marka ve modeller mevcuttur, alt kategori ekleyemezsiniz.",
+    "category_has_subcategories_info": "Bu kategorinin alt kategorileri olduğu için bu kategoriye doğrudan model eklenemez.",
+    "categories_with_count": "{{count}} Kategori",
+    "code_field": "Kod",
+    "delete_warning": "Seçili kategorileri silmek istediğinize emin misiniz?",
+    "import_categories_button": "Kategori Yükle",
+    "main_categories_title": "Ana Kategoriler",
+    "name_field": "Kategori Adı",
+    "no_categories_description": "Henüz buraya kategori eklenmemiş. <strong>`{{ categoryName }}`</strong> altında alt kategoriler oluşturmak için aşağıdaki butona tıklayabilirsin.",
+    "routes": {
+      "categories": "Kategoriler",
+      "category_tasks": "Kategori Görevleri",
+      "forms": "Formlar",
+      "categories_v2": "Kategoriler v2"
+    },
+    "select_description": "Lütfen kategori seçiniz.",
+    "sub_categories_title": "<strong>{{ categoryName }}</strong> Alt Kategorileri",
+    "forms": {
+      "asset_form_template_for": "Bu Kategori için Demirbaş Form Şablonu<marginElement/><wrapper><strong>Düzenle</strong></wrapper> ",
+      "last_edited": "Son Güncellenme: <strong>{{date}}</strong>",
+      "page_header": "Formlar",
+      "title": "Her Bir Ana Kategori için Alanları Özelleştirme",
+      "title_desc": "Her bir ana kategorinin formunu özelleştirmek için kartına tıklayın.",
+      "form_builder": {
+        "page_header": "{{mainCategoryName}} Kategorisi için Form Şablonunu Özelleştir",
+        "edit_add_fields": "Alan Güncelle / Ekle",
+        "retrieving": "Getiriliyor...",
+        "create_a_new_field": "Yeni Alan Oluştur",
+        "fields": {
+          "brand": "Marka",
+          "model": "Model",
+          "auto_generated_code": "Lighthouse Otomatik Oluşturulan Kod",
+          "category": "Kategori",
+          "location": "Konum",
+          "custody": "Zimmetli",
+          "remaining_fields_to_add": "Kalan Eklenebilecek Alan Sayısı: <strong>{{ number }} </strong>",
+          "identification": "Kimlik",
+          "serial_no": "Seri No",
+          "device_photo": "Cihaz Fotoğrafı",
+          "photo": "Fotoğraf",
+          "device_info": "Cihaz Bilgisi",
+          "date_of_device_production": "Cihaz Üretim Tarihi",
+          "purchase_info": "Satın Alma Bilgileri",
+          "purchased_firm": "Satın Alınan Firma",
+          "purchase_cost": "Satın Alma Maliyeti ($)",
+          "purchase_date": "Satın Alma Tarihi",
+          "notes": "Notlar",
+          "creation_info": "Oluşturma Bilgileri",
+          "created_by": "Oluşturan Kişi",
+          "date_of_creation": "Oluşturma Tarihi",
+          "contract_and_protection_definitions": "Sözleşme & Plan Tanımları",
+          "protection": "Arıza",
+          "edit_field": "Alanı <strong>Düzenle</strong>",
+          "upload_change_photo": "<strong>Fotoğraf</strong> Yükle / Değiştir",
+          "delete_field": "Alanı <strong>Sil</strong>"
+        },
+        "add_edit_modal": {
+          "create_field": "Yeni bir alan oluştur",
+          "edit_field": "Alanı düzenle",
+          "description": "Önce alanın başlığını ekleyin ardından türünü seçin. Ardından bu alanın Zorunlu ve Benzersiz olup olmadığını lütfen belirtin.",
+          "info": "Lighthouse Otomatik Oluşturulan Koduna ek olarak, Ek Tanımlama bölümündeki tüm alanlar 'Demirbaş Arama' widget'ı ile <strong>arayabilir</strong>.",
+          "title_field": "Alan Başlığı",
+          "data_type": "Veri Türü",
+          "required_field": "Zorunlu Alan?",
+          "unique_value": "Eşsiz Değer?",
+          "required_info": "Bu alanın açık olması, bu alan doldurulmadan bir varlığın kaydedilemeyeceği anlamına gelir.",
+          "unique_info": "Bu açıksa, başka bir demirbaş aynı değeri paylaşamayacağı anlamına gelir. Her demirbaş eklediğinizde, Lighthouse bu alanı yinelenen bir değer olduğunu doğrular.",
+          "same_title_error": "Bu başlık zaten mevcut"
+        },
+        "delete_modal": {
+          "title": "1 alan silinecek",
+          "description": "Devam ederseniz, demirbaş kartlarından 1 alan silinecektir."
+        },
+        "data_type": {
+          "freeText": "Serbest Yazı",
+          "numerical": "Rakamsal",
+          "dateTime": "Tarih Saat",
+          "phone": "Telefon",
+          "email": "E-posta"
+        }
+      }
+    },
+    "main": {
+      "main_category_field": "Ana Kategori",
+      "wizard_message": "Lütfen aşağıda {{item}} eklemek istediğiniz ana kategoriyi seçin.",
+      "wizard_more_than_one_category": "Birden fazla ana kategoriye {{ item }} ekleme yetkiniz var.",
+      "wizard_select_main_category": "Ana Kategori Seçin",
+      "wizard_select_main_categories": "Ana Kategoriler Seçin",
+      "wizard_selected_items": "{{count}} Ana Kategori seçildi.",
+      "general_admin_can_do": "Bu işlemi yalnızca general admin yapabilir"
+    },
+    "main_category_delete_modal": {
+      "no_delete_title": "Ana Kategori ({{categoryName}}) Silinemedi",
+      "delete_title": "Ana Kategoriyi ({{categoryName}}) Silmeyi Onaylayın",
+      "no_delete_warning": "Lighthouse bu ana kategoriyi silemez. Lütfen aşağıdaki kontrolleri kontrol edin ve tekrar denemek için sorunları çözün.",
+      "delete_warning": "Lighthouse bu ana kategoriyi silmeye hazır.",
+      "no_user": "Bu ana kategori için <bold>hiçbir kullanıcı</bold> yetkili değil",
+      "no_asset": "Bu ana kategori altında kayıtlı <bold>demirbaş yok</bold>",
+      "no_contract": "Bu ana kategoriyle ilişkili hiçbir <bold>sözleşme yok</bold>",
+      "no_plan": "Bu ana kategoriyle ilişkili hiçbir <bold>bakım veya kalibrasyon planı yok</bold>",
+      "check_list_title": "Devam etmek için lütfen aşağıdaki sonuçların her birini <bold>kontrol</bold> edin.",
+      "brand_model": "Ana kategorinin <bold>Marka ve Modelleri silinecek</bold>",
+      "subcategories": "Ana kategorinin <bold>Alt Kategorileri silinecek</bold>",
+      "sub_statuses": "Ana kategorinin <bold>Alt Durumları silinecek</bold>",
+      "auto_flow": "Ana kategorinin <bold>Otomatik Akışları silinecek</bold>",
+      "breakdown_types": "Ana kategorinin <bold>Arıza Tipleri silinecek</bold>",
+      "breakdown_costs": "Ana kategorinin <bold>Arıza Maliyetleri silinecek</bold>",
+      "maintenance_costs": "Ana kategorinin <bold>Bakım Maliyetleri silinecek</bold>",
+      "retirement_reasons": "Ana kategorinin <bold>HEK Sebepleri silinecektir</bold>",
+      "department": "Ana kategorinin <bold>Departmanları silinecektir</bold>",
+      "form_builder": "Ana kategorinin <bold>Formları silinecektir</bold>"
+    },
+    "tasks": {
+      "all_tasks_completed": "Harika!",
+      "brand_field": "Marka",
+      "category_field": "Kategori",
+      "delete_warning_text": "Eğer bu görevi silerseniz, iş emirleri ve raporlar gibi ilişkili yerlerden {{ numberOfAssets }} sayıda demirbaş silinecektir. <br /> <br /> Bu işlem geri alınamaz.",
+      "delete_warning_title": "{{ numberOfAssets }} demirbaş silinecektir.",
+      "image_field": "Resim",
+      "filter_today": "Son 24 Saat",
+      "filter_week": "Son 7 Gün",
+      "filter_month": "Son 30 Gün",
+      "filter_all": "Tümü",
+      "inconsistant_category_error": "Kategori seçiminde tutarsızlık bulunmakta, lütfen farklı bir kategori seçin.",
+      "model_field": "Model",
+      "no_tasks_remaining": "Yapılacak hiç görev kalmadı, <br /> şimdilik.",
+      "show_completed": "Tamamlananları Göster",
+      "tasks_list_header": "Kategori - Marka / Model İsteklerini Kontrol Et ve Onayla",
+      "tasks_list_title": "Görevler"
+    }
+  },
+  "metrics_configuration": {
+    "routes": {
+      "metric_configuration": "Metric Ayarları",
+      "configuration": "Ayarlar",
+      "forms": "Formlar"
+    },
+    "detail": {
+      "page_header": "Lifetime Up/Down Time",
+      "explanation": {
+        "title": "Lighthouse Demirbaş Metrikleri: <strong>Lifetime UpTime</strong>",
+        "desc1": "Lighthouse, bir demirbaşın ömür boyu çalışma süresi performansını ölçmek için aşağıda belirtilen koşulları izleyecektir. <strong>Buradaki ayarlar tüm demirbaşlar etkiler.</strong>",
+        "desc2": "Bu parametreler aşıldığında bir bildirim alırsınız. ‘Performans’ bölümüne giderek demirbaşın kartından ömür boyu çalışma süresi performansını da kontrol edebilirsiniz.",
+        "desc3": "Bir sözleşme için <strong>Sözleşme Çalışma Süresi</strong> parametrelerini de ayarlayabilirsiniz. <strong>Sözleşme Çalışma Süresi</strong> parametrelerine sahip sözleşmeyle ilişkili varlıklar, Lighthouse tarafından ayrı bir performans ölçüsü olarak izlenecektir."
+      },
+      "valid_intervals": {
+        "title": "Lighthouse UpTime Yaşamı Boyunca geçerli aralıklar",
+        "desc": "Lütfen upTime hesaplanacak aralıkları belirtin",
+        "valid_days": "Geçerli Tarih Aralığı",
+        "valid_times": "Geçerli Zaman Aralığı",
+        "all_day": "Tüm Gün",
+        "select_interval": "Aralık Seçin",
+        "do_not_include_holidays": "Tatilleri dahil etmeyin"
+      },
+      "down_time_rules": {
+        "add_rule_button": "DownTime Limiti Ekle",
+        "delay_tolerance": "Gecikme Toleransı",
+        "desc": "Lütfen Lighthouse için kesinti olarak kabul edecek kuralları belirtin",
+        "result": "Her bir <bold>{{ workType }}</bold> işi için, <hide5>eğer</hide5> <hide1>demirbaş <bold>{{ usability }}</bold> olarak işaretlenmişse</hide1><hide4> ve </hide4><hide3>görev <bold>{{ statuses }}</bold> durumundaysa</hide3> downTime kaydı oluştur",
+        "status": "Bu durum(lar)da",
+        "title": "<strong>Lighthouse Demirbaş downTime Kuralları </strong>",
+        "warning": "<strong>DIKKAT!</strong> Bu ayarlar sonucunda<strong>demirbaş durumları UP ya da DOWN olarak kabul edilecektir.</strong>",
+        "usability": "Kullanılabilirlik",
+        "work_type": "İş tipi",
+        "work_types": {
+          "breakdown": "Arıza",
+          "calibration": "Kalibrasyon",
+          "maintenance": "Bakım",
+          "retirement": "HEK"
+        },
+        "usabilities": {
+          "notUsable": "Kullanılamaz",
+          "usable": "Kullanılabilir"
+        },
+        "delay_tolerances": {
+          "annualTask": "Yıllık Görev",
+          "everyTask": "Her Görev",
+          "noTolerance": "Gecikme Toleransı Yok"
+        }
+      },
+      "time_tolerance": {
+        "title": "Lighthouse Lifetime UpTime Boyunca Zaman Toleransı",
+        "desc": "Atıl Süre Zaman Toleransını Artır",
+        "selection_explanation": "Atıl süre <strong>{{ value }} dakikaya</strong> ulaşıncaya kadar ihmal edilir. {{ value }} dakikayı aştıktan sonra 1 saat olarak kabul edilecektir."
+      },
+      "goals": {
+        "title": "Uptime Hedefleri",
+        "desc": "Lütfen Uptime hedefleri belirtiniz",
+        "add_button_desc": "{{metricType}} Sınırı Ekleyin",
+        "percentage_based_description": "<strong>{{categories}}</strong> için eğer upTime süresi %{{value}} altına düşerse bilgilendirileceksiniz.",
+        "time_based_description": "<strong>{{categories}}</strong> için eğer upTime süresi {{value}} {{timeType}} altına düşerse bilgilendirileceksiniz.",
+        "all_categories": "Tüm Kategoriler",
+        "all_other_categories": "Geri Kalan Tüm Kategoriler",
+        "categories": " Kategori",
+        "select_category": "Lütfen kategori seçiniz",
+        "type_descriptions": {
+          "timeBased": "<strong>Zamana Dayalı</strong> Limitleri Belirtin",
+          "percentage": "<strong>Yüzde</strong> Limitlerini Belirtin",
+          "none": "Sınır belirtmeyin"
+        },
+        "time_types": {
+          "minutes": "Minutes",
+          "hours": "Hours",
+          "workday": "Work Day",
+          "anyday": "Any Day"
+        },
+        "time_types_short": {
+          "minutes": "m",
+          "hours": "h",
+          "workday": "Work Day",
+          "anyday": "Day"
+        }
+      },
+      "types": {
+        "calibration": "Kalibrasyon",
+        "warranty": "Garanti",
+        "lease": "Kiralama",
+        "maintenance": "Bakım"
+      }
+    },
+    "list": {
+      "metric_criteria_title": "Lighthouse Metrik Kriterleri",
+      "metric_criteria_desc": "Aşağıda demirbaşlar için varsayılan kriterleri güncelleyebilirsiniz. <br /> <strong>Lighthouse bu güncellemeleri takip edecek ve zamanı geldiğinde ya da yaklaştığında sizi bilgilendirecektir. </strong>",
+      "asset_performance_metrics": "Demirbaş Performans Metrikleri (Çalışma Ömrü Süresi Performansı)",
+      "asset_metric_header": "LIGHTHOUSE DEMİRBAŞ METRİKLERİ",
+      "asset_metric_desc": "Lifetime Up/Down Time",
+      "last_edited": "Son Güncelleme: {{date}}"
+    },
+    "page_title": "Metrik Ayarları"
+  },
+  "common": {
+    "all": "Hepsi",
+    "all_selected": "<bold>Hepsi</bold> Seçildi",
+    "associated_assets": "İlişkili Demirbaşlar",
+    "autocomplete_add_hint_first_line": "Yukarıda ‘<strong>+</strong>’ya basarak",
+    "autocomplete_add_hint_second_line": "<strong>Bu {{addedItem}}</strong>",
+    "autocomplete_add_hint_third_line": "Lighthouse'a <strong> Ekleyin </strong>",
+    "autocomplete_add_hint_item": "Öğeyi",
+    "back": "Geri",
+    "cancel": "İptal",
+    "confirm": "Onayla",
+    "delete": "Sil",
+    "done": "Tamam",
+    "dropdown_generic_hint": "Lütfen Seçin",
+    "generic_field_name": "Alan",
+    "item_selected": "<{{ count }} öğe seçildi>",
+    "item_selected_plural": "<{{ count }} öğe seçildi>",
+    "linked_plans": "Bağlı Planlar",
+    "loading": "Yükleniyor...",
+    "new": "Yeni",
+    "next": "İleri",
+    "no_items_selected": "<Hiçbir öğe seçilmedi>",
+    "select": "Seç",
+    "selected": "Seçildi",
+    "select_all": "Tümünü Seç",
+    "warning": "Uyarı",
+    "optional": "Opsiyonel",
+    "or": "YA DA",
+    "see_more": "Daha Fazla",
+    "see_less": "Daha Az",
+    "success": "Başarılı!",
+    "action": "İşlemler",
+    "search_not_found": "Eleman bulunamadı",
+    "save": "Kaydet",
+    "start_typing": "Aramak için yazmaya başlayın",
+    "add": "Ekle",
+    "edit": "Düzenle",
+    "disassociate": "İlişkiyi Kopar",
+    "unlink": "İlişkiyi Kopar",
+    "close": "Kapat",
+    "revert": "Geri Al",
+    "required": "Zorunlu",
+    "promote": "Yükselt",
+    "demote": "Düşür",
+    "resign": "Pasife Çek",
+    "unresign": "Aktifleştir",
+    "cancel_invitation": "Daveti İptal Et",
+    "continue": "Devam et",
+    "clear_all": "Hepsini Temizle",
+    "dismiss": "Reddet",
+    "discard": "Gözardı Et",
+    "remove": "Kaldır",
+    "save_changes": "Değişiklikleri Kaydet",
+    "fetching": "Getiriliyor...",
+    "change": "Değiştir",
+    "confirm_order": "Emri Onayla",
+    "deny_request": "İsteği Reddet",
+    "remaining_characters": "Kalan Karakterler:",
+    "remaining": "Kalan: <strong>{{ remainingCount }}</strong>/{{ maxCount }}",
+    "filters": {
+      "date_types": {
+        "any": "<bold>Filtre Yok</bold>",
+        "blank": "<bold>Boş</bold>",
+        "between": "<bold>Aralığında</bold>",
+        "equal": "<bold>Eşit</bold>",
+        "greaterThan": "<bold>Daha Büyük</bold>",
+        "lessThan": "<bold>Daha Küçük</bold>"
+      },
+      "date_types_menu": {
+        "any": " (bütün değerler)",
+        "blank": " (değer olmayanlar)",
+        "between": " iki değer",
+        "equal": " değerler",
+        "greaterThan": " değerler",
+        "lessThan": " değerler"
+      },
+      "from": "İtibaren",
+      "to": "Kadar",
+      "date": "Tarih",
+      "filters": "Filtreler",
+      "see_more": "Daha Fazla Gör"
+    },
+    "discard_changes": "Değişiklikleri Gözardı Et",
+    "discard_changes_description": "Değişiklikler kaydedilmeyecek. Devam etmek istiyor musunuz?",
+    "start": "Başlangıç",
+    "end": "Bitiş",
+    "none": "Yok",
+    "create": "Oluştur",
+    "got_it": "Anladım"
+  },
+  "contracts": {
+    "contract": "Sözleşme",
+    "type_none": "Hiçbiri",
+    "title_field": "Başlık",
+    "type_field": "Sözleşme Türü",
+    "notes_field": "Notlar",
+    "start_date_field": "Başlangıc Tarihi",
+    "end_date_field": "Bitiş Tarihi",
+    "delete_warning_title": "Sözleşmeyi Silin",
+    "delete_warning_with_associated_information_both": "Lighthouse bu sözleşmenin demirbaşlar ile bağlantılı olduğunu ve planlara sahip olduğunu tespit etti.",
+    "delete_warning_with_associated_information_only_assets": "Lighthouse bu sözleşmenin demirbaşlar ile bağlantılı olduğunu tespit etti.",
+    "delete_warning_with_associated_information_only_plans": "Lighthouse bu sözleşmenin planlara sahip olduğunu tespit etti.",
+    "delete_warning_with_associated_information_none": "Devam ederseniz bu sözleşme silinecek.",
+    "delete_warning_description_both": "Bu sözleşmeyi silerseniz, demirbaşlar ile bağlantıları kesilecek ve bağlı planlar silinecek.",
+    "delete_warning_description_only_assets": "Bu sözleşmeyi silerseniz, demirbaşlar ile bağlantıları da kesilecek.",
+    "delete_warning_description_only_plans": "Bu sözleşmeyi silerseniz, bağlı olan planlar da silinecek.",
+    "delete_warning_branch_count": "Bu sözleşme {{ branchCount }} şube ile ilişkili.",
+    "delete_warning_question": "Bu sözleşmeyi silmek istediğinize emin misiniz?",
+    "disassociate_title": "Sözleşmenin<hide> ve Bağlı Plan(lar)ın</hide> İlişkisini Koparın",
+    "disassociate_description": "Devam ederseniz, sözleşmenin<hide> ve aşağıdaki planların</hide> demirbaş ile ilişkisi koparılacak.",
+    "disassociate_warning": "İlişki koparmaya devam etmek istediğinize emin misiniz?",
+    "types": {
+      "calibration": "Kalibrasyon",
+      "warranty": "Garanti",
+      "lease": "Kiralama",
+      "maintenance": "Bakım"
+    },
+    "edit": {
+      "basic_information_header": "Temel Sözleşme Bilgileri",
+      "basic_information_helper": "Bir başlık girerek başlayın.",
+      "category_select_desc": "Kategori Seçin",
+      "calculated_annual_cost": "Hesaplanan <strong>Yıllık</strong> Maliyet",
+      "calculated_total_cost": "Hesaplanan <strong>Toplam</strong> Maliyet",
+      "contact_person_field": "İlgili Kişi",
+      "cost_add_category_button": "Kategori Ekle",
+      "cost_desc": "Yıllık maliyet, sözleşme süresine göre otomatik olarak hesaplanacak ve ilgili demirbaşların toplam maliyetlerine eklenecektir.",
+      "cost_field": "Sözleşme Maliyeti",
+      "cost_per_category_field": "Her kategorinin maliyeti",
+      "cost_section_desc": "Bu sözleşme için tutar bilgilerini giriniz",
+      "cost_duration_value": "{{ duration }} Ay",
+      "cost_duration_with_title": "Sözleşme Süresi: <bold>{{ duration }} Ay</bold>",
+      "cost_type_desc": "Maliyet girişi türünü belirtin",
+      "cost_title": "Sözleşme Tutarları",
+      "create_header": "Yeni Bir {{ type }} Sözleşmesi Oluşturun",
+      "date_desc": "Lütfen Başlangıç ve Bitiş Tarihi giriniz.",
+      "date_start_field": "Başlangıç tarihi",
+      "date_end_field": "Bitiş tarihi",
+      "duration": "Süre",
+      "email_field": "E-posta Adresi",
+      "entered_cost": "Girilen Tutar",
+      "file_title": "Sözleşme Dosyaları",
+      "file_desc": "Sözleşmenin imzalandığı firma hakkındaki bilgileri içeren dosyaları ekleyin",
+      "file_button": "Bir Dosya Ekleyin",
+      "firm_contact_header": "Firma ve İletişim",
+      "firm_contact_helper": "Sözleşmenin imzalandığı firma hakkındaki bilgileri girin.",
+      "firm_field": "Firma",
+      "phone_field": "Telefon",
+      "notes_field": "Notlar",
+      "title_field": "Başlık",
+      "type_field": "Tip",
+      "start_date_display_field": "Başlangıç Tarihi",
+      "end_date_display_field": "Bitiş Tarihi",
+      "branch_field": "Şube",
+      "main_category_field": "Ana Kategori",
+      "no_info_added_yet": "Henüz Bir Bilgi Eklenmedi",
+      "no_costs_added_yet": "Henüz Bir Tutar Eklenmedi",
+      "branch_and_main_category_desc": "Şube ve Ana Kategori",
+      "branch_selected_desc": "{{count}} şube seçildi",
+      "main_category_selected_desc": "{{count}} ana kategori seçildi",
+      "metrics": {
+        "add_condition_button": "Kriter eklemek için tıklayın",
+        "desc": "Lighthouse için takip edilecek sözleşme metriklerini ekleyin",
+        "title": "Sözleşme Metrikleri",
+        "add_metric_button_text": "<bold>{{type}}</bold> Metriği Ekleyin",
+        "modal_header": "Hedef {{type}} Ayarlayın",
+        "type_description": "Lighthouse will watch the conditions specified below to measure {{type}} performance of an task. Settings here will affect all assets.",
+        "delete_warning_title": "Metriği Silin",
+        "delete_warning_question": "Bu metriği silmek istediğinize emin misiniz?",
+        "types": {
+          "Updown": "Up-Down Süresi",
+          "Response": "Cevap Süresi",
+          "Repair": "Onarım Süresi",
+          "Part Supply": "Parça Temini"
+        },
+        "validIntervals": {
+          "all_day": "Tüm Gün",
+          "desc": "Lütfen {{ type }} hesaplanacak aralıkları belirtin",
+          "do_not_include_holidays": "Tatilleri dahil etmeyin",
+          "holidays_included_display": "Tatiller <bold>dahil</bold>",
+          "holidays_not_included_display": "Tatiller <bold>dahil değil</bold>",
+          "select_interval": "Aralık Seçin",
+          "title": "Geçerli Aralıklar",
+          "valid_times_desc": "Geçerli Zaman Aralığı",
+          "valid_days_desc": "Geçerli Tarih Aralığı"
+        },
+        "time_types": {
+          "minutes": "Dakika",
+          "hours": "Saat",
+          "workday": "İş Günü",
+          "anyday": "Herhangi Gün"
+        },
+        "time_types_short": {
+          "minutes": "dk",
+          "hours": "s",
+          "workday": "İş Günü",
+          "anyday": "Gün"
+        },
+        "downTimeRules": {
+          "add_rule_button": "DownTime kuralı ekle",
+          "delay_tolerance": "Gecikme Toleransı",
+          "desc": "Lütfen Lighthouse için kesinti olarak kabul edecek kuralları belirtin",
+          "result": "Her bir <bold>{{ workType }}</bold> işi için, <hide5>eğer</hide5> <hide1>demirbaş <bold>{{ usability }}</bold> olarak işaretlenmişse</hide1><hide4> ve </hide4><hide3>görev <bold>{{ statuses }}</bold> durumundaysa</hide3><hide2>, <bold>{{ delay }}</bold> sonunda</hide2> <bold>{{ metricType }}</bold> kaydı oluştur",
+          "status": "Bu durum(lar)da",
+          "title": "DownTime Kuralları",
+          "usability": "Kullanılabilirlik",
+          "work_type": "İş tipi",
+          "work_types": {
+            "breakdown": "Arıza",
+            "calibration": "Kalibrasyon",
+            "maintenance": "Bakım",
+            "retirement": "HEK"
+          },
+          "usabilities": {
+            "notUsable": "Kullanılamaz",
+            "usable": "Kullanılabilir"
+          },
+          "delay_tolerances": {
+            "annualTask": "Yıllık Görev",
+            "everyTask": "Her Görev",
+            "noTolerance": "Gecikme Toleransı Yok"
+          }
+        },
+        "time_tolerance": {
+          "time_tolerance": "Zaman Toleransı",
+          "increase_time_tolerance": "{{type}} Zaman Toleransını Artır",
+          "tolerance_value": "{{value}} dakika",
+          "tolerance_description": "Atıl süre <strong>{{ value }} dakikaya</strong> ulaşıncaya kadar ihmal edilir. {{ value }} dakikayı aştıktan sonra 1 saat olarak kabul edilecektir."
+        },
+        "goals": {
+          "goals_header": "{{type}} Hedefleri",
+          "goals_description": "Lütfen {{type}} hedefleri belirtin.",
+          "add_category_goal": "Kategori bazli hedef ekleyin",
+          "percentage_based_description": "<strong>{{categories}}</strong> için yıllık {{metricType}} süresi sınırı %{{value}} üzerindedir",
+          "time_based_description": "<strong>{{categories}}</strong> için yıllık {{metricType}} süresi sınırı {{value}} {{timeType}} altındadır",
+          "all_categories": "Tüm Kategoriler",
+          "all_other_categories": "Geri Kalan Tüm Kategoriler",
+          "categories": " Kategori",
+          "select_category": "Lütfen kategori seçiniz",
+          "type_descriptions": {
+            "timeBased": "Zamana dayalı hedefleri belirtin",
+            "percentage": "Yüzde hedeflerini belirtin"
+          }
+        }
+      },
+      "parts": {
+        "add_button": "Bir parça ekleyin",
+        "desc": "Bu plan için parça politikasını belirtin",
+        "list_title_excl": "Dahil Olmayan Parçaları Giriniz (isteğe bağlı)",
+        "list_title_incl": "Dahil Parçaları Giriniz (isteğe bağlı)",
+        "part_field_for_validation": "Parça",
+        "part_field": "Parça {{number}}",
+        "title": "Parça Politikası",
+        "types": {
+          "none": "Yok",
+          "allParts": "Bütün parçalar dahil",
+          "somePartsIncluded": "Bazı parçalar dahil",
+          "somePartsNotIncluded": "Bazı parçalar dahil değil",
+          "partsNotIncluded": "Hiçbir parça dahil değil"
+        },
+        "types_short": {
+          "none": "Yok",
+          "allParts": "Tamamı Dahil",
+          "somePartsIncluded": "Bazıları Dahil",
+          "somePartsNotIncluded": "Bazıları Dahil Değil",
+          "partsNotIncluded": "Hiçbiri Dahil Değil"
+        },
+        "type_descriptions": {
+          "none": "",
+          "allParts": "Tüm yedek parçalar plana dahildir.",
+          "somePartsIncluded": "Bazı kısımlar plana dahil edilmiş olup, sözleşmede belirtilen kısımlar kapsanacaktır.",
+          "somePartsNotIncluded": "Bazı kısımlar plana dahil edilmemiş olup, sözleşmede belirtilen kısımlar kapsanmayacaktır.",
+          "partsNotIncluded": "Hiçbir yedek parça plana dahil değildir."
+        },
+        "type_descriptions_short": {
+          "none": "",
+          "allParts": "Tüm yedek parçalar plana <strong> dahildir.</strong>",
+          "somePartsIncluded": "Bazı kısımlar plana <strong> dahildir.</strong>",
+          "somePartsNotIncluded": "Bazı kısımlar plana <strong> dahil değildir.</strong>",
+          "partsNotIncluded": "Hiçbir yedek parça plana <strong> dahil değildir.</strong>"
+        },
+        "spare_parts_policy": "Yedek Parça Politikası"
+      }
+    },
+    "item": {
+      "branches_field": "<bold>Şubeler: </bold> {{branches}}",
+      "contract_document": "Sözleşme Dökümanı",
+      "contact_person_field": "<bold>İlgili Kişi: </bold> {{person}}",
+      "email_field": "<bold>E-posta: </bold> {{email}}",
+      "end_date_field": "<bold>Bitiş: </bold> {{date}}",
+      "excluded_parts_field": "<bold>Dahil Olmayan Parçalar: </bold> {{parts}}",
+      "firm_field": "<bold>Firma: </bold> {{firm}}",
+      "included_parts_field": "<bold>Dahil Parçalar: </bold> {{parts}}",
+      "main_categories_field": "<bold>Kategoriler: </bold> {{mainCategories}}",
+      "notes_field": "<bold>Notlar: </bold> {{notes}}",
+      "parts_policy_field": "<bold>Parça Politikası: </bold> {{type}}",
+      "phone_field": "<bold>Telefon: </bold> {{phone}}",
+      "start_date_field": "<bold>Başlangıç: </bold> {{date}}",
+      "title_field": "<bold>Başlık: </bold> {{title}}",
+      "type_field": "<bold>Sözleşme Tipi: </bold> {{type}}",
+      "type_field_2": "{{type}} Sözleşmesi",
+      "updates": "Güncellemeler",
+      "updates_field": "<bold>Güncellemeler: </bold> {{title}}"
+    },
+    "wizard": {
+      "add_or_select_header": "Mevcut bir sözleşme seçin veya yeni bir tane oluşturun",
+      "add_plan_question": "Bu sözleşme ile ilişkili plan eklemek ister misiniz?",
+      "add_plan_question_with_asset": "Demirbaşa plan eklemek ister misiniz?",
+      "contract_type_header": "Lütfen eklemek istediğiniz sözleşme türünü seçin",
+      "contract_type_item_description": "Yeni bir {{ type }} sözleşmesi oluşturun<hide> ya da bu demirbaşı varolan bir sözleşmeye ekleyin</hide>",
+      "create_contract": "Yeni bir {{type}} sözleşmesi oluşturun",
+      "create_success": "<bold>‘{{title}}’</bold> başlıklı {{ type }} tipinde sözleşme <hide_create>oluşturuldu</hide_create><hide_and> ve </hide_and><hide_asset><bold>1 demirbaşa</bold> eklendi</hide_asset>",
+      "existing_contract_dialog_title": "Demirbaş sözleşmeden {{ planOption }} <bold>Ayrılacak</bold>",
+      "existing_contract_dialog_title_plan_option": "& plandan",
+      "existing_contract_header": "Demirbaşın Mevcut <bold>Sözleşmesi</bold>",
+      "existing_replacement_plan_warning": "ve bağlı plan(lar)ı",
+      "existing_replacement_warning": "Eğer başka bir sözleşme seçerseniz, mevcut sözleşmenin ilişkisi koparılacaktır. Bu durumda, Lighthouse bu sözleşme {{planOption}} seçmiş/eklemiş olduğunuz ile değiştirecektir.",
+      "select_contract": "{{ type }} sözleşmesi seçin",
+      "select_existing": "Mevcut bir sözleşme seçin"
+    },
+    "contract_list": {
+      "add_new_button": "Yeni Ekle",
+      "contract_list_title": "Sözleşme Listesi",
+      "contract_plan_list_title": "Sözleşme ve Plan Listesi"
+    },
+    "cost_types": {
+      "none": "Yok",
+      "annual": "Yıllık Maliyet",
+      "total": "Toplam Maliyet",
+      "category": "Her Kategori için Maliyet Belirle"
+    }
+  },
+  "errors": {
+    "add_or_confirm": "Seçiminizi ekleyin yada onaylayın",
+    "email_field_error": "E-posta adresi formatı geçersiz",
+    "phone_field_error": "Telefon numarası formatı geçersiz",
+    "range_error_min": "{{ field }} en az {{ minLength }} karakter olmalıdır",
+    "range_error_max": "{{ field }} en fazla {{ maxLength }} karakter olabilir",
+    "field_required": "{{ field }} alanı zorunludur",
+    "input_invalid_error": "Girdiğiniz değer {{inputName}} olmalıdır",
+    "greater_than_zero_error": "{{field}} sıfırdan büyük olmalıdır",
+    "number_error": "{{ field }} alanı bir sayı olmalıdır",
+    "date": {
+      "not_valid": "Tarih geçerli değil",
+      "min_date": "Minimum günden daha küçük olamaz",
+      "max_date": "Maksimum günden daha büyük olamaz"
+    },
+    "max_eight_char_before_dot": "Noktadan önce maksimum 8 karakter olabilir.",
+    "max_two_char_after_dot": "Noktadan sonra maksimum 2 karakter olabilir.",
+    "no_leading_whitespace": "Boşluk karakter ile başlamamlı.",
+    "no_trailing_whitespace": "Boş karakter ile bitmemeli."
+  },
+  "images": {
+    "remove_image_header": "Resmi Kaldır",
+    "remove_image_desc": "Resmi kaldırmak istediğinizden emin misiniz?"
+  },
+  "layout": {
+    "navbar": {
+      "asset_configurations": "Demirbaş Ayarları",
+      "assets": "Demirbaşlar",
+      "asset_management": "DEMİRBAŞ YÖNETİMİ",
+      "asset_management_short": "DEMİRBAŞ",
+      "configuration": "KONFİGÜRASYON",
+      "configuration_short": "KONFİG.",
+      "locations": "Konumlar",
+      "profile_settings": "Profil Ayarları",
+      "users": "Kullanıcı Yönetimi",
+      "tasks": "GÖREVLER",
+      "tasks_short": "GÖREV",
+      "metrics_configurations": "Metrik Ayarları",
+      "my_tasks": "Görevlerim",
+      "my_requests": "İsteklerim",
+      "task_configurations": "Görev Ayarları"
+    },
+    "asset_listing": "Demirbaş Listesi",
+    "categories": "Kategoriler",
+    "design_system": "Tasarım Sistemi",
+    "sidebar_title": "Menü",
+    "tasks": "Görevler",
+    "todos": "Yapılacaklar",
+    "content_layout": {
+      "search": {
+        "title": "Bir Demirbaş Arayın",
+        "searchable_fields": "Aranabilir alanlar:",
+        "auto_generated_code": "Lighthouse Otomatik Oluşturulan Kod",
+        "rest_of_fields": "Ve <strong>Kimlik Bölgesinde</strong> bulunan tüm alanlar",
+        "search_placeholder": "Ara",
+        "asset": "Demirbaşlar",
+        "search": "Ara",
+        "not_found": "Bulunamadı"
+      }
+    }
+  },
+  "locationLevels": {
+    "name_field": "Lokasyon Seviyesi Adı",
+    "delete_dialog_message": "Önizlemeye bakıp <bold>{{ name }}</bold> seviyesindeki lokasyonların silinip silinmeyeceğine karar veriniz."
+  },
+  "locations": {
+    "code_creation": {
+      "title": "Kod Oluşturma Yöntemini Onaylayın",
+      "desc": "Lighthouse her bir konum için tekil bir koda ihtiyaç duyar.\n\n Sistem tarafından otomatik olarak oluşturulan kodları kullanabilir \nyada her bir konum için kendi kodunuzu girebilirsiniz. \n\nLütfen aşağıdan kullanmak istediğiniz yöntemi seçin. \n\n\nSeçiminizi istediğiniz zaman Admin Ayarları > Konum Yönetimi sayfasına gelerek değiştirebilirsiniz.",
+      "autoCodeSelectionDesc": "Lighthouse tarafından her konum için otomatik kod oluşturulmasını istiyorum",
+      "autoCodeSelectionIconText": "<bold>Otomatik</bold>\nKod Oluştur",
+      "manualCodeSelectionDesc": "Her konum için kendi kodlarımı kullanacağım",
+      "manualCodeSelectionIconText": "<bold>Kendi\nKodlarımı</bold> Kullan"
+    },
+    "code_dropdown_automatic": "Otomatik oluşturulmuş kodları kullan",
+    "code_dropdown_manual": "Kendi kodlarını kullan",
+    "delete_warning": "Seçili lokasyonları silmek istediğinize emin misiniz?",
+    "location_add": {
+      "area_field": "Alan",
+      "code_field": "Kod",
+      "code_empty_error": "Manuel Kod alanı boş bırakılamaz",
+      "code_exists_error": "Bu kod zaten kullanımda",
+      "description_field": "Açıklama",
+      "id_field": "ID",
+      "location_group_field": "Lokasyon Grubu",
+      "name_exists_error": "Bu başlık zaten kullanımda",
+      "title": "Yeni bir {{ levelName }} Ekleyin",
+      "title_edit": "Konum Düzenleyin",
+      "title_field": "Başlık"
+    },
+    "locationFilter": {
+      "title": "Filtre",
+      "location_title_field": "Konum Başlığı",
+      "location_code_field": "Konum Kodu",
+      "tag_id_field": "Etiket ID",
+      "no_location_title": "<bold>Başlıksız</bold> Konumları Seç",
+      "no_location_title_filter": "Başlıksız Konumlar",
+      "no_location_code": "<bold>Kodsuz</bold> Konumları Seç",
+      "no_location_code_filter": "Kodsuz Konumlar",
+      "no_tag_id": "<bold>Etiketsiz</bold> Konumları Seç",
+      "no_tag_id_filter": "Etiketsiz Konumlar",
+      "location_level_field": "Konum Seviyesi",
+      "no_location_level": "Seviye Yok ",
+      "location_area_title": "Konum Alanı (m²)",
+      "area_min": "Min. Alan",
+      "area_max": "Maks. Alan",
+      "area_between": "aralık",
+      "area_less": "daha az",
+      "area_more": "daha fazla",
+      "area_equals": "eşit",
+      "location_group": "Konum Grubu",
+      "saved_filters": "Kayıtlı Filtreler",
+      "location_level_hint": "{{count}} Seviye seçildi",
+      "save_filter": "Filtreyi Kaydet",
+      "save_filter_description": "Kaydetmek istediğiniz filtreye isim veriniz.",
+      "name_field": "Filtre Adı",
+      "search_result": "{{count}} Lokasyon Bulundu"
+    },
+    "routes": {
+      "locations": "Konumlar",
+      "location_groups": "Konum Grupları"
+    },
+    "title": "Konumlar"
+  },
+  "models": {
+    "add_new_model_button": "Yeni <bold>Model</bold> Ekle",
+    "delete_existing_photo": " ya da varolan fotoğrafı sil.",
+    "delete_warning": "Bu modeli silmek istediğinize emin misiniz?",
+    "change_photo_title": "{{ modelName }} Fotoğrafını Değiştir",
+    "model": "Model",
+    "model_dropdown_not_found": "Model bulunamadı. '+' butonuna basıp yeni bir model tanımlayabilirsin.",
+    "model_group_title": "<strong>{{ brandName }}</strong> Markasına Model Ekle",
+    "name_field": "Model Adı",
+    "no_models_description": "Bu markaya model eklenmemiş.<strong>{{ brandName }}</strong> markası altına model eklemek için yukarıdaki butona tıklayabilirsin.",
+    "no_photo": "Fotoğraf Yüklenmedi",
+    "upload_new_photo": "Yeni bir fotoğraf yükle",
+    "no_model_found": "Model bulunamadı"
+  },
+  "plans": {
+    "type_none": "Hiçbiri",
+    "title_field": "Başlık",
+    "type_field": "Plan Tipi",
+    "notes_field": "Notlar",
+    "contract_title_field": "Sözleşme Başlığı",
+    "plan": "Plan",
+    "start_date_field": "Başlangıc Tarihi",
+    "end_date_field": "Bitiş Tarihi",
+    "delete_warning_title": "Planı Silin",
+    "delete_warning_with_associated_information": "Lighthouse bu planın demirbaşlar ile bağlantılı olduğunu tespit etti.",
+    "delete_warning_with_associated_information_none": "Devam ederseniz bu plan silinecek.",
+    "delete_warning_description": "Bu planı silerseniz, demirbaşlar ile bağlantıları da kesilecek.",
+    "delete_warning_branch_count": "Bu plan {{ branchCount }} şube ile ilişkili.",
+    "delete_warning_question": "Bu planı silmek istediğinize emin misiniz?",
+    "disassociate_title": "Planın İlişkisini Koparın",
+    "disassociate_description": "Devam ederseniz, planın demirbaş ile olan ilişkisi koparılacak.",
+    "disassociate_warning": "İlişki koparmak istediğinize emin misiniz?",
+    "types": {
+      "calibration": "Kalibrasyon",
+      "maintenance": "Bakım"
+    },
+    "plans_with_count": "{{count}} Plan",
+    "plan_list": {
+      "add_new_button": "Yeni Ekle",
+      "plan_list_title": "Plan Listesi"
+    },
+    "edit": {
+      "create_header": "Yeni Bir {{ type }} Planı Oluşturunuz",
+      "edit_header": "{{ type }} Planını Düzenle",
+      "basic_information_header": "Temel Plan Bilgileri & Plan Zaman ve Periyodu",
+      "basic_information_helper": "Bir başlık girerek başlayın.",
+      "branch_field": "Şube",
+      "main_category_field": "Ana Kategori",
+      "branch_and_main_category_desc": "Şube ve Ana Kategori",
+      "branch_selected_desc": "{{count}} şube seçildi",
+      "no_main_category_selected_desc": "Hiç ana kategori seçilmedi",
+      "title_field": "Başlık",
+      "type_field": "Tip",
+      "notes_field": "Notlar",
+      "associated_contract": "İlişkili Sözleşme",
+      "associated_contract_none": "YOK",
+      "first_plan_field": "İlk {{type}}",
+      "period_field": "Periyot",
+      "weekly_period": "{{frequency}} {{days}}",
+      "frequency_field": "Frekans",
+      "first_plan_desc": "İlk {{type}} ve görev periyodu için zaman giriniz",
+      "first_plan_start_date_desc": "İlk {{type}} Ayı",
+      "first_plan_end_date_desc": "Son {{type}} Ayı",
+      "daily_frequency_single": "Her Gün",
+      "daily_frequency_multiple": "{{count}} Günde Bir",
+      "weekly_frequency_single": "Her Hafta",
+      "weekly_frequency_multiple": "{{count}} Haftada Bir",
+      "sample_plan_desc": "<bold>Örnek</bold> {{type}} Planları",
+      "sample_plan_detail": "Lighthouse hazırladığınız plana göre {{type}} görevlerini otomatik oluşturacaktır. <bold>{{type}} görevlerini takip etmek için</bold> demirbaş listeleme menüsünden <bold>Arıza Takvimi</bold> sekmesine gidebilirsiniz.",
+      "sample_plan_item": "<bold>Plan {{number}}:</bold> {{date}}",
+      "notify_person_header": "Bildirim Alacak Kişilerin Seçimi",
+      "no_notify_person_added": "Hiç Kimse Bildirim Almayacak",
+      "notified_person_field": "Bildirim Alacak Kişiler",
+      "multi_person_selected": "{{count}} Kişi Seçildi",
+      "multi_person_display": "{{count}} Kişi",
+      "notify_person_helper": "Bildirim alacak kişilerin seçildiğinden emin olunuz.",
+      "notify_person_dialog_desc": "Bildirim almasını istediğiniz bir ya da birden fazla kişi seçiniz",
+      "notify_person_assigned_title": "Bildirim Alacak Kişiler",
+      "notify_person_not_assigned_desc": "Bildirim Alacak Kişileri Seç",
+      "notify_person_delete_warning": "Bildirim alacak kişileri silmek istiyor musunuz?",
+      "notify_info_message": "Lighthouse planlanan {{planType}} zamanı geldiğinde atanan kişilere bildirim gönderecek.",
+      "assignment_person_field": "{{ planType }} Görevleri Ataması",
+      "assignment_person_helper": "Gelecekteki {{ planType }} görevlerine atandıklarından emin olmak istediğiniz kişi(leri) belirtin",
+      "assignment_person_dialog_desc": "Bu göreve atamak için <bold>bir kişi</bold> seçin",
+      "assignment_person_multiple_dialog_desc": "Bu göreve atamak için <bold>bir</bold> ya da <bold>daha fazla(s)</bold> kişi seçin",
+      "assignment_info_message": "Lighthouse planlanan {{planType}} zamanı geldiğinde atanan kişilere hatırlatma yapacak.",
+      "assigned_personnel_field": "Atanmış Kişi(ler)",
+      "responsible_personnel_field": "Sorumlu Kişi",
+      "responsible_personnel_assigned_title": "Sorumlu Kişi",
+      "responsible_personnel_not_assigned_desc": "Sorumlu Kişi Atayın",
+      "assistant_personnel_field": "Yardımcı Kişi(ler)",
+      "assistant_personnel_assigned_title": "Yardımcı Kişi(ler)",
+      "assistant_personnel_not_assigned_desc": "Yardımcı Kişi(ler) Atayın",
+      "personnel_none": "YOK",
+      "period_types": {
+        "daily": "Günlük",
+        "weekly": "Haftalık",
+        "everyMonth": "Ayda Bir",
+        "every3Month": "3 Ayda Bir",
+        "every6Month": "6 Ayda Bir",
+        "everyYear": "Yılda Bir",
+        "every2Year": "2 Yılda Bir"
+      },
+      "period_types_bold": {
+        "daily": "Günlük",
+        "weekly": "Haftalık",
+        "everyMonth": "<strong>Ayda</strong> Bir",
+        "every3Month": "<strong>3 Ayda</strong>  Bir",
+        "every6Month": "<strong>6 Ayda</strong> Bir",
+        "everyYear": "<strong>Yılda</strong> Bir",
+        "every2Year": "<strong>2 Yılda</strong> Bir"
+      },
+      "contract": {
+        "header_with_contract": "İlişkili Sözleşme",
+        "header_without_contract": "İlişkili Sözleşme Yok",
+        "type_field": "Sözleşme Türü: {{type}}",
+        "title_field": "Başlık: {{title}}",
+        "start_date_field": "Başlangıç: {{date}}",
+        "end_date_field": "Bitiş: {{date}}",
+        "contract_document": "Sözleşme Dökümanı",
+        "no_contract_description": "Plan ekledikten sonra, \n\n oluşturulan planı bir sözleşmeye bağlayabilirsiniz"
+      },
+      "errors": {
+        "select_period": "Periyot tipi seçiniz.",
+        "select_days": "Gün seçiniz",
+        "select_frequency": "Frekans seçiniz"
+      }
+    },
+    "item": {
+      "end_date_field": "<bold>Başlangıç: </bold> {{date}}",
+      "start_date_field": "<bold>Bitiş: </bold> {{date}}",
+      "title_field": "<bold>Başlık: </bold> {{title}}",
+      "type_field": "<bold>Plan Tipi: </bold> {{type}}",
+      "type_field_2": "{{type}} Planı"
+    },
+    "wizard": {
+      "add_or_select_header": "Mevcut bir plan seçin veya yeni bir tane oluşturun",
+      "add_or_select_desc_contract": "Seçtiğiniz <bold><wrap>‘{{ associatedContract }}’</wrap></bold> sözleşmesiyle ilişkili mevcut bir planı seçebilir veya sıfırdan yeni bir plan oluşturabilirsiniz",
+      "add_or_select_desc_associated": "Aşağıda <wrap>‘{{ associatedContract }}’</wrap> sözleşmesiyle ilişkili bir plan seçin",
+      "add_or_select_desc": "Plan seçin",
+      "add_or_select_dropdown_hint": "{{ planType }} planı seçin",
+      "create_plan_button": "Yeni bir plan oluşturun",
+      "contract_association_description": "Firmadan {{ planType }} hizmeti alıyorsanız lütfen ‘Sözleşmeli’ seçeneğini seçin, eğer hastane personeli bu {{ planType }} planını yönetecekse ‘Sözleşmesiz’ seçeneğini seçin",
+      "contract_association_title": "Planınız bir sözleşmeyle ilişkili mi?",
+      "existing_plan_dialog_title": "Demirbaş plandan <bold>Ayrılacak</bold>",
+      "existing_plan_header": "Demirbaşın Mevcut <bold>Planı</bold>",
+      "existing_replacement_warning": "Eğer başka bir plan seçerseniz, mevcut planın ilişkisi koparılacaktır. Bu durumda, Lighthouse bu planı seçmiş/eklemiş olduğunuz ile değiştirecektir.",
+      "with_contract": "Sözleşmeli",
+      "with_contract_description": "{{ planType }} firma tarafından yapılacaktır",
+      "plan_type_header": "Lütfen eklemek istediğiniz plan türünü seçin",
+      "plan_type_item_description": "Yeni bir {{ type }} planı oluşturun<hide> ya da bu demirbaşı varolan bir plana ekleyin</hide>",
+      "no_contract": "Sözleşmesiz",
+      "no_contract_description": "{{ planType }} hastane personeli tarafından yapılacaktır",
+      "success_desc_with_contract": "<bold>‘{{associatedContractTitle}}’</bold> başlıklı sözleşmeyle ilişkili <bold>‘{{planTitle}}’</bold> başlıklı {{planType}} planı <hide_created>oluşturuldu</hide_created><hide_asset>1 demirbaşa eklenmiştir</hide_asset>.",
+      "success_desc": "<bold>‘{{planTitle}}’</bold> başlıklı plan <hide_created>oluşturuldu</hide_created><hide_asset>1 demirbaşa eklenmiştir</hide_asset>."
+    }
+  },
+  "profile_settings": {
+    "account_information": {
+      "title": "Hesap Bilgileri",
+      "personal_information": {
+        "title": "Kişisel Bilgiler",
+        "change_password": "Şifreyi Değiştir"
+      }
+    },
+    "developer_options": {
+      "title": "Geliştirici Seçenekleri"
+    },
+    "localization_settings": {
+      "title": "Yerelleştirme Ayarları",
+      "panel_header": "Yerelleştirme Bilgileri",
+      "language_title": "Dil",
+      "locale_title": "Lokal",
+      "time_zone_title": "Saat Dilimi"
+    },
+    "routes": {
+      "account_information": "Hesap Bilgileri",
+      "developer_options": "Geliştirici Seçenekleri",
+      "localization_settings": "Yerelleştirme Ayarları"
+    }
+  },
+  "session": {
+    "login_callback_invalid": "Giriş yönlendirmesi hatalı",
+    "logout": "Çıkış Yap",
+    "register": "Kayıt Ol",
+    "register_info": "Sıradaki aşamada sizden bazı bilgileri girmeniz istenecek",
+    "terms_link": "<strong><a>Şartları ve koşulları</a></strong> kabul ediyorum",
+    "silent_refresh_failed": "Oturum yenilemesi başarısız",
+    "link_disabled": "Bağlantı geçerli değil",
+    "link_disabled_warning": "Size gönderilen bağlantının süresi doldu veya iptal edildi. Lütfen kullanıcı yöneticinizle iletişime geçin.",
+    "register_page": {
+      "description": "Kullanıcı adını giriniz ve İleri tuşuna basarak kayıt olma işlemine başlayınız.",
+      "header": "Kişisel Bilgilerinizi Girin",
+      "designated_permissions": "Belirlenmiş Yetkiler"
+    },
+    "terms_and_conditions": {
+      "title": "Lighthouse Quattro Şartları ve Koşulları"
+    },
+    "logout_fail": "Çıkış Başarısız"
+  },
+  "snackbar": {
+    "add_success_message": "Ekleme başarılı.",
+    "delete_success_message": "Silme başarılı.",
+    "save_success_message": "Kayıt başarılı.",
+    "update_success_message": "Güncelleme başarılı.",
+    "successfully_canceled": "Davet iptal edildi.",
+    "invitation_resend": " Davetiye yeniden gönderildi"
+  },
+  "task_management": {
+    "work_types": {
+      "breakdown": "Arıza",
+      "calibration": "Kalibrasyon",
+      "maintenance": "Bakım",
+      "retirement": "HEK"
+    }
+  },
+  "tasks": {
+    "breakdowns": {
+      "common": {
+        "all_staff_card_title": "Sorumlu Kişi",
+        "all_staff_card_info": "Tüm Çalışanlar",
+        "priority": {
+          "title": "Öncelik",
+          "description": "Lütfen bu arıza talebinin önceliğini ayarlayın",
+          "set_by_high": "<strong>{{firstName}} {{lastName}}</strong> tarafından <strong>Yüksek Önceliğe</strong> atandı",
+          "set_by_medium": "<strong>{{firstName}} {{lastName}}</strong> tarafından <strong>Orta Önceliğe</strong> atandı",
+          "set_by_low": "<strong>{{firstName}} {{lastName}}</strong> tarafından <strong>Düşük Önceliğe</strong> atandı",
+          "low": "Düşük",
+          "medium": "Orta",
+          "high": "Yüksek"
+        }
+      },
+      "open_breakdown": {
+        "page_title": "Yeni Arıza Emri Aç",
+        "breakdown_order": "Arıza Emri",
+        "what_is_wrong_header": "<strong>Ne</strong> sorunu var?",
+        "definition_field_name": "Tanım",
+        "definition_label": "Lütfen demirbaştaki sorunu kısaca açıklayabilir misiniz?",
+        "remaining_characters": "Kalan Karakterler:",
+        "reopen_warning": "Talebi <strong>Yeniden Aç</strong>",
+        "reopen_info": "Lütfen aşağıdaki bilgileri kontrol edin. Eklemek istediğiniz başka bilgiler varsa güncelleyebilirsiniz.",
+        "usability": {
+          "asset_usable": "Bu demirbaş kullanılabilir mi?",
+          "usable": "Kullanılabilir",
+          "not_usable": "Kullanım Dışı"
+        },
+
+        "requested_personnel": {
+          "not_assigned": "İşi İsteyen Kişiyi Seçin",
+          "card_title": "İşi İsteyen",
+          "selector_description": "İşi isteyen kişiyi seçin",
+          "selector_title": "İşi İsteyen Kişiyi Değiştirin"
+        },
+        "send_request": "İstek Yap",
+        "asset_information": {
+          "title": "Demirbaş bilgisi",
+          "brand": "Marka",
+          "model": "Model",
+          "code": "Lighthouse Otomatik Oluşturulan Kod"
+        },
+        "location": "<strong>Nerede?</strong>",
+        "location_branch": "<strong>Şube:</strong> {{branchName}}",
+        "location_not_assigned": "<strong>Lokasyon</strong> Atanmadı",
+        "who_is_handle_it": {
+          "title": "<strong>Kim</strong> halledecek?",
+          "add_responsible_person": "Sorumlu kişi ekle",
+          "add_assistant_person": "Yardımcı kişi(ler) ekle",
+          "responsible_person_assign": "Bu göreve atamak için <strong>bir kişi</strong> seçin",
+          "assistant_person_assign": "Bu göreve atamak için <strong>bir</strong> ya da <strong>daha fazla</strong> kişi seçin",
+          "responsible_person": "Sorumlu Kişi",
+          "assistant_person": "Yardımcı Kişi(ler)",
+          "all_staff": "Tüm çalışanlar",
+          "click_add_responsible_person": "<strong>Sorumlu Kişi</strong> Eklemek İçin Tıklayın"
+        },
+        "confirm_breakdown": {
+          "page_title": "Arıza Emrini Onayla",
+          "breakdown_order": "Arıza Emri"
+        }
+      },
+      "confirm_breakdown": {
+        "page_title": "Arıza Emrini Onayla",
+        "breakdown_order": "Arıza Emri",
+        "asset_information_header": "Demirbaş Bilgisi",
+        "go_to_asset_card": "Demirbaş Detayına Git",
+        "brand_field": "Marka",
+        "model_field": "Model",
+        "code_no_field": "Lighthouse Otomatik Oluşturulan Kod",
+        "branch_field": "<strong>Şube:</strong> {{branchName}}",
+        "location_not_assigned": "<strong>Lokasyon</strong> Atanmadı"
+      },
+      "my_request": {
+        "delete_warning": "Bu görevi silmek istediğinize emin misiniz?",
+        "page_title": "Arıza İsteğim",
+        "breakdown_order": "Arıza Emri",
+        "explanation_of_denying_title": "Red Sebebi",
+        "status_task": "Görevin Durumu",
+        "responsible": "Sorumlu",
+        "denied_by": "Reddeden"
+      },
+      "confirm_modal": {
+        "title": "Emre Personel Atayın ve Onaylayın",
+        "description": "Lütfen en az bir tane sorumlu kişi atayın. Eğer ihtiyaç duyarsanız yardımcı personel(ler) atayabilirsiniz.",
+        "info": "Eğer görevi herhangi bir kişiye atamazsanız, görev tüm yetkili kişilere atanacak şekilde onaylanacaktır.",
+        "assigner_note_field": "Atanan Kişilere Not",
+        "assigner_info_desc": "Atanan Kişilere Not <i>(Opsiyonel)</i>"
+      },
+      "deny_modal": {
+        "title": "Reddetme Sebebini Açıklayın",
+        "description": "Lütfen bu isteği reddetmenizin sebebini aşağıda açıklayınız. Bu mesaj isteği açan kişiye ulaştırılacaktır.",
+        "explanation_field": "Notlar"
+      }
+    },
+    "detail": {
+      "breakdown_order": "Arıza Emri",
+      "page_title": "Arıza Emri",
+      "breakdown_information": {
+        "breakdown_explanation": "Arıza Açıklaması",
+        "header": "Arıza Bilgisi",
+        "requester_card_title": "Talep Eden",
+        "responsible_manager_card_title": "Sorumlu Yönetici",
+        "apporved_by_card_title": "Onaylayan",
+        "usability_explanation": "Demirbaş, istek sahibi tarafından <style>{{ usability }}</style> olarak işaretlendi",
+        "usabilities": {
+          "notUsable": "Kullanılamaz",
+          "usable": "Kullanılabilir"
+        },
+        "note_from_manager": {
+          "title": "Yöneticiden Not",
+          "desc": "Atanana not"
+        }
+      },
+      "assignment_information": {
+        "header": "Atama Bilgileri",
+        "responsible_card_title": "Sorumlu",
+        "assistant_card_title_one": "Asistan",
+        "assistant_card_title_other": "Asistanlar"
+      },
+      "commit": {
+        "not_assigned_yet": "Bu görev henüz kimseye atanmadı.",
+        "click_to_handle": "Sağdaki butona tıklayarak -> bu görevi üstlenebilirsiniz.",
+        "commit_task": "Bu Görevi Üstlen",
+        "modal_title": "Görevi Üstlen",
+        "modal_description": "Onaylarsanız, bu göreve <strong>'Sorumlu Kişi'</strong> olarak atanacaksınız. <br /> <br/> Bu işlem geri alınamaz. <br /> <br/> Görevi üstlenmeyi kabul ediyor musunuz?"
+      },
+      "cost": {
+        "add_cost": "Maliyet Ekle",
+        "add_receipt": "Fatura Ekle",
+        "amount": "$ Tutar",
+        "amount_of_savings": "$ Tasarruf Tutarı",
+        "bids": "Teklifler (Opsiyonel)",
+        "cost_type": "Maliyet Türü",
+        "cost_warning": "Maliyet Uyarısı",
+        "contract_warning_info": "<strong>Lütfen bu demirbaşın bir sözleşme kapsamında olduğunu unutmayın. Sözleşmeler genellikle ilgili tüm maliyetleri içerir.</strong>",
+        "contract_warning_detail": "Sözleşme maliyetinden başka bir maliyetin gerekli olduğundan eminseniz, maliyet ekleme akışına geçmek için 'Devam Et' butonuna basabilirsiniz.",
+        "cost_dialog_warning_text": "<strong>Sözleşmede belirtilen tüm maliyetlerin otomatik olarak ekleneceğini</strong> lütfen unutmayın. Lütfen bunları tekrar eklemekten kaçının.",
+        "information": "Bilgi",
+        "edit_cost": "Maliyeti Düzenle",
+        "explanation": "Açıklama",
+        "cost_type_label": "Maliyet Kategorisi Seçiniz",
+        "cost": "Maliyet",
+        "cost_title": "Maliyet",
+        "title_of_field": "Alan Adı",
+        "cost_category_field": "Maliyet Kategorisi",
+        "delete_dialog_title": "Maliyet Öğesi Silinecek",
+        "discard_dialog_title": "Değişiklikler Gözardı Edilecek",
+        "delete_dialog_explanation": "Maliyet kalemi silinecek ve toplam arıza maliyetlerinden düşülecektir. Devam etmek ve <strong>bu maliyet öğesini</strong> silmek istediğinizden emin misiniz?",
+        "delete_dialog_desc": "Bu işlem geri alınamaz.",
+        "edit_delete_dialog_explanation": "Burada bazı değişiklikler yaptınız.",
+        "edit_delete_dialog_desc": "Yapılan değişiklikleri kaydetmeden çıkmak istediğinize emin misiniz?"
+      },
+      "updates": {
+        "header": "Güncellemeler"
+      },
+      "status": {
+        "task_status": "Görev <strong> {{status}} </strong> durumunda",
+        "sub_status_desc": "{{status}} için bir Alt Durum Seçiniz.",
+        "status_present": {
+          "open": "Açılıyor...",
+          "inProgress": "Yapılıyor...",
+          "paused": "Bekletiliyor...",
+          "closed": "Kapatılıyor..."
+        }
+      },
+      "type": {
+        "title": "Arıza Tipi",
+        "note": "Doğru veri toplamaya yardımcı olması için lütfen bir tip seçin.",
+        "no_item_desc_1": "Kullanılabilir 'Arıza Tipi' öğesi yok.",
+        "no_item_desc_2": "Lütfen 'Arıza' > <strong>'Arıza Tipleri'</strong> altında yer alan 'Arıza Ayarları' bölümüne gidin.",
+        "no_item_desc_3": "'Arıza Türleri'ni' göremiyorsanız yöneticinize danışın."
+      }
+    },
+    "my_requests": {
+      "accept_completion": "Tamamlandığını Onayla",
+      "reject_completion": "Tamamlandığını Reddet",
+      "accepted": "Onaylandı",
+      "bottom_bar_resolved": "Çözüldü",
+      "bottom_bar_not_resolved": "Çözülmedi",
+      "bottom_bar_delete_request": "İsteği Sil",
+      "my_requests": "İsteklerim",
+      "my_requests_route": "İSTEKLERİM",
+      "page_header": "İsteklerim ({{taskNumber}})",
+      "task_list": "Görev Listesi",
+      "empty_list": {
+        "create_request": "TALEP AÇ",
+        "header": "Hiç talep yok",
+        "description": "Burada aktif hiçbir talep bulunmuyor.",
+        "info": "Yukarıda yer alan ‘Talep Aç’ butonuna basarak yeni talep oluşturabilirsiniz."
+      }
+    },
+    "waiting_for_confirmation": {
+      "page_header": "Onay Bekleniyor ({{taskNumber}})",
+      "bottom_bar_deny": "Reddet",
+      "bottom_bar_proceed": "Atama Yap",
+      "breakdown_information": {
+        "breakdown_explanation": "Arıza Açıklaması",
+        "header": "Arıza Bilgisi",
+        "requester_card_title": "Talep Eden",
+        "usability_explanation": "Demirbaş, istek sahibi tarafından <usability_icon /> <style>{{ usability }}</style> olarak işaretlendi",
+        "usabilities": {
+          "notUsable": "Kullanılamaz",
+          "usable": "Kullanılabilir"
+        }
+      },
+      "waiting_for_confirmation": "Onay Bekleniyor",
+      "date_time": "Tarih & Zaman",
+      "request_date_time": "Talep Tarih & Zaman",
+      "no_relevant_contract": "İlgili Sözleşme <strong>Yok</strong>",
+      "type_contract": "{{type}} Sözleşmesi",
+      "policy": {
+        "parts_policy": "Parça Politikası",
+        "types": {
+          "allParts": "Bütün parçalar <strong>dahil</strong>",
+          "somePartsIncluded": "Bazı parçalar <strong>dahil</strong>",
+          "somePartsNotIncluded": "Bazı parçalar <strong>dahil değil</strong>",
+          "partsNotIncluded": "Hiçbir parça <strong>dahil değil</strong>"
+        }
+      },
+      "contract_contact": {
+        "title": "Sözleşme İletişim Bilgileri",
+        "firm": "<strong>Firma:</strong> {{firmName}}",
+        "contact_person": "<strong>İlgili Kişi:</strong> {{contactPerson}}",
+        "phone": "<strong>Telefon:</strong> {{phone}}",
+        "e_mail": "<strong>E-posta:</strong> {{email}}"
+      }
+    },
+    "work_types": {
+      "breakdown": "Arıza",
+      "calibration": "Kalibrasyon",
+      "maintenance": "Bakım",
+      "retirement": "HEK"
+    },
+    "list": {
+      "page_header": "Görev Listesi ({{taskNumber}})",
+      "filter": {
+        "person_filter": {
+          "desc": "<strong>Kişi</strong> Filtresi",
+          "type": {
+            "me": "Ben",
+            "allMyTeam": "Benim Takımım",
+            "specificPersons": "Spesifik Kişi(ler) Seçiniz"
+          },
+          "dialog_title": "Görev Kişilerini Seçiniz",
+          "dialog_desc": "Aramak istediğiniz görev kişilerini seçiniz",
+          "selected_person_one": "{{count}} kişi seçildi",
+          "selected_person_other": "{{count}} kişi seçildi"
+        }
+      },
+      "routes": {
+        "my_tasks": "Görevlerim",
+        "waiting_for_confirmation_title": "Onay Bekleniyor",
+        "task_list_title": "Görev Listesi",
+        "my_requests_title": "İsteklerim"
+      }
+    },
+    "routes": {
+      "tasks": "Görevler",
+      "my_requests": "İsteklerim",
+      "asset_information": "Demirbaş Bilgisi",
+      "breakdown_information": "Arıza Bilgisi",
+      "date_time": "Tarih & Saat",
+      "assignment_information": "Atama Bilgisi",
+      "notes_to_assignee": "Atanan Kişiye Notlar",
+      "request_date_time_reminder": "İstek Tarihi & Saati / Hatırlatıcısı",
+      "date_time_reminder": "Tarih & Saat / Hatırlatıcı",
+      "type_of_breakdown": "Arıza Tipi",
+      "costs": "Maliyetler",
+      "documents": "Doküman",
+      "solutions": "Çözümler",
+      "updates": "Güncellemeler"
+    },
+    "common": {
+      "statusGroup": {
+        "workInProgress": "Devam eden çalışma",
+        "waitingForApproval": "Onay bekleniyor",
+        "finished": "Tamamlandı",
+        "denied": "Reddedildi"
+      },
+      "statuses": {
+        "waitingForConfirmation": "Onay Bekliyor",
+        "open": "Açık",
+        "inProgress": "Yapılıyor",
+        "paused": "Beklemede",
+        "closed": "Kapalı",
+        "denied": "Reddedildi"
+      },
+      "priorities": {
+        "none": "Yok",
+        "low": "Düşük",
+        "medium": "Orta",
+        "high": "Yüksek"
+      },
+      "filter": {
+        "smart": "Akıllı filtreleme",
+        "status_filtered_count": "{{count}} durum filtrelendi",
+        "priority_filtered_count": "{{count}} öncelik filtrelendi",
+        "all_status_selected": "Toplam ({{count}}) durum seçildi",
+        "status_filter": "<strong>Durum</strong> Filtresi",
+        "priority_filter": "<strong>Öncelik</strong> Filtresi",
+        "smart_is_on": "Akıllı filtreleme <strong>açık</strong>",
+        "reset_filter": "Filtreyi sıfırla"
+      },
+      "table": {
+        "headers": {
+          "type": "Tip",
+          "status": "Statü",
+          "category_title": "Kategori / Başlık",
+          "brand": "Marka",
+          "model": "Model",
+          "serial_no": "Seri No",
+          "id": "ID",
+          "location_request_date": "Konum / İstenme Tar.",
+          "assigned_to": "Atanan Personel",
+          "category": "Kategori",
+          "requester": "Talep Eden",
+          "asset_serial_no": "Demirbaş seri no",
+          "code": "Lighthouse Otomatik Oluşturulan Kod"
+        },
+        "empty_list": {
+          "header": "Harika!",
+          "desc_list": "Şimdilik bekleyen bir görev <strong> bulunamıyor </strong>",
+          "desc_wfc": "Onaylanmayı bekleyen herhangi bir görev <strong> bulunamıyor </strong>",
+          "info": "Şimdilik her şey tamam!",
+          "tip": "Bu listeyi her zaman boş tutmaya çalışın"
+        }
+      }
+    }
+  },
+  "task_configuration": {
+    "breakdown": {
+      "cost": {
+        "delete_dialog_header": "{{count}} <strong>Arıza Maliyeti</strong> Silinecektir",
+        "delete_dialog_header_plural": "{{count}}<strong> Arıza Maliyeti</strong> Silinecektir",
+        "delete_dialog_desc": "'{{title}}' adındaki arıza maliyeti silinecektir.<br /> Bu arıza maliyetini silmek istediğinize emin misiniz? <br /> <br /> Bu işlem geri alınamaz.",
+        "delete_dialog_desc_plural": "{{count}} adet arıza maliyetleri silinecektir.<br /> Bu arıza maliyetlerini silmek istediğinize emin misiniz? <br /> <br /> Bu işlem geri alınamaz.",
+        "no_type_description": "Henüz buraya arıza maliyeti eklenmemiş. Yeni bir tane oluşturmak için aşağıdaki butona tıklayabilirsin.",
+        "selector_header": "Arıza Maliyeti",
+        "selector_header_subCost": "{{parentName}}'nin Alt Maliyetleri",
+        "selector_add_new_cost": "Yeni Bir Arıza Maliyeti Ekle",
+        "selector_add_new_subCost": "{{parentName}}'nin Altına Yeni Bir Arıza Maliyeti Ekle",
+        "title": "Maliyet Tipi",
+        "tooltip_info": "Buradaki veriler arıza maliyeti bölümünde arıza maliyeti seçerken görüntülenecektir."
+      },
+      "type": {
+        "delete_dialog_header": "1 <strong>Arıza Tipi</strong> Silinecektir",
+        "delete_dialog_desc": "'{{title}}' adındaki arıza tipi silinecektir.<br /> Bu arıza tipini silmek istediğinize emin misiniz? <br /> <br /> Bu işlem geri alınamaz.",
+        "no_type_description": "Henüz buraya arıza tipi eklenmemiş. Yeni bir tane oluşturmak için aşağıdaki butona tıklayabilirsin.",
+        "selector_header": "Arıza Tipleri",
+        "selector_add_new": "Yeni Bir Arıza Tipi Ekle",
+        "title": "Arıza Tipi",
+        "tooltip_info": "Buradaki veriler arıza görevinde arıza sebebi seçerken görüntülenecektir"
+      },
+      "substatuses": {
+        "delete_dialog_header": "1 <strong>Alt Durum</strong> Silinecektir",
+        "delete_dialog_desc": "'{{title}}' adındaki alt durum silinecektir.<br /> Bu kategoriyi silmek istediğinize emin misiniz? <br /> <br /> Bu işlem geri alınamaz.",
+        "no_type_description": "Henüz buraya alt durum eklenmemiş. Yeni bir tane oluşturmak için aşağıdaki butona tıklayabilirsin.",
+        "selector_add_new": "Yeni Bir Alt Durum Ekle",
+        "title": "Alt Durum",
+        "titles": {
+          "closed": "Kapalı",
+          "inProgress": "Yapılıyor",
+          "paused": "Beklemede"
+        }
+      }
+    },
+    "breakdown_page_titles": {
+      "substatuses": "Arıza Alt Durumlarını Özelleştir",
+      "autoflows": "Arıza Akışlarını Özelleştir",
+      "breakdown_types": "Arıza Tiplerini Özelleştir",
+      "breakdown_costs": "Arıza Maliyetlerini Özelleştir"
+    },
+    "breakdown_tabs": {
+      "substatuses": "Alt Durumlar",
+      "autoflows": "Akışlar",
+      "breakdown_types": "Arıza Tipleri",
+      "breakdown_costs": "Arıza Maliyetleri"
+    },
+    "routes": {
+      "breakdown": "Arıza",
+      "calibration": "Kalibrasyon",
+      "maintenance": "Bakım",
+      "retirement": "HEK"
+    },
+    "task_types": {
+      "breakdown": "Arıza",
+      "calibration": "Kalibrasyon",
+      "maintenance": "Bakım",
+      "retirement": "HEK"
+    }
+  },
+  "todos": {
+    "name": "Yapılacak"
+  },
+  "users": {
+    "branches": {
+      "authorize_all": "<bold>BÜTÜN ŞUBELERE</bold> Yetkilendir",
+      "authorize_all_tooltip": "Bu anahtar açıldığında, hesaba şubeler eklendikçe bu kullanıcılar onlar için de yetkilendirilecektir.",
+      "dynamic": "(dinamik)",
+      "static": "(statik)"
+    },
+    "modal": {
+      "additional_permissions": {
+        "title": "Ek İdari İzinler",
+        "description": "Kullanıcılara kullanıcı yönetimi ve/veya konumları yönetmeleri için izinler verin",
+        "no_permission": "Hiçbir ek idari izin verilmedi",
+        "permission_descriptions": {
+          "UserAdmin": "Bu izne sahip kullanıcılar seçili şube dahilinde kullanıcıları ve kullanıcı integrasyonlarını yönetebilir.",
+          "LocationAdmin": "Konumları ekleme, silme ve düzenleme yetkisi verir. Bu izin herhangi bir rol ile birleştirilebilir."
+        },
+        "permission_titles": {
+          "UserAdmin": "Kullanıcı Yöneticisi",
+          "LocationAdmin": "Konum Yöneticisi"
+        }
+      },
+      "asset_specifications_title": "Demirbaş Yönetimi Detayları",
+      "header_add": "Kullanıcı Ekle / Davet Et",
+      "header_edit": "Kullanıcı Düzenle",
+      "general_admin_header": "Genel Admin Ekle",
+      "general_admin": "Genel Admin",
+      "frozen_warning": "En az 1 kullanıcı eklediğinizden bu kısım güncellemeye kapalı kalacaktır.",
+      "add_or_invite_users": {
+        "description": "Buradan yukarıda belirtilen özelliklerle kullanıcı ekleyebilir ya da davet edebilirsiniz",
+        "title": "Kullanıcı Ekle ya da Davet Et",
+        "not_added_description": "Yukarda belirtilen özelliklerde kullanıcı(lar) eklemek için butona basın.",
+        "add_user_description": "Kullanıcının kişisel detaylarını direkt olarak doldurun ve şirket e-posta hesabı üzerinden gönderin",
+        "add_user_title": "Kullanıcı(ları) Ekle",
+        "invite_user_description": "Belirlenen kullanıcıların e-posta adreslerine belirlediğiniz yetkilerle davet linkleri gönderin (toplu davet mümkündür)",
+        "invite_user_title": "Kullanıcı(ları) Davet Et",
+        "invitation_sent": "Davet Gönderildi!",
+        "user_added": "<bold>{{count}} Kullanıcı</bold> Eklendi",
+        "user_added_plural": " <bold>{{count}} Kullanıcı</bold> Eklendi",
+        "user_add_button": "Aynı Yetkilerle başka <br /> bir Kullanıcı Ekleyin",
+        "option_changed_dialog_title": "Değişiklikleri Sil",
+        "option_changed_dialog_message": "Seçimi değiştirirseniz bu bölüme girdiğiniz bilgileri sileceğiz. <br /> <br /> Devam etmek istiyor musunuz?<",
+        "invite_user_section": {
+          "to": "Alıcı:",
+          "description": "E-posta adreslerini aşağıya giriniz",
+          "counter_desc": "Gönderilmeye Hazır:",
+          "counter_invites": " davetiye",
+          "counter_remaining": " kalan",
+          "footer_description": "<bold>Tek seferde en fazla 100 kişiye davet gönderilebilir.</bold> E-posta adresini girip <bold>‘tab’</bold> tuşuna basarak daha fazla ekleyebilirsiniz. İsterseniz virgül, tab ve ya enter tuşları ile ayrılmış e-posta adreslerini kopyalayıp buraya yapıştırabilirsiniz.",
+          "send_button": "Davetleri Gönder",
+          "tab_indicator": "Devam Etmek için Tab ⇥ Tuşuna Basın",
+          "duplicate_snackbar": "Çoklanmış e-posta silindi",
+          "duplicate_snackbar_plural": "{{ count }} çoklanmış e-posta silindi",
+          "results": {
+            "general_dialog": {
+              "button_desc": "<bold>{{ count }}</bold> davet",
+              "error_desc": "<bold>{{ count }} davet gönderilemedi. Lütfen aşağıdan kontrol edin.</bold>",
+              "error_btn_title": "<bold>Hataları</bold> Kontrol Edin",
+              "success_desc": "Davetler {{ count }} kişiye başarıyla gönderildi!",
+              "success_btn_title": "Davetler Başarıyla Gönderildi",
+              "title": "Davet Gönderim Raporu"
+            },
+            "success_dialog": {
+              "description": "<bold>{{ count }}</bold> davet başarıyla gönderildi",
+              "invitation_sent": "Davet <bold>Gönderildi</bold>",
+              "title": "<bold>Gönderilmiş Davetler</bold>"
+            },
+            "error_dialog": {
+              "description": "<bold>{{ count }}</bold> davet <bold>gönderilemedi</bold>",
+              "download_desc": "<bold>Gönderilemeyen girdileri</bold>\n\n.xls dosyası olarak indir",
+              "error_column": "Hata",
+              "mail_column": "E-posta Adresi",
+              "title": "<bold>Geçersiz Girdiler</bold>"
+            }
+          }
+        }
+      },
+      "add_user": {
+        "title": "<bold>{{count}}. Kullanıcı </bold> İçin Kişisel Bilgileri Doldurunuz",
+        "job_title_field": "Unvan",
+        "first_name_field": "Adı",
+        "last_name_field": "Soyadı",
+        "email_field": "Email",
+        "phone_number_field": "Telefon",
+        "username_field": "Kullanıcı Adı"
+      },
+      "asset_roles": {
+        "title": "<bold>1</bold> - Demirbaş Yönetimi <bold>Rolleri</bold>",
+        "description": "Kullanım şekillerini görmek için bir rol seçin.",
+        "trait_title": "{{ roleName }} Özellikleri:",
+        "admin_dynamic_branch_warning": "Önce tüm şubelere dinamik yetki vermelisiniz.",
+        "no_role_selected": "Hiçbir kullanıcı rolü seçilmedi",
+        "traits": {
+          "technician_main_trait": "seçili departmanlardaki görevlerle ilgilenmek",
+          "technician_sub_1": "seçili departmanlara demirbaş, plan ve sözleşme eklemek",
+          "technician_sub_2": "seçili departmanlardaki bütün demirbaşları görüntülemek",
+          "manager_main_trait": "görevleri onaylamak, reddetmek, atamak ve takip etmek",
+          "manager_sub_1": "otomatik iş akışları oluşturmak",
+          "executive_main_trait": "tam panel erişimi",
+          "executive_sub_1": "seçili departmanlardaki bütün demirbaşları görüntülemek",
+          "admin_main_trait": "kategori ağacını ve görevlerini yönetmek",
+          "admin_main_trait_2": "alt-statüleri yönetmek"
+        }
+      },
+      "departments": {
+        "title": "<bold>2</bold> - Demirbaş Yönetim <bold>Departman</bold>(ları)",
+        "description": "İlgili kullanıcının sorumlu olacağı alanları belirlemek için en az bir departman seçin.",
+        "department_selected": "{{ count }} Departman Seçildi",
+        "department_selected_plural": "{{ count }} Departman Seçildi",
+        "no_department_selected": "Hiçbir departman seçilmedi"
+      },
+      "branches": {
+        "title": "Şube Seçiniz",
+        "title_readonly": "Yetkili Şube(ler)",
+        "description": "Kullanıcıların yetkili olacağı tüm şubeleri seçiniz.",
+        "total_branch": "Toplam Şube",
+        "total_branch_plural": "Toplam Şube",
+        "selected": "Seçildi",
+        "no_branch_yet": "Hiçbir şube seçilmedi",
+        "branch_selected": "{{ count }} Şube Seçildi",
+        "branch_selected_plural": "{{ count }} Şube Seçildi",
+        "all_branches_selected": "Tüm Şubeler Seçildi",
+        "branches": "Şube(ler)"
+      },
+      "personal_information": {
+        "title": "Kişisel Bilgiler",
+        "description": "Kişisel Bilgileri Kontrol Edin ve Güncelleyin",
+        "first_name_field": "Adı",
+        "last_name_field": "Soyadı",
+        "job_title_field": "Unvan",
+        "email_field": "E-posta Adresi",
+        "phone_number_field": "Telefon"
+      },
+      "operations": {
+        "resign_user_item": "Bu Kullanıcıyı <strong>Pasife Çek</strong>",
+        "unresign_user_item": "Bu Kullanıcıyı <strong>Aktifleştir</strong>",
+        "resend_invitation_item": "Daveti <strong>Yeniden Gönder</strong>",
+        "cancel_invitation_item": "Daveti <strong>İptal Et</strong>",
+        "promote_user_item": "<strong>Genel Admine</strong> Yükselt",
+        "demote_user_item": "<strong>Standart Kullanıcıya</strong> Düşür"
+      },
+      "promote": {
+        "header": "Kullanıcı <strong>Genel Admine Yükseltilecektir</strong>",
+        "description": "Genel Admin <strong> en yüksek seviye yetkiyi</strong> temsil eder. Bu türde kullanıcılar şube ve departman kısıtlaması olmaksızın, Lighthouse üzerindeki her alana erişebilir ve onları güncelleyebilir. <br /> <br /> <strong> Bu kullanıcıyı Genel Admine yükseltmek istediğinize emin misiniz? </strong>",
+        "type_promote_description": "Yükseltmeyi onaylamak için aşağıdaki boşluğa <strong>'YÜKSELT'</strong> yazınız.",
+        "type_promote": "YÜKSELT yazınız",
+        "promote_key": "YÜKSELT"
+      },
+      "demote": {
+        "header": "Kullanıcı <strong>Standart Kullanıcıya Düşürülecektir</strong>",
+        "description": "Genel Admin <strong> en yüksek seviye yetkiyi</strong> temsil eder. Bu türde kullanıcılar şube ve departman kısıtlaması olmaksızın, Lighthouse üzerindeki her alana erişebilir ve onları güncelleyebilir. <br /> <br /> Eğer bu kullanıcıyı standart kullanıcıya düşürürseniz, <strong> kullanıcı tüm admin yetkilerini kaybedecektir </strong> ve standart kullanıcı tipine dönüştürülecektir. Eğer kullanıcıya daha detaylı yetkiler vermek isterseniz, bu diyalog ekranını onayladıktan sonra yapabilirsiniz. <br /> <br /> <strong>Bu kullanıcıyı standart kullanıcıya düşürmek istediğinize emin misiniz?</strong>",
+        "type_demote_description": "Düşürmeyi onaylamak için aşağıdaki boşluğa <strong>'DÜŞÜR'</strong> yazınız.",
+        "type_demote": "DÜŞÜR yazınız",
+        "demote_key": "DÜŞÜR"
+      },
+      "resign": {
+        "header": "Kullanıcıyı Pasife Al",
+        "description": "Sürece devam etmeniz halinde bu kullanıcı Lighthouse'a erişimini kaybedecektir. Bu kullanıcının bilgileri saklanmaya devam edilecek olup, daha sonra yeniden aktifleştirilerek erişime açılabilir.<br /> <br />{{userName}} kullanıcısını pasife almak istediğinize emin misiniz?",
+        "snackbar_message": "Kullanıcı başarıyla pasife çekildi"
+      },
+      "unresign": {
+        "header": "Kullanıcıyı Aktifleştir",
+        "description": "Sürece devam etmeniz halinde bu kullanıcı Lighthouse'a daha önceki bilgilerini kullanarak erişebilecektir.<br /> <br />{{userName}} kullanıcısını aktifleştirmek istediğinize emin misiniz?",
+        "snackbar_message": "Kullanıcı başarıyla aktifleştirildi"
+      },
+      "cancel_invitation": {
+        "header": "Kullanıcının Davetini İptal Et",
+        "description": "{{userName}} kullanıcısının davetini iptal etmek istediğinizden emin misiniz?"
+      }
+    },
+    "general_admin": {
+      "modal_header": "Genel Admin Ekleyin",
+      "modal_description_add": "Genel Admin <bold> en yüksek seviye yetkilendirmeyi </bold> temsil eder ve bu türde kullanıcılar Lighthouse üzerindeki tüm bilgilere, şube ve departman kısıtlaması olmaksızın, erişebilir ve güncelleyebilir.<br /> <br /> <bold>Dikkatli kullanınız.</bold>",
+      "modal_description_edit": "Genel Admin <bold> en yüksek seviye yetkilendirmeyi </bold> temsil eder ve bu türde kullanıcılar Lighthouse üzerindeki tüm bilgilere, şube ve departman kısıtlaması olmaksızın, erişebilir ve güncelleyebilir."
+    },
+    "departments": {
+      "departments": "Departmanlar",
+      "department_add": "Departman Ekleyin",
+      "department_card": {
+        "category_description": "listesini <bold>görebilir:</bold>",
+        "worktype_description": "bu <bold>görev</bold>(leri) alabilir:",
+        "more": "Daha"
+      },
+      "department_list": {
+        "department_list_title": "Departman Listesi",
+        "asset_management_departments_title": "Demirbaş Yönetimi Departmanları"
+      },
+      "edit": {
+        "create_header": "Demirbaş Yönetimine Departman Ekleyiniz",
+        "edit_header": "Departman Güncelleme",
+        "category": {
+          "header": "Ana Kategorileri Seçiniz",
+          "description": "Ekleyeceğiniz departmanla <bold> doğrudan ilişkili</bold> tüm kategorileri seçiniz.",
+          "breakdown_warning": "<bold>Dikkat!</bold> Tüm Lighthouse kullanıcıları herhangi bir demişbaş için arıza isteği açabilir. O yüzden sadece oluşturacağınız departmanla doğrudan ilişkili kategorileri seçiniz",
+          "cant_see_categories": "Aradığınız kategorileri bulamıyor musunuz? Şuraya gidin Admin > Demirbaşlar > <href>Kategoriler</href>",
+          "category_count": "{{count}} Ana Kategori Seçildi",
+          "category_count_plural": "{{count}} Ana Kategori Seçildi"
+        },
+        "workType": {
+          "header": "İş Tiplerini Seçiniz",
+          "description": "Tüm Kategoriler için İş Tiplerini Seçiniz",
+          "main_category_field": "Ana Kategori: ",
+          "main_category_locked": "Departman ana kategorisi nedeniyle otomatik olarak eklendi, <strong>düzenlenemez.</strong>",
+          "work_type_count": "{{count}} İş Tipi Seçildi",
+          "work_type_count_plural": "{{count}} İş Tipi Seçildi",
+          "no_work_types_yet": "Henüz İş Tipi Seçilmedi",
+          "no_work_types": "İş Tipi Seçilmedi",
+          "add_work_types": "İş Tipi"
+        },
+        "basicInfo": {
+          "header": "Departmana İsim Veriniz",
+          "description": "Başlık ve Not (isteğe bağlı) Giriniz",
+          "title_field": "Başlık",
+          "notes_field": "Notlar",
+          "no_title_yet": "Henüz Başlık Eklenmedi",
+          "add_title": "Başlık Ekle"
+        },
+        "errors": {
+          "select_main_categories": "Ana kategoriler boş olamaz",
+          "select_work_types": "Her bir ana kategori için en az bir iş tipi seçilmesi gerekmektedir"
+        }
+      },
+      "delete": {
+        "header": "Departmanı Silin",
+        "description": "Bu departmanı silmeye devam ederseniz, <br /> bu departmandaki kullanıcıların bilgileri güncellenecektir. <br /> Eğer bu kullanıcılar başka bir departmanda değillerse, rolleri 'Kullanıcı' rolü olarak değiştirilecektir."
+      },
+      "work_type_card": {
+        "work_type_chip": "{{ workType }} İşlemi"
+      }
+    },
+    "list": {
+      "create_user_menu_item": "Yeni bir <bold>Kullanıcı</bold> Oluştur",
+      "create_general_admin_menu_item": "Yeni bir <bold>Genel Admin</bold> Oluştur",
+      "title": "Kullanıcı Listesi",
+      "total_item": "Toplam öğe",
+      "action": "Aksiyon",
+      "cancel_user_invitation_title": "Kullanıcı Daveti İptal Etme",
+      "cancel_user_invitation_detail": "Bu kullanıcının davetini iptal etmek istediğinize emin misiniz?",
+      "headers": {
+        "asset_management": "Demirbaş yönetimi",
+        "add_per": "Ekstra İzinler",
+        "first": "Adı",
+        "last": "Soyadı",
+        "branches": "Şubeler",
+        "date_added": "Eklenen Tarih",
+        "last_update": "Son Güncelleme",
+        "status": "Durum"
+      },
+      "body": {
+        "all_branches": "Tüm Şubeler",
+        "branch": "Şube",
+        "sent_button": "Gönderildi",
+        "resend_button": "Tekrarla",
+        "active": "Aktif",
+        "waiting": "Bekleniyor",
+        "resigned": "Pasif",
+        "invited": "Davet gönderildi",
+        "general_admin": "Genel Yönetici"
+      },
+      "empty_list_desc": "Lighthouse, verdiğiniz parametrelerle herhangi bir kullanıcı <strong> bulamıyor </strong>.",
+      "empty_list_info": "Kullanıcılar içinde tekrar arama yapmak için lütfen parametreleri değiştirin."
+    },
+    "routes": {
+      "user_list": "Kullanıcı Listesi",
+      "departments": "Departmanlar",
+      "ad_sync": "AD Senkronizasyonu",
+      "user_form": "Kullanıcı Formu"
+    },
+    "status": {
+      "active": "Aktif",
+      "waiting": "Bekleniyor",
+      "resigned": "Pasif"
+    },
+    "filter": {
+      "job_title": "Unvan",
+      "first_name": "Adı",
+      "last_name": "Soyadı",
+      "department": "Departman",
+      "branch": "Şube",
+      "status": "Durum",
+      "role": "Demirbaş Yönetimi Rolü",
+      "permission": "İzinler",
+      "date_added": "Eklenen tarih",
+      "last_update": "Son güncelleme",
+      "filtered_field_count": "<strong>{{count}}</strong> alana göre filtrelendi"
+    },
+    "permissions": {
+      "UserAdmin": "Kullanıcı Yöneticisi",
+      "LocationAdmin": "Lokasyon Yöneticisi"
+    },
+    "roles": {
+      "GeneralAdmin": "Genel Admin",
+      "Admin": "Admin",
+      "Executive": "Direktör",
+      "Manager": "Yönetici",
+      "Technician": "Tekniker",
+      "RequestOnly": "Kullanıcı"
+    },
+    "roleDescriptions": {
+      "Admin": "Bu seviye, hesap düzeyinde ve tüm şubeler için yetkilendirilmiştir. Bu yetki seviyesi dahil olan departmanlarda her türlü konfigürasyonun yapılmasına izin verir.",
+      "Executive": "Direktörler asıl ilgi alanı raporları kontrol etmek olan kullanıcılardır. Görev yönetim işlemlerinde yer almazlar. They are \"request only\" users with full dashboard and data access.",
+      "Manager": "Yöneticiler seçili departmanda görevleri onaylayabilir, reddedebilir veya atamasını yapabilir. Ayrıca teknisyenlere atadıkları görevlerin hepsinin takibini yapabilirler.",
+      "Technician": "Teknikerler bulundukları departmandaki demirbaş talepleri ile ilgilenen kullanıcılardır.",
+      "RequestOnly": "<bold>Bu tür kullanıcılar sadece arıza talebi açabilirler.</bold> Bu tür kullanıcıların departmanı yoktur."
+    }
+  }
+}

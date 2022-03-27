@@ -1,0 +1,12 @@
+.dialog-check-item {
+  grid-template-columns: auto 1fr;
+  height: 24px;
+}
+
+.dialog-check-item-checkbox {
+  grid-template-columns: auto 1fr;
+  height: 24px;
+  &:hover {
+    opacity: 1;
+  }
+}

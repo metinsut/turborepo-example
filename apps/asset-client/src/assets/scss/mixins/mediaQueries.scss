@@ -1,0 +1,24 @@
+@mixin respond($breakpoint) {
+  @if ($breakpoint == medium) {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+  @if ($breakpoint == small) {
+    @media (max-width: 480px) {
+      @content;
+    }
+  }
+}
+
+// EXAMPLE USAGE
+// @use "mixins/mediaQueries.scss"
+// h1 {
+//   font-size: 26px;
+//   @include respond(medium) {
+//     font-size: 24px;
+//   }
+//   @include respond(small) {
+//     font-size: 20px;
+//   }
+// }

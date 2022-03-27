@@ -1,0 +1,1948 @@
+{
+  "assets": {
+    "asset_category": "Asset Category",
+    "assets": "Assets",
+    "assets_with_count": "{{count}} Assets",
+    "status_tooltip": {
+      "calibration_completed": "Calibration: Completed",
+      "maintenance_completed": "Maintenance: Completed",
+      "status_usable": "Status: Usable"
+    },
+    "asset_edit": {
+      "add_an_asset_category_description": "Lighthouse does not have this Brand / Model in its database. Please click here to specify the category of this asset.",
+      "add_an_asset_category_title": "Add an <bold>Asset Category</bold>",
+      "asset_add_title": "Adding A New Asset",
+      "asset_edit_title": "Edit An Asset",
+      "asset_edit_page_header": "{{categoryName}} | {{brandName}} - {{modelName}}",
+      "bottom_bar_desc": "Fill information about the asset and hit confirm",
+      "branch_select_title": "Select a Branch",
+      "branch_select_desc_1": "You are authorized for adding assets more than one branch.",
+      "branch_select_desc_2": "Please select the branch you would like to add this asset to below.",
+      "brand_field_hint": "Brand",
+      "brand_dropdown_hint": "<bold>Start typing</bold> to search within the brands you have selected",
+      "category_not_selected_title": "Asset Category <bold>not Assigned</bold>",
+      "category_not_selected_desc": "Specify <bold>Brand</bold> and <bold>Model</bold> First",
+      "category_cant_edit_hint": "Cannot be edited. This category is assigned automatically since Lighthouse recognizes this brand and model.",
+      "click_to_assign_category": "Click to assign <bold>Category</bold>",
+      "click_to_assign_custody": "Click to assign <bold>Custody</bold>",
+      "click_to_assign_location": "Click to assign <bold>Location</bold>",
+      "code_field_hint": "Code",
+      "cost_field_hint": "Purchase Cost",
+      "custody": "Custody",
+      "custody_delete_warning": "Do you want to remove custody from asset?",
+      "custody_delete_dialog_title": "Remove Custody",
+      "custody_dialog_title": "Assign Custody",
+      "custody_dialog_desc": "Select a person to assign custody to this asset",
+      "custody_dialog_cancel": "Do you want to cancel?",
+      "custody_dialog_see_more": "See More",
+      "custody_not_selected_title": "Custody <bold>not Assigned</bold>",
+      "information_title": "Information",
+      "last_update": "Last update",
+      "location_field": "Location",
+      "location_none_found": "No Locations",
+      "location_not_selected_title": "Location <strong>not Assigned</strong>",
+      "location_branch": "<strong>Branch:</strong> {{branchName}}",
+      "location_delete_dialog_title": "Remove Location",
+      "location_delete_warning": "Do you want to remove location from asset?",
+      "not_assigned": "not Assigned",
+      "main_category_select_title": "Select a Main Category",
+      "main_category_select_desc_1": "You are authorized for adding assets more than one Main Categories.",
+      "main_category_select_desc_2": "Please select the Main Category you would like to add this asset to below.",
+      "model_brand_hint": "Specify <bold>'Brand'</bold> First",
+      "model_dropdown_hint": "Start typing to search within the models you have selected",
+      "model_field_hint": "Model",
+      "person_search": "Search",
+      "person_selected_text": "<bold>‘{{ personName }}’</bold> is selected",
+      "person_selected_multi": "people selected",
+      "serial_no_field_hint": "Serial No. (Legacy)",
+      "serial_no_popup_hint_desc": "This field will be the primary unique value to define this asset. This can be changed from Admin > Asset > Forms",
+      "serial_no_popup_hint_title": "Primary Key",
+      "unconfirmed": "Waiting for confirmation",
+      "category_brand_model_snackbar_message": "Category-Brand-Model combination sent for confirmation.",
+      "fcode_field_hint": "F-Code",
+      "purchased_firm_field_hint": "Purchased Firm",
+      "purchased_date_field_hint": "Purchased Date",
+      "production_date_field_hint": "Date of Device Production",
+      "contact_person_field_hint": "Contact Person",
+      "contact_email_field_hint": "Contact Email",
+      "contact_phone_field_hint": "Contact Phone",
+      "notes_field_hint": "Notes",
+      "created_user_field_hint": "Created By",
+      "created_date_field_hint": "Date of Creation",
+      "auto_code": "Lighthouse Auto-Generated Code",
+      "identification_title": "Identification",
+      "device_photo_title": "Device Photo",
+      "device_info_title": "Device Info",
+      "purchase_info_title": "Purchase Info",
+      "notes_title": "Notes",
+      "creation_info_title": "Creation Info",
+      "operations": {
+        "open_breakdown_request": "Open <strong>Breakdown</strong> Request"
+      }
+    },
+    "assetFilter": {
+      "all_contracts": "All Contracts",
+      "blank": "<i>blank</i>",
+      "brand": "Brand",
+      "branch": "Branch",
+      "category": "Category",
+      "category_selected": "{{ count }} category selected",
+      "category_selected_plural": "{{ count }} categories selected",
+      "code": "ID",
+      "contract_contact": "Contract Contacts",
+      "contract_end_date": "Contract End Date",
+      "contracts": "Contracts",
+      "contract_firm": "Contract Firm",
+      "contract_type": "Contract Type",
+      "created_by": "Created By",
+      "custodian_person": "Custodian Person",
+      "date_of_creation": "Date Of Creation",
+      "date_of_purchase": "Date Of Purchase",
+      "definitions_does_not_have_plan": "Assets that does not have any {{ planType }} Plans (Excluding marked assets)",
+      "definitions_does_not_need_plan": "Assets that does not need {{ planType }} Plans",
+      "f_code": "F-Code",
+      "filter": "Filter",
+      "filter_fields": " filter fields",
+      "filtered_field_count": "filtered <bold>{{count}}</bold> fields",
+      "information": "Information",
+      "location": "Location",
+      "location_filter_multiselect_tooltip": "Location filter is disabled when multiple branches selected.",
+      "location_selected": "{{ count }} location selected",
+      "location_selected_plural": "{{ count }} locations selected",
+      "model": "Model",
+      "not_have_contracts": "<i>Not have {{ type }} contracts</i>",
+      "not_have_plans": "<i>Not have {{ type }} plans</i>",
+      "not_need_plans": "<i>Not need {{ type }} plans</i>",
+      "no_assigned_contract": "Assets that does not have any contract",
+      "no_contract_contact": "Include contract contact not assigned",
+      "no_contract_firm": "Include Contract Firm not assigned",
+      "no_custody": "Include Custody not assigned",
+      "no_fcode": "Include F-Code not assigned",
+      "no_location": "Include location not assigned",
+      "no_purchase_contact": "Include Purchase Contact not assigned",
+      "no_purchased_firm": "Include purchased firm not assigned",
+      "no_saved_filter_stored": "<i> No Saved Filter Stored </i>",
+      "parts_policy": "Parts Policy",
+      "person_selected": "{{ count }} person selected",
+      "person_selected_plural": "{{ count }} people selected",
+      "plan_ending_date": " Plan Ending Date",
+      "purchase_contact": "Purchase Contact",
+      "purchased_firm": "Purchased Firm",
+      "save_filter": "Save Filter",
+      "save_filter_dialog_texts": {
+        "filter_will_be_saved": "The filter you have specified will be saved.",
+        "filter_will_derive_from_criteria": "Filters will dynamically derives results from the criteria you have selected.",
+        "access_saved_filter": "You may access saved filters later from the Start Screen of Asset Lists or from the Bottom Bar of Filter panel."
+      },
+      "saved_filters": "Saved Filters",
+      "serial_number": "Serial Number",
+      "status": "Status",
+      "title": "Filter",
+      "title_of_the_filter": "Title of the Filter",
+      "or": "OR",
+      "delete_filter_header": "Delete Filter",
+      "delete_filter_description": "Are you sure to delete this filter?",
+      "select_custodian": "Select Custodian",
+      "select_filter_custodian": "Select to filter custodian(s)",
+      "select_created": "Select Created By",
+      "select_filter_created": "Select to filter created by(s)",
+      "specify_brand_first": "↑ Specify <strong>‘Brand’</strong> first"
+    },
+    "asset_list": {
+      "actions": {
+        "breakdown_request": "Open <strong>Breakdown</strong> Request",
+        "retirement_request": "Open <strong>Retirement</strong> Request",
+        "passive_assets": "Make Asset(s) <strong>Passive</strong>",
+        "edit_information": "<strong>Edit</strong> Asset(s) Information",
+        "edit_contracts": "<strong>Edit Contracts</strong>",
+        "edit_maintenance_plans": "<strong>Edit Maintenance</strong> Plans",
+        "edit_calibration_plans": "<strong>Edit Calibration</strong> Plans",
+        "one_time_maintenance": "Create <strong>One-Time Maintenance</strong>",
+        "one_time_calibration": "Create <strong>One-Time Calibration</strong>",
+        "group_asset": "<strong>Group</strong> Assets",
+        "ungroup_asset": "<strong>UnGroup</strong> Assets",
+        "export_assets": "<strong>Export</strong> assets"
+      },
+      "columns": {
+        "status": "Status",
+        "code": "Lighthouse Auto-Generated Code",
+        "category": "Category",
+        "brand": "Brand",
+        "model": "Model",
+        "location": "Location"
+      },
+      "add_new_button": "Add New",
+      "add_new_single": "Add a new <bold>singular</bold> asset",
+      "add_new_multi": "Add <bold>multiple</bold> assets",
+      "asset_list_title": "Asset List",
+      "filter_button": "Filter",
+      "empty_list_desc": "Lighthouse <strong> cannot find </strong> any assets with the parameters you have provided.",
+      "empty_list_info": "Please alter parameters to search within assets again."
+    },
+    "protection": {
+      "calibration_field": "Calibration",
+      "calibration_plan_switch": "This asset <bold>requires calibration</bold> plan.",
+      "contract_add": "Add a contract to asset",
+      "contract_protection_header": "Contract & Protection Definitions",
+      "contracts_description": "Add contracts related to this asset. <br /> These contracts can be associated with plans they include.",
+      "contracts_title": "Contracts",
+      "maintenance_field": "Maintenance",
+      "maintenance_plan_switch": "This asset <bold>requires maintenance</bold> plan.",
+      "plan_add": "Add a Maintenance / Calibration Plan to asset",
+      "plans_description": "Add maintenance and/or calibration plans here, <br /> associate them with contracts or create stand-alone plans.",
+      "plans_title": "Plans"
+    },
+    "locations": {
+      "select_description": "Please select location.",
+      "sub_locations_title": "<bold>{{locationLevelName}}</bold> of <bold>{{locationName}}</bold>",
+      "no_locations": "No Locations"
+    },
+    "routes": {
+      "asset_list": "Asset List",
+      "protection_calendar": "Protection Calendar",
+      "information": "Information",
+      "definitions": "Definitions",
+      "protection": "Protection",
+      "performance": "Performance",
+      "costs": "Costs",
+      "files": "Files",
+      "updates": "Updates",
+      "contracts": "Contracts"
+    },
+    "statuses": {
+      "usable": "Usable",
+      "caution": "Caution",
+      "partialDown": "Partial Down",
+      "down": "Down",
+      "passive": "Passive",
+      "retired": "Retired"
+    },
+    "status_description": {
+      "usable": "This asset is ready to go",
+      "caution": "Click to go <strong>Protection</strong>",
+      "partialDown": "Click to go to <strong>Tasks</strong>",
+      "passive": "Passive since: <strong>{{date}}</strong>",
+      "down": "Click to go to <strong>Tasks</strong>",
+      "retired": "Retirement Date: <strong>{{date}}</strong>"
+    }
+  },
+  "asset_configurations": {
+    "asset_configuration": "Asset Configuration",
+    "brands": {
+      "add_a_brand": "Add a Brand",
+      "add_hint": "Brand",
+      "brand_group_title": "Add Brands to <strong>{{ categoryName }}</strong>",
+      "brand_model_dialog_bottom_text": "Add all Brands and Models to ‘{{ categoryName }}’ then hit Confirm ",
+      "delete_warning": "Are you sure you want to delete this brand?",
+      "name_field": "Brand Name",
+      "no_brands_description": "No brands added for this category. Hit button above to create brands under <strong>{{ categoryName }}</strong>",
+      "select_brand": "Select Brand",
+      "delete_brand": "<strong>Delete</strong> Brand"
+    },
+    "models": {
+      "add_a_model": "Add a Model",
+      "add_hint": "Model",
+      "delete_warning": "Are you sure you want to delete this model?",
+      "model": "Model",
+      "model_group_title": "Add Models to <strong>{{ brandName }}</strong>",
+      "name_field": "Name",
+      "no_models_description": "No models added for this brand. Hit button above to create models under <strong>{{ brandName }}</strong>.",
+      "select_model": "Select Model",
+      "image_button_descripion": "Click to add image to this model",
+      "delete_photo": "Delete Photo",
+      "edit_model": "Edit Model",
+      "model_name_cant_change_tooltip": "Model name cannot be edited. If you want to make changes, you can delete it.",
+      "upload_change_photo": "Upload / Change the <strong>Photo</strong>",
+      "delete_model": "Delete <strong>Model</strong>"
+    },
+    "categories": {
+      "category_list_title": "Manage Asset Categories",
+      "categories": "Categories",
+      "main_categories_title": "Main Categories",
+      "no_categories_description": "No category here yet. Hit button above to create subcategories under <strong>`{{ categoryName }}.`</strong>",
+      "sub_categories_title": "Sub Categories of <strong>{{ categoryName }}</strong>",
+      "has_brand_model_tooltip": "There are brands and models associated with this category, you can not add child category.",
+      "max_level_reached_tooltip": "You have reached the maximum level of subcategories for this category.",
+      "has_unapproved_tooltip": "This category is created by a staff member and not yet approved. Click to apprehend the changes.",
+      "has_subcategory_tooltip": "Categories which have subcategories underneath them cannot have brands/models",
+      "add_new_category": "Add a <strong>New</strong> Category",
+      "edit_category": "<strong>Edit</strong> Category",
+      "code_field": "Code",
+      "code_label": "Code (optional)",
+      "name_field": "Title",
+      "name_label": "Category Title",
+      "delete_warning": "Do you want to delete the selected categories?",
+      "general_admin_can_do": "Only general admin can do this action",
+      "context_menu": {
+        "add_edit_brand_model": "Add / Edit <strong>Brand / Model</strong> of Category",
+        "edit_category": "<strong>Edit</strong> Category Code / Title",
+        "move_category": "<strong>Move</strong> Category",
+        "delete_category": "<strong>Delete</strong> Category"
+      },
+      "onboarding": {
+        "asset_categories": "Asset Categories",
+        "info1": "From the Asset Categories screen, you may create the asset categories you want to use and the associated brands-models. Only the admins can see this screen.",
+        "info2": "The Category-Brand-Model associations you create here will provide standardized asset adding and consistent reports. The users who are adding a new asset, only need to choose brand, then model, according to the association category will be defined automatically.",
+        "info3": "The first time you open Categories screen, you will encounter with Borda’s pre-loaded categories. You may continue to use this scheme or choose to wipe it out and start from scratch.",
+        "info4": "<strong>The maximum level of categories is 9.</strong> Please plan your category tree accordingly.",
+        "info5": "You may return back to here by clicking the ‘I’ button located on the top bar.",
+        "desc1": "Before adding asset brands and models under a category, please make sure that there are no existing sub-categories under this category. When you hover on an applicable category, a button to add brands/models will be revealed.",
+        "desc2": "Categories at all levels have to be named. You may want to add alphanumerical codes as well if you wish to.",
+        "desc3": "A user who could not find a brand or a model while adding a new asset, s/he can add those missing. Those new brands and models will wait for your confirmation under ‘Category Tasks’. You may confirm, delete or edit them. Those edit you make will be reflected to all assets added with this configuration. After you confirm brands and models associations, those will be visible to all users.",
+        "category_code": "Category Code"
+      },
+      "main_category_delete_modal": {
+        "no_delete_title": "Main Category ({{categoryName}}) Could not Be Deleted",
+        "delete_title": "Confirm to Delete Main Category ({{categoryName}})",
+        "no_delete_warning": "Lighthouse is not able to delete this main category. Please check the controls below and resolve issues to try again.",
+        "delete_warning": "Lighthouse is ready to delete this main category.",
+        "no_user": "<strong>No user</strong> is authorized for this main category",
+        "no_asset": "<strong>No asset</strong> is registered under this main category",
+        "no_contract": "<strong>No contract</strong> is associated with this main category",
+        "no_plan": "<strong>No maintenance or calibration plan</strong> is associated with this main category",
+        "check_list_title": "Please <strong>check</strong> each of the ramifications below to continue.",
+        "brand_model": "<strong>Brand and Models</strong> of the main category <strong>will be deleted</strong>",
+        "subcategories": "<strong>Subcategories</strong> of the main category <strong>will be deleted</strong>",
+        "sub_statuses": "<strong>Substatuses</strong> of the main category <strong>will be deleted</strong>",
+        "auto_flow": "<strong>Autoflows</strong> of the main category <strong>will be deleted</strong>",
+        "breakdown_types": "<strong>Breakdown Types</strong> of the main category <strong>will be deleted</strong>",
+        "breakdown_costs": "<strong>Breakdown Costs</strong> of the main category <strong>will be deleted</strong>",
+        "maintenance_costs": "<strong>Maintenance Costs</strong> of the main category <strong>will be deleted</strong>",
+        "retirement_reasons": "<strong>Retirement Reasons</strong> of the main category <strong>will be deleted</strong>",
+        "department": "<strong>Departments</strong> of the main category <strong>will be deleted</bold>",
+        "form_builder": "<strong>Forms</bold> of the main category <strong>will be deleted</bold>"
+      }
+    },
+    "routes": {
+      "categories": "Categories",
+      "category_tasks": "Category Tasks",
+      "forms": "Forms",
+      "categories_v2": "Categories v2"
+    }
+  },
+  "branches": {
+    "branch_field": "Branch",
+    "branches_with_count": "{{count}} Branches",
+    "wizard_message": "Please select the branch(es) you would like to add this {{ item }} to below.",
+    "wizard_more_than_one_branch": "You are authorized for adding {{ item }} to more than one branch.",
+    "wizard_select_branch": "Select a Branch",
+    "wizard_select_branches": "Select Branches",
+    "wizard_selected_items": "{{count}} Branch selected.",
+    "all_branches": "All Branches",
+    "branch_filter": "<strong>Branch</strong> Filters",
+    "all_branched_selected": "All ({{count}}) Branch selected",
+    "select_all": "Select all"
+  },
+  "brands": {
+    "add_new_brand_button": "Add a New <bold>Brand</bold>",
+    "brand_dropdown_not_found": "Brand could not be found. Hit '+' to define a new brand.",
+    "brand_group_title": "Add Brands to <strong>{{ categoryName }}</strong>",
+    "brand_model_dialog_bottom_text": "Add all Brands and Models to ‘{{ categoryName }}’ then hit Confirm ",
+    "delete_warning": "Are you sure you want to delete this brand?",
+    "name_field": "Brand Name",
+    "no_brands_description": "No brands added for this category. Hit button above to create brands under <strong>{{ categoryName }}</strong>",
+    "no_brand_found": "No brand found",
+    "no_brand_add_hint": "Click ‘<strong>+</strong>’ above to <strong>Add This Brand </strong>to Lighthouse"
+  },
+  "categories": {
+    "add_category_button": "Add a New Category",
+    "asset_configuration": "Asset Configuration",
+    "brand_model_add_button": "Brands/Models",
+    "categories": "Categories",
+    "category_list_title": "Manage Asset Categories",
+    "disabled_category_tooltip": "There are brands and models associated with this category, you can not add child category.",
+    "category_has_subcategories_info": "Since this category includes subcategories under, you cannot add models directly.",
+    "categories_with_count": "{{count}} Categories",
+    "code_field": "Code",
+    "delete_warning": "Do you want to delete the selected categories?",
+    "import_categories_button": "Import",
+    "main_categories_title": "Main Categories",
+    "name_field": "Category Name",
+    "no_categories_description": "No category here yet. Hit button above to create subcategories under <strong>`{{ categoryName }}.`</strong>",
+    "routes": {
+      "categories": "Categories",
+      "category_tasks": "Category Tasks",
+      "forms": "Forms",
+      "categories_v2": "Categories v2"
+    },
+    "select_description": "Please select category.",
+    "sub_categories_title": "Sub Categories of <strong>{{ categoryName }}</strong>",
+    "forms": {
+      "asset_form_template_for": "<wrapper><strong>Edit</strong></wrapper>Asset Form Template for",
+      "last_edited": "Last Edited: <strong>{{date}}</strong>",
+      "page_header": "Forms",
+      "title": "Customizing Fields for each Main Categories",
+      "title_desc": "Just click on any card to customize a form of each main category.",
+      "form_builder": {
+        "page_header": "Customizing Form Template of {{mainCategoryName}}",
+        "edit_add_fields": "Edit / Add Fields",
+        "retrieving": "Retrieving...",
+        "create_a_new_field": "Create a New Field",
+        "fields": {
+          "brand": "Brand",
+          "model": "Model",
+          "auto_generated_code": "Lighthouse Auto-Generated Code",
+          "category": "Category",
+          "location": "Location",
+          "custody": "Custody",
+          "remaining_fields_to_add": "Remaining Fields to Add: <strong>{{ number }} </strong>",
+          "identification": "Identification",
+          "serial_no": "Serial No",
+          "device_photo": "Device Photo",
+          "photo": "Photo",
+          "device_info": "Device Info",
+          "date_of_device_production": "Date of Device Production",
+          "purchase_info": "Purchase Info",
+          "purchased_firm": "Purchased Firm",
+          "purchase_cost": "Purchase Cost ($)",
+          "purchase_date": "Purchase Date",
+          "notes": "Notes",
+          "creation_info": "Creation Info",
+          "created_by": "Created By",
+          "date_of_creation": "Date Of Creation",
+          "contract_and_protection_definitions": "Contract & Protection Definitions",
+          "protection": "Protection",
+          "edit_field": "<strong>Edit</strong> Field",
+          "upload_change_photo": "Upload / Change the <strong>Photo</strong>",
+          "delete_field": "<strong>Delete</strong> Field"
+        },
+        "add_edit_modal": {
+          "create_field": "Create a New Field",
+          "edit_field": "Edit Field",
+          "description": "First add the title of the field then select the type of it. After that, please specify if this field is Required and Unique.",
+          "info": "In addition to the Lighthouse Auto-Generated Code, All fields in the Additional Identification section are <strong>searchable</strong> with ‘Asset Search’ widget.",
+          "title_field": "Title of the Field",
+          "data_type": "Data Type",
+          "required_field": "Required Field?",
+          "unique_value": "Unique Value?",
+          "required_info": "If this field is open, this means an asset cannot be saved unless this field is filled.",
+          "unique_info": "If this is on, that means it cannot share same value with another asset. Everytime you add an asset, Lighthouse will validate this field there is a duplicate value.",
+          "same_title_error": "This title already exist"
+        },
+        "delete_modal": {
+          "title": "1 field will be deleted",
+          "description": "If you continue, 1 field will be deleted from asset cards."
+        },
+        "data_type": {
+          "freeText": "Free Text",
+          "numerical": "Numerical",
+          "dateTime": "Date Time",
+          "phone": "Phone",
+          "email": "E-mail"
+        }
+      }
+    },
+    "main": {
+      "main_category_field": "Main Category",
+      "wizard_message": "Please select the main category you would like to add this {{ item }} to below.",
+      "wizard_more_than_one_category": "You are authorized for adding a {{item}} to more than one main category.",
+      "wizard_select_main_category": "Select a Main Category",
+      "wizard_select_main_categories": "Select Main Categories",
+      "wizard_selected_items": "{{count}} Main Category selected.",
+      "general_admin_can_do": "Only general admin can do this action"
+    },
+    "main_category_delete_modal": {
+      "no_delete_title": "Main Category ({{categoryName}}) Could not Be Deleted",
+      "delete_title": "Confirm to Delete Main Category ({{categoryName}})",
+      "no_delete_warning": "Lighthouse is not able to delete this main category. Please check the controls below and resolve issues to try again.",
+      "delete_warning": "Lighthouse is ready to delete this main category.",
+      "no_user": "<strong>No user</strong> is authorized for this main category",
+      "no_asset": "<strong>No asset</strong> is registered under this main category",
+      "no_contract": "<strong>No contract</strong> is associated with this main category",
+      "no_plan": "<strong>No maintenance or calibration plan</strong> is associated with this main category",
+      "check_list_title": "Please <strong>check</strong> each of the ramifications below to continue.",
+      "brand_model": "<strong>Brand and Models</strong> of the main category <strong>will be deleted</strong>",
+      "subcategories": "<strong>Subcategories</strong> of the main category <strong>will be deleted</strong>",
+      "sub_statuses": "<strong>Substatuses</strong> of the main category <strong>will be deleted</strong>",
+      "auto_flow": "<strong>Autoflows</strong> of the main category <strong>will be deleted</strong>",
+      "breakdown_types": "<strong>Breakdown Types</strong> of the main category <strong>will be deleted</strong>",
+      "breakdown_costs": "<strong>Breakdown Costs</strong> of the main category <strong>will be deleted</strong>",
+      "maintenance_costs": "<strong>Maintenance Costs</strong> of the main category <strong>will be deleted</strong>",
+      "retirement_reasons": "<strong>Retirement Reasons</strong> of the main category <strong>will be deleted</strong>",
+      "department": "<strong>Departments</strong> of the main category <strong>will be deleted</strong>",
+      "form_builder": "<strong>Forms</strong> of the main category <strong>will be deleted</strong>"
+    },
+    "tasks": {
+      "all_tasks_completed": "Great!",
+      "brand_field": "Brand",
+      "category_field": "Category",
+      "delete_warning_text": "If you continue to delete this entry, {{ numberOfAssets }} asset will be deleted from all associated objects, such as work orders and reports. <br /> <br /> This action cannot be undone.",
+      "delete_warning_title": "{{ numberOfAssets }} Asset will be deleted",
+      "image_field": "Image",
+      "filter_today": "Last 24 Hours",
+      "filter_week": "Last 7 Days",
+      "filter_month": "Last 30 Days",
+      "filter_all": "All",
+      "inconsistant_category_error": "Category selection is inconsistent, please select a different category.",
+      "model_field": "Model",
+      "no_tasks_remaining": "No tasks remaining, <br /> all are done for now.",
+      "show_completed": "Show Completed",
+      "tasks_list_header": "Check and Confirm Category - Brand / Model Requests",
+      "tasks_list_title": "Tasks"
+    }
+  },
+  "metrics_configuration": {
+    "routes": {
+      "configuration": "Configuration",
+      "metric_configuration": "Metric Configuration",
+      "forms": "Forms"
+    },
+    "detail": {
+      "page_header": "Lifetime Up/Down Time",
+      "explanation": {
+        "title": "Lighthouse Asset Metrics: <strong>Lifetime UpTime</strong>",
+        "desc1": "Lighthouse will watch the conditions specified below to measure lifetime uptime performance of an asset. <strong>Settings here will affect all assets.</strong>",
+        "desc2": "When this parameters exceed you’ll get a notification. You can also check the lifetime uptime performance from the asset’s card by scrolling to the ‘Performance’ section.",
+        "desc3": "You can set also <strong>Contract UpTime</strong> parameters for a contract. The assests that are associated with the contract that has <strong>Contract UpTime</strong> parameters will be tracked by Lighthouse as a seperate performance measure."
+      },
+      "valid_intervals": {
+        "title": "Lighthouse Valid Intervals for Lifetime UpTime",
+        "desc": "Please indicate the intervals that upTime will be calculated for",
+        "valid_days": "Specify Valid Days",
+        "valid_times": "Specify Valid Times",
+        "all_day": "All Day",
+        "select_interval": "Select Interval",
+        "do_not_include_holidays": "Do not include holidays"
+      },
+      "down_time_rules": {
+        "add_rule_button": "Add a DownTime Rule",
+        "delay_tolerance": "Delay Tolerance",
+        "desc": "Please indicate the rules Lighthouse will consider as downtime",
+        "result": "For Every <bold> {{ workType }} </bold> work, <hide5>if</hide5> <hide1>asset is marked <bold>{{ usability }}</bold></hide1> <hide4>and </hide4><hide3>the task is <bold> {{ statuses }} </bold></hide3> register downTime",
+        "status": "In This/These Status(es)",
+        "title": "<strong>Lighthouse Asset downTime Rules </strong>",
+        "warning": "<strong>BEWARE!</strong> These settings will define <strong>the status of an asset deemed as UP or DOWN</strong>",
+        "usability": "Usability",
+        "work_type": "Work Type",
+        "work_types": {
+          "breakdown": "Breakdown",
+          "calibration": "Calibration",
+          "maintenance": "Maintenance",
+          "retirement": "Retirement"
+        },
+        "usabilities": {
+          "notUsable": "Not Usable",
+          "usable": "Usable"
+        },
+        "delay_tolerances": {
+          "annualTask": "Annual Total",
+          "everyTask": "For Every Task",
+          "noTolerance": "No Delay Tolerances"
+        }
+      },
+      "time_tolerance": {
+        "title": "Lighthouse Time Tolerance for Lifetime UpTime",
+        "desc": "downTime Increase Time Tolerance",
+        "selection_explanation": "Until a downTime period hits <strong>{{ value }} minutes,</strong> it will be discarded. After a downTime period exceeds {{ value }} minutes, it will be considered as 1 hour."
+      },
+      "goals": {
+        "title": "Uptime Goals",
+        "desc": "Please indicate Uptime goals",
+        "add_button_desc": "Add a downTime Limit",
+        "percentage_based_description": "For <strong>{{categories}}</strong>, if upTime drops below {{value}}%, you will be notified.",
+        "time_based_description": "For <strong>{{categories}}</strong>, if upTime drops below {{value}} {{timeType}}, you will be notified.",
+        "all_categories": "All Categories",
+        "all_other_categories": "All Other Categories",
+        "categories": " Categories",
+        "select_category": "Please select a category",
+        "type_descriptions": {
+          "timeBased": "Specify <strong>Time-based</strong> Downtime Limit",
+          "percentage": "Specify <strong>Percentage</strong> Uptime Limit",
+          "none": "Do not specify limits"
+        },
+        "time_types": {
+          "minutes": "Minutes",
+          "hours": "Hours",
+          "workday": "Work Day",
+          "anyday": "Any Day"
+        },
+        "time_types_short": {
+          "minutes": "m",
+          "hours": "h",
+          "workday": "Work Day",
+          "anyday": "Day"
+        }
+      },
+      "types": {
+        "Updown": "Up-Down Time",
+        "Response": "Response Time",
+        "Repair": "Repair Time",
+        "Part Supply": "Part Supply"
+      }
+    },
+    "list": {
+      "metric_criteria_title": "Lighthouse Metrics Criteria",
+      "metric_criteria_desc": "Below, you can edit the default criteria set for the assets. <br /> <strong>Lighthouse will track those and give you warnings when they are exceed or nearing. </strong>",
+      "asset_performance_metrics": "Asset Performance Metrics (Lifetime Uptime)",
+      "asset_metric_header": "LIGHTHOUSE ASSET METRICS",
+      "asset_metric_desc": "Lifetime Up/Down Time",
+      "last_edited": "Last Edited: {{date}}"
+    },
+    "page_title": "Metrics Configuration"
+  },
+  "common": {
+    "all": "All",
+    "all_selected": "<bold>All</bold> Selected",
+    "associated_assets": "Associated Assets",
+    "autocomplete_add_hint_first_line": "Click ‘<strong>+</strong>’ above to",
+    "autocomplete_add_hint_second_line": "<strong>Add This {{addedItem}} </strong>",
+    "autocomplete_add_hint_third_line": "to Lighthouse",
+    "autocomplete_add_hint_item": "Item",
+    "back": "Go Back",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "done": "Done",
+    "dropdown_generic_hint": "Please Select",
+    "generic_field_name": "Field",
+    "item_selected": "<{{ count }} item selected>",
+    "item_selected_plural": "<{{ count }} items selected>",
+    "linked_plans": "Linked Plans",
+    "loading": "Loading...",
+    "new": "New",
+    "next": "Next",
+    "no_items_selected": "<No items selected>",
+    "optional": "Optional",
+    "or": "OR",
+    "see_more": "See More",
+    "see_less": "See Less",
+    "select": "Select",
+    "selected": "Selected",
+    "select_all": "Select All",
+    "success": "Success!",
+    "warning": "Warning",
+    "action": "Action",
+    "search_not_found": "No item found",
+    "save": "Save",
+    "start_typing": "Start typing to search",
+    "add": "Add",
+    "edit": "Edit",
+    "disassociate": "Disassociate",
+    "unlink": "Unlink",
+    "close": "Close",
+    "revert": "Revert",
+    "required": "Required",
+    "promote": "Promote",
+    "demote": "Demote",
+    "resign": "Resign",
+    "unresign": "Unresign",
+    "cancel_invitation": "Cancel Invitation",
+    "continue": "Continue",
+    "clear_all": "Clear All",
+    "dismiss": "Dismiss",
+    "discard": "Discard",
+    "remove": "Remove",
+    "save_changes": "Save Changes",
+    "fetching": "Fetching...",
+    "change": "Change",
+    "confirm_order": "Confirm Order",
+    "deny_request": "Deny Request",
+    "remaining_characters": "Remaining Characters:",
+    "remaining": "Remaining: <strong>{{ remainingCount }}</strong>/{{ maxCount }}",
+    "filters": {
+      "date_types": {
+        "any": "<bold>No Filter</bold>",
+        "blank": "<bold>Blank</bold>",
+        "between": "<bold>Between</bold>",
+        "equal": "<bold>Exact</bold>",
+        "greaterThan": "<bold>Greater</bold>",
+        "lessThan": "<bold>Lesser</bold>"
+      },
+      "date_types_menu": {
+        "any": " (any value)",
+        "blank": " (no value)",
+        "between": " two values",
+        "equal": " value (equals)",
+        "greaterThan": " than one value",
+        "lessThan": " than one value"
+      },
+      "from": "From",
+      "to": "To",
+      "date": "Date",
+      "filters": "Filters",
+      "see_more": "See More"
+    },
+    "discard_changes": "Discard Changes",
+    "discard_changes_description": "Changes will not be saved. Do you want to proceed?",
+    "start": "Start",
+    "end": "End",
+    "none": "None",
+    "create": "Create",
+    "got_it": "Got It"
+  },
+  "contracts": {
+    "contract": "Contract",
+    "title_field": "Title",
+    "type_field": "Contract Type",
+    "notes_field": "Notes",
+    "start_date_field": "Start Date",
+    "end_date_field": "End Date",
+    "delete_warning_title": "Delete Contract",
+    "delete_warning_with_associated_information_both": "Lighthouse detected this contract has been associated with assets and contains plans.",
+    "delete_warning_with_associated_information_only_assets": "Lighthouse detected this contract has been associated with assets.",
+    "delete_warning_with_associated_information_only_plans": "Lighthouse detected this contract contains plans.",
+    "delete_warning_with_associated_information_none": "If you continue, the contract will be deleted.",
+    "delete_warning_description_both": "If you proceed deleting this contract, associated assets will be disassociated and linked plans will be deleted.",
+    "delete_warning_description_only_assets": "If you proceed deleting this contract, associated assets will be disassociated.",
+    "delete_warning_description_only_plans": "If you proceed deleting this contract, linked plans will be deleted.",
+    "delete_warning_branch_count": "This contract is related with {{ branchCount }} branches.",
+    "delete_warning_question": "Would you like to delete the contract?",
+    "disassociate_title": "Unlink Contract<hide> and Linked Plan(s)</hide>",
+    "disassociate_description": "If you continue, the contract<hide> and plans below</hide> will be unlinked with the asset.",
+    "disassociate_warning": "Would you like to proceed to unlink?",
+    "types": {
+      "calibration": "Calibration",
+      "warranty": "Warranty",
+      "lease": "Lease",
+      "maintenance": "Maintenance"
+    },
+    "edit": {
+      "basic_information_header": "Basic Contract Information",
+      "basic_information_helper": "Start with entering a title.",
+      "calculated_annual_cost": "Calculated <strong>Annual</strong> Cost",
+      "calculated_total_cost": "Calculated <strong>Total</strong> Cost",
+      "category_select_desc": "Select Categories",
+      "contact_person_field": "Contact Person",
+      "cost_add_category_button": "Add a Category",
+      "cost_desc": "The annual cost will be automatically calculated in terms of the duration of the contract and will be added to the total costs of the related assets.",
+      "cost_field": "Contract Cost",
+      "cost_per_category_field": "Cost for each intervation",
+      "cost_section_desc": "Enter the costs regarding this contract",
+      "cost_duration_value": "{{ duration }} Months",
+      "cost_duration_with_title": "Contract Duration: <bold>{{ duration }} Months</bold>",
+      "cost_type_desc": "Specify the type of cost entry",
+      "cost_title": "Contract Costs",
+      "create_header": "Create a new {{ type }} Contract",
+      "date_desc": "Please enter Start and End Date",
+      "date_start_field": "Start Date",
+      "date_end_field": "End Date",
+      "duration": "Duration",
+      "email_field": "Email",
+      "entered_cost": "Entered Cost",
+      "file_title": "Contract Files",
+      "file_desc": "Add files containing the information about the firm that contract had been signed with",
+      "file_button": "Add a File",
+      "firm_contact_header": "Firm & Contact",
+      "firm_contact_helper": "Enter the information about the firm contact had been signed with.",
+      "firm_field": "Firm",
+      "phone_field": "Phone",
+      "notes_field": "Notes",
+      "title_field": "Title",
+      "type_field": "Type",
+      "start_date_display_field": "Starting From",
+      "end_date_display_field": "Will be Terminated At",
+      "branch_field": "Branch",
+      "main_category_field": "Main Category",
+      "no_info_added_yet": "No Info Added yet",
+      "no_costs_added_yet": "No Costs Added yet",
+      "branch_and_main_category_desc": "Branch and Main Category",
+      "branch_selected_desc": "{{count}} branches selected",
+      "main_category_selected_desc": "{{count}} main categories selected",
+      "metrics": {
+        "add_condition_button": "Click to add a criteria",
+        "desc": "Specify contract metric(s) for Lighthouse to track them",
+        "title": "Contract Metrics",
+        "add_metric_button_text": "Add a(n) <bold>{{type}}</bold> Metric",
+        "modal_header": "Set Target {{type}}",
+        "type_description": "Lighthouse will watch the conditions specified below to measure {{type}} performance of an task. Settings here will affect all assets.",
+        "delete_warning_title": "Delete Metric",
+        "delete_warning_question": "Would you like to delete the metric?",
+        "types": {
+          "Updown": "Up-Down Time",
+          "Response": "Response Time",
+          "Repair": "Repair Time",
+          "Part Supply": "Part Supply"
+        },
+        "validIntervals": {
+          "all_day": "All Day",
+          "desc": "Please indicate the intervals that {{ type }} will be calculated for",
+          "do_not_include_holidays": "Do not include holidays",
+          "holidays_included_display": "Holidays <bold>are</bold> included",
+          "holidays_not_included_display": "Holidays <bold>not</bold> included",
+          "title": "Valid Intervals",
+          "select_interval": "Select Interval",
+          "valid_times_desc": "Specify Valid Times (Between)",
+          "valid_days_desc": "Specify Valid Days"
+        },
+        "time_types": {
+          "minutes": "Minutes",
+          "hours": "Hours",
+          "workday": "Work Day",
+          "anyday": "Any Day"
+        },
+        "time_types_short": {
+          "minutes": "m",
+          "hours": "h",
+          "workday": "Work Day",
+          "anyday": "Day"
+        },
+        "downTimeRules": {
+          "add_rule_button": "Add a DownTime Rule",
+          "delay_tolerance": "Delay Tolerance",
+          "desc": "Please indicate the rules Lighthouse will consider as downtime",
+          "result": "For Every <bold> {{ workType }} </bold> work, <hide5>if</hide5> <hide1>asset is marked <bold>{{ usability }}</bold></hide1> <hide4>and </hide4><hide3>the task is <bold> {{ statuses }} </bold></hide3> register <bold> {{ metricType }} </bold> <hide2> after <bold> {{ delay }} </bold> </hide2>",
+          "status": "In This/These Status(es)",
+          "title": "Downtime Rules",
+          "usability": "Usability",
+          "work_type": "Work Type",
+          "work_types": {
+            "breakdown": "Breakdown",
+            "calibration": "Calibration",
+            "maintenance": "Maintenance",
+            "retirement": "Retirement"
+          },
+          "usabilities": {
+            "notUsable": "Not Usable",
+            "usable": "Usable"
+          },
+          "delay_tolerances": {
+            "annualTask": "Annual Total",
+            "everyTask": "For Every Task",
+            "noTolerance": "No Delay Tolerances"
+          }
+        },
+        "time_tolerance": {
+          "time_tolerance": "Time Tolerance",
+          "increase_time_tolerance": "{{type}} Increase Time Tolerance",
+          "tolerance_value": "{{value}} mins",
+          "tolerance_description": "Until a downTime period hits <strong>{{ value }} minutes,</strong> it will be discarded. After a downTime period exceeds {{ value }} minutes, it will be considered as 1 hour."
+        },
+        "goals": {
+          "goals_header": "{{type}} Goals",
+          "goals_description": "Please indicate {{type}} goals",
+          "add_category_goal": "Add a Category-based Goal",
+          "percentage_based_description": "For <strong>{{categories}}</strong>, if annual {{metricType}} goal drops below {{value}}%, you will be notified.",
+          "time_based_description": "For <strong>{{categories}}</strong>, if annual {{metricType}} goal drops below {{value}} {{timeType}}, you will be notified.",
+          "all_categories": "All Categories",
+          "all_other_categories": "All Other Categories",
+          "categories": " Categories",
+          "select_category": "Please select a category",
+          "type_descriptions": {
+            "timeBased": "Specify Time-based goals",
+            "percentage": "Specify Percentage goals"
+          }
+        }
+      },
+      "parts": {
+        "add_button": "Add a Part",
+        "desc": "Specify parts policy for this plan",
+        "list_title_excl": "Enter Excluded parts (optional)",
+        "list_title_incl": "Enter Included parts (optional)",
+        "part_field_for_validation": "Part",
+        "part_field": "Part {{number}}",
+        "title": "Parts Policy",
+        "types": {
+          "none": "None",
+          "allParts": "All parts are included",
+          "somePartsIncluded": "Some parts are included",
+          "somePartsNotIncluded": "Some parts are excluded",
+          "partsNotIncluded": "All parts are excluded"
+        },
+        "types_short": {
+          "none": "None",
+          "allParts": "All Included",
+          "somePartsIncluded": "Some Included",
+          "somePartsNotIncluded": "Some Excluded",
+          "partsNotIncluded": "All Excluded"
+        },
+        "type_descriptions": {
+          "none": "",
+          "allParts": "All spare parts are included in the plan.",
+          "somePartsIncluded": "Some parts are included in the plan, the parts specified in the contract will be covered.",
+          "somePartsNotIncluded": "Some parts are excluded in the plan, the parts specified in the contract will not be covered.",
+          "partsNotIncluded": "All spare parts are excluded in the plan."
+        },
+        "type_descriptions_short": {
+          "none": "",
+          "allParts": "All spare parts are <strong> included </strong> in the plan.",
+          "somePartsIncluded": "Some parts are <strong> included </strong> in the plan.",
+          "somePartsNotIncluded": "Some parts are <strong> excluded </strong> in the plan.",
+          "partsNotIncluded": "All spare parts are <strong> excluded </strong> in the plan."
+        },
+        "spare_parts_policy": "Spare Parts Policy"
+      }
+    },
+    "item": {
+      "branches_field": "<bold>Branches: </bold> {{branches}}",
+      "contract_document": "Contract Document",
+      "contact_person_field": "<bold>Contact Person: </bold> {{person}}",
+      "email_field": "<bold>Email: </bold> {{email}}",
+      "end_date_field": "<bold>End: </bold> {{date}}",
+      "excluded_parts_field": "<bold>Excluded Parts: </bold> {{parts}}",
+      "firm_field": "<bold>Firm: </bold> {{firm}}",
+      "included_parts_field": "<bold>Included Parts: </bold> {{parts}}",
+      "main_categories_field": "<bold>Categories: </bold> {{mainCategories}}",
+      "notes_field": "<bold>Notes: </bold> {{notes}}",
+      "parts_policy_field": "<bold>Parts Policy: </bold> {{type}}",
+      "phone_field": "<bold>Phone: </bold> {{phone}}",
+      "start_date_field": "<bold>Start: </bold> {{date}}",
+      "title_field": "<bold>Title: </bold> {{title}}",
+      "type_field": "<bold>Contract Type: </bold> {{type}}",
+      "type_field_2": "{{type}} Contract",
+      "updates": "Updates",
+      "updates_field": "<bold>Updates: </bold> {{title}}"
+    },
+    "wizard": {
+      "add_or_select_header": "Choose an existing contract or create a new one",
+      "add_plan_question": "Add a plan associated with this contract?",
+      "add_plan_question_with_asset": "Add a plan to this asset?",
+      "contract_type_header": "Please choose the contract type you want to add",
+      "contract_type_item_description": "Create a new {{ type }} contract<hide> or add this asset to an existing one</hide>",
+      "create_contract": "Create a new {{type}} contract",
+      "create_success": "{{ type }} contract titled <bold>‘{{ title }}’</bold> has been <hide_create>created</hide_create><hide_and> and </hide_and><hide_asset>added to <bold>1 asset</bold></hide_asset>",
+      "existing_contract_dialog_title": "Existing contract {{ planOption }} will be <bold>Unlinked</bold>",
+      "existing_contract_dialog_title_plan_option": "& plan",
+      "existing_contract_header": "Existing <bold>Contract</bold> of the Asset",
+      "existing_replacement_plan_warning": "and its linked plans(s)",
+      "existing_replacement_warning": "If you choose another contract, the existing one will be unlinked. In that case, Lighthouse will replace this contract {{planOption}} with the one(s) you will choose/add.",
+      "select_contract": "Select a {{ type }} contract",
+      "select_existing": "Select an existing contract"
+    },
+    "contract_list": {
+      "add_new_button": "Add New",
+      "contract_list_title": "Contract List",
+      "contract_plan_list_title": "Contract and Plan List"
+    },
+    "cost_types": {
+      "none": "None",
+      "annual": "Annual Cost",
+      "total": "Total Cost",
+      "category": "Set Cost For Each Category"
+    }
+  },
+  "errors": {
+    "add_or_confirm": "Please add or confirm your selection",
+    "email_field_error": "Email address must be valid",
+    "phone_field_error": "Phone must be in valid format",
+    "range_error_min": "{{ field }} must be at least {{ minLength }} characters",
+    "range_error_max": "{{ field }} must be at most {{ maxLength }} characters",
+    "field_required": "{{ field }} is required",
+    "input_invalid_error": "Input should be equal to {{inputName}}",
+    "greater_than_zero_error": "{{field}} should be greater than zero",
+    "number_error": "{{ field }} must be a number",
+    "date": {
+      "not_valid": "Date is not valid",
+      "min_date": "Cannot be less than min date",
+      "max_date": "Cannot be greater than max date"
+    },
+    "max_eight_char_before_comma": "Maximum of 8 characters before the comma.",
+    "max_two_char_after_dot": "Maximum of 2 characters after the comma.",
+    "no_leading_whitespace": "Leading whitespace character is not allowed",
+    "no_trailing_whitespace": "Trailing whitespace character is not allowed"
+  },
+  "images": {
+    "remove_image_header": "Remove Image",
+    "remove_image_desc": "Do you want to remove this image?"
+  },
+  "layout": {
+    "navbar": {
+      "asset_configurations": "Asset Configurations",
+      "assets": "Assets",
+      "asset_management": "ASSET MANAGEMENT",
+      "asset_management_short": "ASSET MAN.",
+      "configuration": "CONFIGURATION",
+      "configuration_short": "CONFIG.",
+      "locations": "Locations",
+      "profile_settings": "Profile Settings",
+      "users": "User Management",
+      "tasks": "TASKS",
+      "tasks_short": "TASKS",
+      "metrics_configurations": "Metrics Configuration",
+      "my_tasks": "My Tasks",
+      "my_requests": "My Requests",
+      "task_configurations": "Task Configurations"
+    },
+    "asset_listing": "Asset Listing",
+    "categories": "Categories",
+    "design_system": "Design System",
+    "sidebar_title": "Navigations",
+    "tasks": "Tasks",
+    "todos": "Todos",
+    "content_layout": {
+      "search": {
+        "title": "Quick Search for an Asset",
+        "searchable_fields": "Searchable fields:",
+        "auto_generated_code": "Lighthouse Auto-Generated Code",
+        "rest_of_fields": "And all fields located in <strong>Identification Area</strong>",
+        "search_placeholder": "Search",
+        "asset": "Assets",
+        "search": "Search",
+        "not_found": "Not Found"
+      }
+    }
+  },
+  "locationLevels": {
+    "name_field": "Name",
+    "delete_dialog_message": "Please observe the preview and decide whether to <bold> delete the {{ name }}(s)</bold> or not."
+  },
+  "locations": {
+    "code_creation": {
+      "title": "Confirm Code Creation Method",
+      "desc": "Lighthouse requires a unique code for each location.\n\n You can opt in automatic code creation by the system \nor you may enter each and every location to your own code. \n\nPlease select the method you would like to use below. \n\n\nYou can always change this preference by coming back to Admin Settings `>` Locations Management.",
+      "autoCodeSelectionDesc": "I will let Lighthouse to generate automatic codes for each location",
+      "autoCodeSelectionIconText": "<bold>Automatic</bold>\nCode Creation",
+      "manualCodeSelectionDesc": "I will use my own codes for each location",
+      "manualCodeSelectionIconText": "Use\n<bold>My Own Codes</bold>"
+    },
+    "code_dropdown_automatic": "Use automaticly generated codes",
+    "code_dropdown_manual": "Use your own codes",
+    "delete_warning": "Do you want to delete the selected locations?",
+    "location_add": {
+      "area_field": "Area",
+      "code_empty_error": "Manual code cannot be empty",
+      "code_exists_error": "This code is already being used",
+      "code_field": "Code",
+      "description_field": "Description",
+      "id_field": "ID",
+      "location_group_field": "Location Group",
+      "name_exists_error": "This name is already being used",
+      "title": "Add a New {{ levelName }}",
+      "title_edit": "Edit Location",
+      "title_field": "Title"
+    },
+    "locationFilter": {
+      "title": "Filter",
+      "location_title_field": "Location Title",
+      "location_code_field": "Location Code",
+      "tag_id_field": "Tag ID",
+      "no_location_title": "Select <bold>Untitled</bold> Locations",
+      "no_location_title_filter": "Untitled Locations",
+      "no_location_code": "Select Locations <bold>without Code</bold>",
+      "no_location_code_filter": "Without Code",
+      "no_tag_id": "Select locations <bold>without Tag ID</bold>",
+      "no_tag_id_filter": "Without Tag ID",
+      "location_level_field": "Location Level",
+      "no_location_level": "No Level",
+      "location_area_title": "Location Area m²",
+      "area_min": "Min. Area",
+      "area_max": "Max. Area",
+      "area_between": "between",
+      "area_less": "less than",
+      "area_more": "more than",
+      "area_equals": "equals",
+      "location_group": "Location Group",
+      "saved_filters": "Saved Filters",
+      "location_level_hint": "{{count}} Levels selected",
+      "save_filter": "Save Filter",
+      "save_filter_description": "Name the filter you want to save.",
+      "name_field": "Name",
+      "search_result": "{{count}} Locations Found"
+    },
+    "routes": {
+      "locations": "Locations",
+      "location_groups": "Location Groups"
+    },
+    "title": "Locations"
+  },
+  "models": {
+    "add_new_model_button": "Add a New <bold>Model</bold>",
+    "delete_existing_photo": " or delete the current one.",
+    "delete_warning": "Do you want to delete this model?",
+    "change_photo_title": "Change '{{ modelName }}' Photo",
+    "model": "Model",
+    "model_dropdown_not_found": "Model could not be found. Hit '+' to define a new model.",
+    "model_group_title": "Add Models to <strong>{{ brandName }}</strong>",
+    "name_field": "Name",
+    "no_models_description": "No models added for this brand. Hit button above to create models under <strong>{{ brandName }}</strong>.",
+    "no_photo": "No Photo",
+    "upload_new_photo": "Upload a new photo",
+    "no_model_found": "Model not found"
+  },
+  "plans": {
+    "title_field": "Title",
+    "type_field": "Plan Type",
+    "notes_field": "Notes",
+    "contract_title_field": "Contract Title",
+    "plan": "Plan",
+    "start_date_field": "Start Date",
+    "end_date_field": "End Date",
+    "delete_warning_title": "Delete Plan",
+    "delete_warning_with_associated_information": "Lighthouse detected this plan has been associated with assets.",
+    "delete_warning_with_associated_information_none": "If you continue, the plan will be deleted.",
+    "delete_warning_description": "If you proceed deleting this contract, associated assets will be disassociated.",
+    "delete_warning_branch_count": "This plan is related with {{ branchCount }} branches.",
+    "delete_warning_question": "Would you like to delete the plan?",
+    "disassociate_title": "Unlink Plan",
+    "disassociate_description": "If you continue, the plan will be unlinked with the asset.",
+    "disassociate_warning": "Would you like to proceed to unlink?",
+    "types": {
+      "calibration": "Calibration",
+      "maintenance": "Maintenance"
+    },
+    "plans_with_count": "{{count}} Plans",
+    "plan_list": {
+      "add_new_button": "Add New",
+      "plan_list_title": "Plan List"
+    },
+    "edit": {
+      "create_header": "Create a new {{ type }} Plan",
+      "edit_header": "Edit {{ type }} Plan",
+      "basic_information_header": "Basic Plan Information & Plan Date - Period",
+      "basic_information_helper": "Start with entering a title.",
+      "branch_field": "Branch",
+      "main_category_field": "Main Category",
+      "branch_and_main_category_desc": "Branch and Main Category",
+      "branch_selected_desc": "{{count}} branches selected",
+      "no_main_category_selected_desc": "No main categories selected",
+      "title_field": "Title",
+      "type_field": "Type",
+      "notes_field": "Notes",
+      "associated_contract": "Associated Contract",
+      "associated_contract_none": "NONE",
+      "first_plan_field": "First {{type}}",
+      "period_field": "Period",
+      "weekly_period": "{{frequency}} on {{days}}",
+      "frequency_field": "Frequency",
+      "first_plan_desc": "Enter the date of the first {{type}} and task period",
+      "first_plan_start_date_desc": "Month of First {{type}}",
+      "first_plan_end_date_desc": "Month of Last {{type}}",
+      "daily_frequency_single": "Everyday",
+      "daily_frequency_multiple": "Every {{count}} Days",
+      "weekly_frequency_single": "Every Week",
+      "weekly_frequency_multiple": "Every {{count}} Weeks",
+      "sample_plan_desc": "<bold>Sample</bold> {{type}} Plan",
+      "sample_plan_detail": "Lighthouse will automatically create {{type}} tasks according to your plan. Go to <bold> Protection Calendar to track {{type}} tasks </bold> from the Asset Listing top bar.",
+      "sample_plan_item": "<bold>Plan {{number}}:</bold> {{date}}",
+      "notify_person_header": "Assignment of Person(s) to be Notified",
+      "no_notify_person_added": "No Person Will be Notified",
+      "notified_person_field": "Notified Person(s)",
+      "multi_person_selected": "{{count}} People Selected",
+      "multi_person_display": "{{count}} People",
+      "notify_person_helper": "Specify person(s) here to make sure they are going to receive notifications",
+      "notify_person_dialog_desc": "Select one or more persons(s) to receive notifications",
+      "notify_person_assigned_title": "Notified Person(s)",
+      "notify_person_not_assigned_desc": "Assign Notified Person(s)",
+      "notify_person_delete_warning": "Do you want to delete the person to be notified?",
+      "notify_info_message": "Lighthouse will notify the assigned people to tend to the planned {{planType}}",
+      "assignment_person_field": "{{ planType }} Tasks Assignment",
+      "assignment_person_helper": "Specify person(s) here to make sure they are assigned to the future {{ planType }} tasks",
+      "assignment_person_dialog_desc": "Select <bold>one person</bold> to assign this task",
+      "assignment_person_multiple_dialog_desc": "Select <bold>one</bold> or <bold>more person(s)</bold> to assign this task",
+      "assignment_info_message": "Lighthouse will remind the assigned people to tend to the planned {{planType}}",
+      "assigned_personnel_field": "Assigned Person(s)",
+      "responsible_personnel_field": "Responsible Person",
+      "responsible_personnel_assigned_title": "Responsible Person",
+      "responsible_personnel_not_assigned_desc": "Assign Responsible Person",
+      "assistant_personnel_field": "Assistant Person(s)",
+      "assistant_personnel_assigned_title": "Assistant Person(s)",
+      "assistant_personnel_not_assigned_desc": "Assign Assistant Person(s)",
+      "personnel_none": "NONE",
+      "period_types": {
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "everyMonth": "Every Month",
+        "every3Month": "Every 3 Months",
+        "every6Month": "Every 6 Months",
+        "everyYear": "Every Year",
+        "every2Year": "Every 2 Years"
+      },
+      "period_types_bold": {
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "everyMonth": "Every <strong>Month</strong>",
+        "every3Month": "Every <strong>3 Months</strong>",
+        "every6Month": "Every <strong>6 Months</strong>",
+        "everyYear": "Every <strong>Year</strong>",
+        "every2Year": "Every <strong>2 Years</strong>"
+      },
+      "contract": {
+        "header_with_contract": "Associated Contract",
+        "header_without_contract": "No Associated Contract",
+        "type_field": "Contract Type: {{type}}",
+        "title_field": "Title: {{title}}",
+        "start_date_field": "Start: {{date}}",
+        "end_date_field": "End: {{date}}",
+        "contract_document": "Contract Document",
+        "no_contract_description": "After completing plan creation, \n you may opt to connect this plan to a contract"
+      },
+      "errors": {
+        "select_period": "Please select period type",
+        "select_days": "Please select days",
+        "select_frequency": "Please select frequency"
+      }
+    },
+    "item": {
+      "end_date_field": "<bold>End: </bold> {{date}}",
+      "start_date_field": "<bold>Start: </bold> {{date}}",
+      "title_field": "<bold>Title: </bold> {{title}}",
+      "type_field": "<bold>Plan Type: </bold> {{type}}",
+      "type_field_2": "{{type}} Plan"
+    },
+    "wizard": {
+      "add_or_select_header": "Choose an existing plan or create a new one",
+      "add_or_select_desc_contract": "You may select an existing plan associated to the <bold><wrap>‘{{ associatedContract }}’</wrap></bold> contract you have selected or create a new plan from scratch",
+      "add_or_select_desc_associated": "Select a plan associated to <wrap>‘{{ associatedContract }}’</wrap> contract below",
+      "add_or_select_desc": "Select a plan",
+      "add_or_select_dropdown_hint": "Select a {{ planType }} plan",
+      "create_plan_button": "Create a new plan",
+      "contract_association_description": "If you are getting {{ planType }} service from 3rd parties please select ‘With Contract’, if the hospital personnel is going to handle this {{ planType }} plan select ‘No Contract’",
+      "contract_association_title": "Is you plan associated to a contract?",
+      "existing_plan_dialog_title": "Existing plan will be <bold>Unlinked</bold>",
+      "existing_plan_header": "Existing <bold>Plan</bold> of the Asset",
+      "existing_replacement_warning": "If you choose another plan, the existing one will be unlinked. In that case, Lighthouse will replace this plan with the one you will choose/add.",
+      "with_contract": "With Contract",
+      "with_contract_description": "{{ planType }} will be handled by a 3rd party firm",
+      "plan_type_header": "Please choose the plan type you want to add",
+      "plan_type_item_description": "Create a new {{ type }} plan<hide> or add this asset to an existing one</hide>",
+      "no_contract": "No Contract",
+      "no_contract_description": "{{ planType }} will be handled by a hospital personnel",
+      "success_desc_with_contract": "{{planType}} plan titled <bold>‘{{planTitle}}’</bold> that is associated with contract titled <bold>‘{{associatedContractTitle}}’</bold> has been <hide_created>created</hide_created><hide_asset>added to 1 asset</hide_asset>",
+      "success_desc": "Plan titled <bold>‘{{planTitle}}’</bold> has been <hide_created>created</hide_created><hide_asset>added to 1 asset</hide_asset>."
+    }
+  },
+  "profile_settings": {
+    "account_information": {
+      "title": "Account Information",
+      "personal_information": {
+        "title": "Personal Information",
+        "change_password": "Change Password"
+      }
+    },
+    "developer_options": {
+      "title": "Developer Options"
+    },
+    "localization_settings": {
+      "title": "Localization Settings",
+      "panel_header": "Localization Information",
+      "language_title": "Language",
+      "locale_title": "Locale",
+      "time_zone_title": "Time Zone"
+    },
+    "routes": {
+      "account_information": "Account Information",
+      "developer_options": "Developer Options",
+      "localization_settings": "Localization Settings"
+    }
+  },
+  "session": {
+    "login_callback_invalid": "Login callback is invalid",
+    "logout": "Logout",
+    "register": "Register",
+    "register_info": "You will be asked to fill out some information in the next phase",
+    "terms_link": "I agree with the <strong><a>terms and conditions</a></strong>",
+    "silent_refresh_failed": "Silent refresh failed",
+    "link_disabled": "Link is Disabled",
+    "link_disabled_warning": "The link that had been sent to you has expired or cancelled. Please contact your user admin.",
+    "register_page": {
+      "description": "Please enter your username and hit next to begin login process.",
+      "header": "Enter Your Personal Information",
+      "designated_permissions": "Designated Permissions"
+    },
+    "terms_and_conditions": {
+      "title": "Lighthouse Quattro Terms & Conditions"
+    },
+    "logout_fail": "Logout Fail"
+  },
+  "snackbar": {
+    "add_success_message": "Successfully added.",
+    "delete_success_message": "Successfully deleted.",
+    "save_success_message": "Successfully saved.",
+    "update_success_message": "Successfully updated.",
+    "successfully_canceled": "Successfully canceled",
+    "invitation_resend": "Invitation has been resent"
+  },
+  "task_management": {
+    "work_types": {
+      "breakdown": "Breakdown",
+      "calibration": "Calibration",
+      "maintenance": "Maintenance",
+      "retirement": "Retirement"
+    }
+  },
+  "tasks": {
+    "breakdowns": {
+      "common": {
+        "all_staff_card_title": "Responsible",
+        "all_staff_card_info": "All Staff",
+        "priority": {
+          "title": "Priority",
+          "description": "Please set priority of this breakdown request",
+          "set_by_high": "Set <strong>High Priority</strong> by <strong>{{firstName}} {{lastName}}</strong>",
+          "set_by_medium": "Set <strong>Medium Priority</strong> by <strong>{{firstName}} {{lastName}}</strong>",
+          "set_by_low": "Set <strong>Low Priority</strong> by <strong>{{firstName}} {{lastName}}</strong>",
+          "low": "Low",
+          "medium": "Medium",
+          "high": "High"
+        }
+      },
+      "open_breakdown": {
+        "page_title": "Open New Breakdown Order",
+        "breakdown_order": "Breakdown Order",
+        "what_is_wrong_header": "<strong>What</strong> is wrong with it?",
+        "definition_field_name": "Definition",
+        "definition_label": "Please briefly explain what is wrong with this asset",
+        "remaining_characters": "Remaining Characters:",
+        "reopen_warning": "<strong>Reopening</strong> the Request",
+        "reopen_info": "Please check the information below. Update them if necessary or there are other issues you want to add.",
+        "usability": {
+          "asset_usable": "Is this asset usable?",
+          "usable": "Usable",
+          "not_usable": "Not Usable"
+        },
+        "requested_personnel": {
+          "not_assigned": "Assign Requested Personnel",
+          "card_title": "Requester",
+          "selector_description": "Select the person who requests the order",
+          "selector_title": "Change Requester Person"
+        },
+        "send_request": "Send Request",
+        "asset_information": {
+          "title": "Asset Information",
+          "brand": "Brand",
+          "model": "Model",
+          "code": "Lighthouse Auto-Generated Code"
+        },
+        "location": "<strong>Where</strong> is it?",
+        "location_branch": "<strong>Branch:</strong> {{branchName}}",
+        "location_not_assigned": "<strong>Location</strong> not Assigned",
+        "who_is_handle_it": {
+          "title": "<strong>Who</strong> is going to handle it?",
+          "add_responsible_person": "Add a Responsible Person",
+          "add_assistant_person": "Add an Assistant Person(s)",
+          "responsible_person_assign": "Select <strong>one person</strong> to assign this task",
+          "assistant_person_assign": "Select <strong>one</strong> or <strong>more person(s)</strong> to assign this task",
+          "responsible_person": "Responsible Person",
+          "assistant_person": "Assistant Person(s)",
+          "all_staff": "All Staff",
+          "click_add_responsible_person": "Click to Add a <strong>Responsible Person</strong>"
+        }
+      },
+      "confirm_breakdown": {
+        "page_title": "Confirm Breakdown Order",
+        "breakdown_order": "Breakdown Order",
+        "asset_information_header": "Asset Information",
+        "go_to_asset_card": "Go to the Asset Card",
+        "brand_field": "Brand",
+        "model_field": "Model",
+        "code_field": "Lighthouse Auto-Generated Code",
+        "branch_field": "<strong>Branch:</strong> {{branchName}}",
+        "location_not_assigned": "<strong>Location</strong> not Assigned"
+      },
+      "my_request": {
+        "delete_warning": "Do you want to delete this task?",
+        "page_title": "My Breakdown Request",
+        "breakdown_order": "Breakdown Order",
+        "explanation_of_denying_title": "Explanation of Denying",
+        "status_task": "Status of this Task",
+        "responsible": "Responsible",
+        "denied_by": "Denied By"
+      },
+      "confirm_modal": {
+        "title": "Assign Personnel to this Order & Confirm",
+        "description": "Please assign at least a responsible person, and add assistant person(s) if you need to.",
+        "info": "If you confirm without assigning tasks to specific people, this task will be opened as assigned to the all staff",
+        "assigner_note_field": "Note to Assigned Person(s)",
+        "assigner_info_desc": "Note to the Assigned Person(s) <i>(Optional)</i>"
+      },
+      "deny_modal": {
+        "title": "Explanation of Denying",
+        "description": "Please state the reason of denying this request below. This message will be displayed to the requester.",
+        "explanation_field": "Notes"
+      }
+    },
+    "detail": {
+      "breakdown_order": "Breakdown Order",
+      "page_title": "Breakdown Order",
+      "breakdown_information": {
+        "breakdown_explanation": "Breakdown Explanation",
+        "header": "Breakdown Information",
+        "requester_card_title": "Requester",
+        "responsible_manager_card_title": "Responsible Manager",
+        "apporved_by_card_title": "Approved By",
+        "usability_explanation": "Asset is marked <style>{{ usability }}</style> by the requester",
+        "usabilities": {
+          "notUsable": "Not Usable",
+          "usable": "Usable"
+        },
+        "note_from_manager": {
+          "title": "Note From Manager",
+          "desc": "Note to the Assignee"
+        }
+      },
+      "assignment_information": {
+        "header": "Assignment Information",
+        "responsible_card_title": "Responsible",
+        "assistant_card_title_one": "Assistant",
+        "assistant_card_title_other": "Assistants"
+      },
+      "commit": {
+        "not_assigned_yet": "This task has not been assigned to anyone yet.",
+        "click_to_handle": "Click the button on the right -> to handle this task.",
+        "commit_task": "Commit This Task",
+        "modal_title": "Committing the Task",
+        "modal_description": "This task will be assigned to you as the <strong>'Responsible Person'</strong> <br /> <br/> This action cannot be taken back. <br /> <br/> Do you confirm to committing this task?"
+      },
+      "cost": {
+        "add_cost": "Add a Cost",
+        "add_receipt": "Add a Receipt",
+        "amount": "Amount",
+        "amount_of_savings": "Amount of the Savings",
+        "bids": "Bids (Optional)",
+        "cost_type": "Cost Type",
+        "cost_warning": "Cost Warning",
+        "contract_warning_info": "<strong>Please note that this asset is on a contract. Contracts usually tend to include all costs related.</strong>",
+        "contract_warning_detail": "If you are sure that a cost other than contract cost itself is needed than tap ‘Continue’ to proceed to the cost adding flow.",
+        "cost_dialog_warning_text": "Please note that <strong>all costs indicated in the contract will be automatically added.</strong> Please avoid to add them again.",
+        "information": "Information",
+        "edit_cost": "Edit Cost",
+        "explanation": "Explanation",
+        "cost": "Cost",
+        "cost_type_label": "Choose a Cost Category",
+        "cost_title": "Cost",
+        "title_of_field": "Title of the Field",
+        "cost_category_field": "Cost Category",
+        "delete_dialog_title": "Cost Item will be Deleted",
+        "discard_dialog_title": "Changes will be Discarded",
+        "delete_dialog_explanation": "The cost item will be deleted and substracted from the total breakdown costs. Are you sure you want to continue and delete <strong>this cost item</strong>?",
+        "delete_dialog_desc": "This action cannot be taken back.",
+        "edit_delete_dialog_explanation": "You have made some changes here.",
+        "edit_delete_dialog_desc": "Would you really want to discard the changes you have made and close this dialogue?"
+      },
+      "updates": {
+        "header": "Updates"
+      },
+      "status": {
+        "task_status": "Task is <strong> {{status}} </strong>",
+        "sub_status_desc": "Please Choose a Sub-State for {{status}}",
+        "status_present": {
+          "open": "Opening...",
+          "inProgress": "In Progress...",
+          "paused": "Pausing...",
+          "closed": "Closing..."
+        }
+      },
+      "type": {
+        "title": "Type of Breakdown",
+        "note": "Please select a type of breakdown to help accurate data collection.",
+        "no_item_desc_1": "There is no ‘Type of Breakdown’ item available.",
+        "no_item_desc_2": "Please head to the ‘Breakdown’ > <strong>‘Breakdown Types’</strong> under ‘Task Configuration’",
+        "no_item_desc_3": "If you cannot see ‘Breakdown Types’ consult your administrator."
+      }
+    },
+    "my_requests": {
+      "accept_completion": "Accept Completion",
+      "reject_completion": "Reject Completion",
+      "accepted": "Accepted",
+      "bottom_bar_resolved": "Resolved",
+      "bottom_bar_not_resolved": "Not Resolved",
+      "bottom_bar_delete_request": "Delete Request",
+      "my_requests": "My Requests",
+      "my_requests_route": "MY REQUESTS",
+      "page_header": "My Requests ({{taskNumber}})",
+      "task_list": "Task List",
+      "empty_list": {
+        "create_request": "CREATE REQUEST",
+        "header": "No Requests Here",
+        "description": "There seems to be no active requests.",
+        "info": "Tap the 'Create Request' button above to start creating a request."
+      }
+    },
+    "waiting_for_confirmation": {
+      "page_header": "Waiting For Confirmation ({{taskNumber}})",
+      "bottom_bar_deny": "Deny Order",
+      "bottom_bar_proceed": "Proceed To Assign",
+      "breakdown_information": {
+        "breakdown_explanation": "Breakdown Explanation",
+        "header": "Breakdown Information",
+        "requester_card_title": "Requester",
+        "usability_explanation": "Asset is marked <usability_icon /> <style>{{ usability }}</style> by the requester",
+        "usabilities": {
+          "notUsable": "Not Usable",
+          "usable": "Usable"
+        }
+      },
+      "waiting_for_confirmation": "Waiting For Confirmation",
+      "date_time": "Date & Time",
+      "request_date_time": "Request Date & Time",
+      "no_relevant_contract": "<strong>No</strong> Relevant Contract",
+      "type_contract": "{{type}} Contract",
+      "policy": {
+        "parts_policy": "Parts Policy",
+        "types": {
+          "allParts": "All parts are <strong>included</strong>",
+          "somePartsIncluded": "Some parts are <strong>included</strong>",
+          "somePartsNotIncluded": "Some parts are <strong>excluded</strong>",
+          "partsNotIncluded": "All parts are <strong>excluded</strong>"
+        }
+      },
+      "contract_contact": {
+        "title": "Contract Contact Information",
+        "firm": "<strong>Firm:</strong> {{firmName}}",
+        "contact_person": "<strong>Contact Person:</strong> {{contactPerson}}",
+        "phone": "<strong>Phone:</strong> {{phone}}",
+        "e_mail": "<strong>E-mail:</strong> {{email}}"
+      }
+    },
+    "work_types": {
+      "breakdown": "Breakdown",
+      "calibration": "Calibration",
+      "maintenance": "Maintenance",
+      "retirement": "Retirement"
+    },
+    "list": {
+      "page_header": "Task List ({{taskNumber}})",
+      "filter": {
+        "person_filter": {
+          "desc": "<strong>People</strong> Filters",
+          "type": {
+            "me": "Me",
+            "allMyTeam": "All My Team",
+            "specificPersons": "Select Specific Person(s)"
+          },
+          "dialog_title": "Select Task Person(s)",
+          "dialog_desc": "Select task person(s)",
+          "selected_person_one": "{{count}} person selected",
+          "selected_person_other": "{{count}} people selected"
+        }
+      },
+      "routes": {
+        "my_tasks": "My Tasks",
+        "waiting_for_confirmation_title": "Waiting For Confirmation",
+        "task_list_title": "Task List",
+        "my_requests_title": "My Requests"
+      }
+    },
+    "routes": {
+      "tasks": "Tasks",
+      "my_requests": "My Requests",
+      "asset_information": "Asset Information",
+      "breakdown_information": "Breakdown Information",
+      "date_time": "Date & Time",
+      "assignment_information": "Assignment Information",
+      "notes_to_assignee": "Notes to the Assignee",
+      "request_date_time_reminder": "Request Date & Time / Reminder",
+      "date_time_reminder": "Date & Time / Reminder",
+      "type_of_breakdown": "Type of Breakdown",
+      "costs": "Costs",
+      "documents": "Documents",
+      "solutions": "Solutions",
+      "updates": "Updates"
+    },
+    "common": {
+      "statusGroup": {
+        "workInProgress": "Work in Progress",
+        "waitingForApproval": "Waiting for Approval",
+        "finished": "Finished",
+        "denied": "Denied"
+      },
+      "statuses": {
+        "waitingForConfirmation": "Waiting For Confirmation",
+        "open": "Open",
+        "inProgress": "In Progress",
+        "paused": "Pause",
+        "closed": "Close",
+        "denied": "Denied"
+      },
+      "priorities": {
+        "none": "None",
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High"
+      },
+      "filter": {
+        "smart": "Smart",
+        "status_filtered_count": "{{count}} status filtered",
+        "priority_filtered_count": "{{count}} priority filtered",
+        "all_status_selected": "All ({{count}}) status selected",
+        "status_filter": "<strong>Status</strong> Filters",
+        "priority_filter": "<strong>Priority</strong> Filters",
+        "smart_is_on": "Smart is <strong>on</strong>",
+        "reset_filter": "Reset Filters"
+      },
+      "table": {
+        "headers": {
+          "type": "Type",
+          "status": "Status",
+          "category_title": "Category / Title",
+          "brand": "Brand",
+          "model": "Model",
+          "serial_no": "Serial No",
+          "id": "ID",
+          "location_request_date": "Location / Req. Date",
+          "assigned_to": "Assigned to",
+          "category": "Category",
+          "requester": "Requester",
+          "asset_serial_no": "Asset Serial No",
+          "code": "Lighthouse Auto-Generated Code"
+        },
+        "empty_list": {
+          "header": "Great!",
+          "desc_list": "<strong>No task</strong> remaining all done for now",
+          "desc_wfc": "There are <strong> no tasks </strong> waiting to be confirmed",
+          "info": "All done for now.",
+          "tip": "Always try to keep this list blank"
+        }
+      }
+    }
+  },
+  "task_configuration": {
+    "breakdown": {
+      "cost": {
+        "delete_dialog_header": "{{count}} <strong>Cost type</strong> will be deleted",
+        "delete_dialog_header_plural": "{{count}} <strong>Cost types</strong> will be deleted",
+        "delete_dialog_desc": "{{count}} cost type titled '{{title}}' will be deleted. <br /> Are you sure you want to delete the breakdown cost type? <br /> <br /> This action cannot be taken back.",
+        "delete_dialog_desc_plural": "{{count}} cost types will be deleted. <br /> Are you sure you want to delete those breakdown cost types? <br /> <br /> This action cannot be taken back.",
+        "no_type_description": "No breakdown cost type here yet. Hit button above to create a new one.",
+        "selector_header": "Cost Types",
+        "selector_header_subCost": "Sub Cost Types of {{parentName}}",
+        "selector_add_new_cost": "Add a New Cost Type",
+        "selector_add_new_subCost": "Add a New Cost Type to {{parentName}}",
+        "title": "Cost Type",
+        "tooltip_info": "This will show up in breakdown cost section to indicate the type of the cost required."
+      },
+      "type": {
+        "delete_dialog_header": "1 <strong>Breakdown type</strong> will be deleted",
+        "delete_dialog_desc": "1 breakdown titled '{{title}}' will be deleted. <br /> Are you sure you want to delete the breakdown type? <br /> <br /> This action cannot be taken back.",
+        "no_type_description": "No breakdown type here yet. Hit button above to create a new one.",
+        "selector_header": "Breakdown Types",
+        "selector_add_new": "Add a New Breakdown Type",
+        "title": "Breakdown Type",
+        "tooltip_info": "This will show up in breakdown tasks to be chosen for indicating reason of the breakdown"
+      },
+      "substatuses": {
+        "delete_dialog_header": "1 <strong>Substatus</strong> will be deleted",
+        "delete_dialog_desc": "1 substatus titled '{{title}}' will be deleted. <br /> Are you sure you want to delete the substatus? <br /> <br /> This action cannot be taken back.",
+        "no_type_description": "No substatus here yet. Hit button above to create a new one.",
+        "selector_add_new": "Add a New Substatus",
+        "title": "Substatus Name",
+        "titles": {
+          "closed": "Close",
+          "inProgress": "In Progress",
+          "paused": "Pause"
+        }
+      }
+    },
+    "breakdown_page_titles": {
+      "substatuses": "Customize Breakdown Substatuses",
+      "autoflows": "Customize Breakdown Auto-Flows",
+      "breakdown_types": "Customize Breakdown Types",
+      "breakdown_costs": "Customize Breakdown Costs"
+    },
+    "breakdown_tabs": {
+      "substatuses": "Substatuses",
+      "autoflows": "Auto-Flows",
+      "breakdown_types": "Breakdown Types",
+      "breakdown_costs": "Breakdown Costs"
+    },
+    "routes": {
+      "breakdown": "Breakdown",
+      "calibration": "Calibration",
+      "maintenance": "Maintenance",
+      "retirement": "Retirement"
+    },
+    "task_types": {
+      "breakdown": "Breakdown",
+      "calibration": "Calibration",
+      "maintenance": "Maintenance",
+      "retirement": "Retirement"
+    }
+  },
+  "todos": {
+    "name": "Todo"
+  },
+  "users": {
+    "branches": {
+      "authorize_all": "Authorized to <bold>ALL BRANCHES</bold>",
+      "authorize_all_tooltip": "When this switch is on, as branches are added to the account, these users will be authorized for them as well",
+      "dynamic": "(dynamic)",
+      "static": "(static)"
+    },
+    "modal": {
+      "additional_permissions": {
+        "title": "Additional Administrative Permissions",
+        "description": "Give users permisions to administrate user management and/or locations",
+        "no_permission": "No additional administartive permissions given",
+        "permission_descriptions": {
+          "UserAdmin": "User with this permission are able to manage users and user integrations within the selected branch.",
+          "LocationAdmin": "It grants authority to add, delete and edit the locaiton items. This permission can be combined with any role."
+        },
+        "permission_titles": {
+          "UserAdmin": "User Administrator",
+          "LocationAdmin": "Location Administrator"
+        }
+      },
+      "asset_specifications_title": "Asset Management Specifications",
+      "header_add": "Add / Invite Users",
+      "header_edit": "Edit User",
+      "general_admin_header": "Add General Admin",
+      "general_admin": "General Admin",
+      "frozen_warning": "Since you have added at least 1 user now, this part will stay frozen until you start a Add / Invite Request from scratch.",
+      "add_or_invite_users": {
+        "description": "Add or invite users from here after specifying above",
+        "title": "Add or Invite Users",
+        "not_added_description": "Click button below to add or invite user(s) specified above",
+        "add_user_description": "Directly fill the personal details of the user and send it over corporate e-mail",
+        "add_user_title": "Add User(s)",
+        "invite_user_description": "Send invitation links to the e-mail(s) address of the designated user(s) with the permissions you have selected (batch invite possible)",
+        "invite_user_title": "Invite User(s)",
+        "invitation_sent": "Invitation Sent!",
+        "user_added": "<bold>{{count}} User</bold> Added",
+        "user_added_plural": " <bold>{{count}} Users</bold> Added",
+        "user_add_button": "Add another Person <br /> with same Permissions",
+        "option_changed_dialog_title": "Delete Changes",
+        "option_changed_dialog_message": "If you change the selection, we will delete the information you entered. <br /> <br /> Do you want to continue?",
+        "invite_user_section": {
+          "to": "To:",
+          "description": "Enter e-mail addresses below",
+          "counter_desc": "Ready to Send:",
+          "counter_invites": " invitations",
+          "counter_remaining": " remaining",
+          "footer_description": "<bold>Max. 100 E-Mails per invitation.</bold> Enter and E-mail then hit <bold>‘tab’</bold> to add more. Copy & Paste comma, tab or return seperated rows here if you want to.",
+          "send_button": "Send Invitations",
+          "tab_indicator": "Hit ⇥ Tab to Continue",
+          "duplicate_snackbar": "Duplicate mail is deleted",
+          "duplicate_snackbar_plural": "{{ count }} duplicate mails are deleted",
+          "results": {
+            "general_dialog": {
+              "button_desc": "<bold>{{ count }}</bold> invitations",
+              "error_desc": "<bold>{{ count }} invitations could not be sent. Please check below.</bold>",
+              "error_btn_title": "Check <bold>Errors</bold>",
+              "success_desc": "Invitations has been sucessfully sent to {{ count }} people!",
+              "success_btn_title": "Invitations Sent Sucessfully",
+              "title": "Invitation Send Report"
+            },
+            "success_dialog": {
+              "description": "<bold>{{ count }}</bold> invitations has been successfully sent",
+              "invitation_sent": "Invitation <bold>Sent</bold>",
+              "title": "<bold>Sent Invitations</bold>"
+            },
+            "error_dialog": {
+              "description": "<bold>{{ count }}</bold> invitations could <bold>not be sent</bold>",
+              "download_desc": "<bold>Download unsent entries</bold>\nas an .xls file",
+              "error_column": "Error",
+              "mail_column": "Mail Address",
+              "title": "<bold>Invalid Entries</bold>"
+            }
+          }
+        }
+      },
+      "add_user": {
+        "title": "Fill In the Information for <bold> Person {{count}} </bold>",
+        "job_title_field": "Job Title",
+        "first_name_field": "First Name",
+        "last_name_field": "Last Name",
+        "email_field": "Email",
+        "phone_number_field": "Phone Number",
+        "username_field": "Username"
+      },
+      "asset_roles": {
+        "title": "<bold>1</bold> - Asset Management <bold>Role</bold>",
+        "description": "Select a role to specify the usage pattern.",
+        "trait_title": "{{ roleName }}'s Traits:",
+        "admin_dynamic_branch_warning": "First, you have to give dynamic all branches permission",
+        "no_role_selected": "No user role has been selected",
+        "traits": {
+          "technician_main_trait": "handling tasks in the selected departments",
+          "technician_sub_1": "adding assets, plans, contracts to the selected departments",
+          "technician_sub_2": "seeing all assets in the selected departments",
+          "manager_main_trait": "confirming, denying, assigning, tracking the tasks",
+          "manager_sub_1": "creating automated workflows",
+          "executive_main_trait": "full dashboard access",
+          "executive_sub_1": "seeing all asset info in selected departments",
+          "admin_main_trait": "managing the category tree and tasks",
+          "admin_main_trait_2": "managing sub-statuses"
+        }
+      },
+      "departments": {
+        "title": "<bold>2</bold> - Asset Management <bold>Department</bold>(s)",
+        "description": "Select at least one department to specify responsible areas of the related user.",
+        "department_selected": "{{ count }} Department Selected",
+        "department_selected_plural": "{{ count }} Departments Selected",
+        "no_department_selected": "No department has been selected"
+      },
+      "branches": {
+        "title": "Select the Branch(es)",
+        "title_readonly": "Authorized Branch(es)",
+        "description": "Select all the branches the users will be allowed to operate in",
+        "total_branch": "Total Branch",
+        "total_branch_plural": "Total Branches",
+        "selected": "Selected",
+        "no_branch_yet": "No branch has been selected yet",
+        "branch_selected": "{{ count }} Branch Selected",
+        "branch_selected_plural": "{{ count }} Branches Selected",
+        "all_branches_selected": "All Branches Selected",
+        "branches": "Branch(es)"
+      },
+      "personal_information": {
+        "title": "Personal Information",
+        "description": "Check and Edit Personal Information",
+        "first_name_field": "First",
+        "last_name_field": "Last",
+        "job_title_field": "Job Title",
+        "email_field": "Email",
+        "phone_number_field": "Phone Number"
+      },
+      "operations": {
+        "resign_user_item": "<strong>Resign </strong> this User",
+        "unresign_user_item": "<strong>Unresign </strong> this User",
+        "resend_invitation_item": "<strong>Resend</strong> the Invitation",
+        "cancel_invitation_item": "<strong>Cancel</strong> the Invitation",
+        "promote_user_item": "Promote to <strong>General Admin</strong>",
+        "demote_user_item": "Demote to <strong>Standard User</strong>"
+      },
+      "promote": {
+        "header": "User will be <strong>Promoted</strong> to <strong>General Admin</strong>",
+        "description": "General Admin represents the <strong> highest level of authorization </strong> and this type of users is able to reach and edit all items of Lighthouse without restrictions at all branches and departments.<strong> Grant this privileges sparingly. </strong> <br /> <br /> <strong>Are you sure you want to promote this user to general admin?<strong>",
+        "type_promote_description": "Type <strong>'PROMOTE'</strong> below to confirm promoting to general admin",
+        "type_promote": "Type PROMOTE",
+        "promote_key": "PROMOTE"
+      },
+      "demote": {
+        "header": "User will be <strong>Demoted</strong> to <strong>Standard User</strong>",
+        "description": "General Admin represents the <strong> highest level of authorization </strong> and this type of users is able to reach and edit all items of Lighthouse without restrictions at all branches and departments. <br /> <br /> If you demote this user to a standard one, <strong> the user will lose the admin permissions </strong> and converted to a request-only user. If this user needs to have specific permission, please edit to add them after confirming this dialogue. <br /> <br /> <strong> Are you sure you want to demote this user to standard user? </strong>",
+        "type_demote_description": "Type <strong>'DEMOTE'</strong> below to confirm demoting to standard user",
+        "type_demote": "Type DEMOTE",
+        "demote_key": "DEMOTE"
+      },
+      "resign": {
+        "header": "Resign This User",
+        "description": "If you proceed, this user will not be able to access to Lighthouse anymore. The data of the user will be kept and can be unresigned to regain access later. <br /> <br /> Are you sure you want to resign {{userName}}?",
+        "snackbar_message": "User resigned successfully"
+      },
+      "unresign": {
+        "header": "Unresign This User",
+        "description": "If you proceed, this user will be able to access to Lighthouse with their previous credentials. <br /> <br /> Are you sure you want to unresign {{userName}}?",
+        "snackbar_message": "User unresigned successfully"
+      },
+      "cancel_invitation": {
+        "header": "Cancel User Invitation",
+        "description": "Are you sure you want to cancel invitation of {{userName}}?"
+      }
+    },
+    "general_admin": {
+      "modal_header": "Add General Admin",
+      "modal_description_add": "General Admin represents the <bold> highest level of authorization </bold> and this type of users is able to reach and edit all items of Lighthouse without restrictions at all branches and departments. <br /> <br /> <bold>Use this sparingly.</bold>",
+      "modal_description_edit": "General Admin represents the <bold> highest level of authorization </bold> and this type of users is able to reach and edit all items of Lighthouse without restrictions at all branches and departments."
+    },
+    "departments": {
+      "departments": "Departments",
+      "department_add": "Add a Department",
+      "department_card": {
+        "category_description": "can <bold>view</bold> the list of:",
+        "worktype_description": "can handle these <bold>task</bold>(s):",
+        "more": "More"
+      },
+      "department_list": {
+        "department_list_title": "List of Departments",
+        "asset_management_departments_title": "Asset Management Departments"
+      },
+      "edit": {
+        "create_header": "Add Department To Asset Management",
+        "edit_header": "Edit Department",
+        "category": {
+          "header": "Select Main Categories",
+          "description": "Select all the categories the department you want to create is <bold> directly related </bold>",
+          "breakdown_warning": "<bold>Beware!</bold> All users of Lighthouse is able to reach any asset to open a breakdown request. Only select categories that are directly related to the department you want to create.",
+          "cant_see_categories": "Can't see categories you are looking for? Go to Admin > Assets > <href>Categories</href>",
+          "category_count": "{{count}} Main Category Selected",
+          "category_count_plural": "{{count}} Main Categories Selected"
+        },
+        "workType": {
+          "header": "Select Work Types",
+          "description": "Select all Work Types Combined with the Categories selected",
+          "main_category_field": "Main Category: ",
+          "main_category_locked": "This department auto-added due to its main category and <strong>can not edit.</strong>",
+          "work_type_count": "{{count}} Work Type Selected",
+          "work_type_count_plural": "{{count}} Work Types Selected",
+          "no_work_types_yet": "No Work Types Selected Yet",
+          "no_work_types": "No Work Types Selected",
+          "add_work_types": "Work Type"
+        },
+        "basicInfo": {
+          "header": "Name Your Department",
+          "description": "Enter a Title and Notes (optional)",
+          "title_field": "Title",
+          "notes_field": "Notes",
+          "no_title_yet": "No Title Defined Yet",
+          "add_title": "Add Title"
+        },
+        "errors": {
+          "select_main_categories": "Main categories cannot be empty",
+          "select_work_types": "Each main category requires at least one work type"
+        }
+      },
+      "delete": {
+        "header": "Delete Department",
+        "description": "If you continue to delete this department, <br /> The information of the users in this department will be updated. <br /> If these users are not in a different department, they will switch to the 'request only' role."
+      },
+      "work_type_card": {
+        "work_type_chip": "{{ workType }} Process"
+      }
+    },
+    "list": {
+      "create_user_menu_item": "Create a New <bold>User</bold>",
+      "create_general_admin_menu_item": "Create a New <bold>General Admin</bold>",
+      "title": "User List",
+      "total_item": "Total item",
+      "action": "Action",
+      "cancel_user_invitation_title": "Delete User Invitation",
+      "cancel_user_invitation_detail": "Are you sure you want to decline this user's invitation?",
+      "headers": {
+        "asset_management": "Asset Management",
+        "add_per": "Add. Perm.",
+        "first": "First Name",
+        "last": "Last Name",
+        "branches": "Branch(es)",
+        "date_added": "Date Added",
+        "last_update": "Last Update",
+        "status": "Status"
+      },
+      "body": {
+        "all_branches": "All Branches",
+        "branch": "Branch",
+        "sent_button": "Sent",
+        "resend_button": "Resend",
+        "active": " Active",
+        "waiting": "Waiting",
+        "resigned": "Passive",
+        "invited": "Invited",
+        "general_admin": "General Admin"
+      },
+      "empty_list_desc": "Lighthouse <strong> cannot find </strong> any users with the parameters you have provided.",
+      "empty_list_info": "Please alter parameters to search within users again."
+    },
+    "routes": {
+      "user_list": "User List",
+      "departments": "Departments",
+      "ad_sync": "AD Sync",
+      "user_form": "User Form"
+    },
+    "status": {
+      "active": "Active",
+      "waiting": "Waiting",
+      "resigned": "Passive"
+    },
+    "filter": {
+      "job_title": "Job Title",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "department": "Department",
+      "branch": "Branch",
+      "status": "Status",
+      "role": "Asset Management Role",
+      "permission": "Permission",
+      "date_added": "Date added",
+      "last_update": "Last update",
+      "filtered_field_count": "filtered <bold>{{count}}</bold> fields"
+    },
+    "permissions": {
+      "UserAdmin": "User Admin",
+      "LocationAdmin": "Location Admin"
+    },
+    "roles": {
+      "GeneralAdmin": "General Admin",
+      "Admin": "Admin",
+      "Executive": "Executive",
+      "Manager": "Manager",
+      "Technician": "Technician",
+      "RequestOnly": "Request Only"
+    },
+    "roleDescriptions": {
+      "Admin": "This tier is authorized at the account level and for all branches. This level of authorization give grants to make all kinds of configurations among the included departments.",
+      "Executive": "Executives are the users whose main interest is checking the reports. They are not involved in task management process. They are \"request only\" users with full dashboard and data access.",
+      "Manager": "Managers are able to confirm, deny and assign the task in the selected department. They are also able to track all the tasks they have assigned to technicians.",
+      "Technician": "Technicians are the users who handle the requests of the assets in the departments they belong to.",
+      "RequestOnly": "<bold>This type of users are only able to create breakdown request.</bold> This type of users has no department."
+    }
+  }
+}

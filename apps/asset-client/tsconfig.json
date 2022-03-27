@@ -1,0 +1,13 @@
+{
+  "extends": "tsconfig/base",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "paths": {
+      "@src/*": ["src/*"]
+    },
+    "jsx": "react-jsx"
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "exclude": ["node_modules", "dist", ".turbo"]
+}

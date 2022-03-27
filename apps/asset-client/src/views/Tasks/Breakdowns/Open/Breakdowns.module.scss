@@ -1,0 +1,34 @@
+.breakdown_page_wrapper {
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 80px;
+}
+
+.panel_wrapper {
+  grid-column: 1 / -1;
+}
+
+.panel_content {
+  grid-template-columns: 1fr 340px;
+}
+
+.asset_info_img {
+  width: 95px;
+  height: 88px;
+  overflow: hidden;
+}
+
+.location_wrapper {
+  grid-template-rows: auto 1fr;
+}
+
+.location_content_wrapper {
+  grid-template-rows: 1fr auto;
+}
+
+.who_is_handle_content {
+  grid-template-columns: repeat(auto-fit, minmax(auto, 340px));
+}
+
+.asset_info_content {
+  grid-template-columns: 3fr 1fr;
+}
