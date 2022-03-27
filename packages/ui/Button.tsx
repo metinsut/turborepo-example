@@ -1,4 +1,7 @@
-import * as React from "react";
 export const Button = () => {
-  return <button>Boop</button>;
+  return (
+    <button className="bg-blue-400 hover:bg-blue-700 text-3xl font-bold underline">
+      Boop
+    </button>
+  );
 };

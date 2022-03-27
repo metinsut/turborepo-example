@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "main": "index.js",
+  "types": "./lib/react.d.ts",
   "files": [
     "base.json",
     "nextjs.json",
-    "react-library.json"
+    "react-library.json",
+    "server.json"
   ]
 }
