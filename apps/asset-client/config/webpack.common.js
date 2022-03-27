@@ -10,7 +10,7 @@ module.exports = {
   entry: path.resolve(__dirname, '../src/index.tsx'),
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: '[name].[fullhash].js'
+    filename: 'js/[name].[fullhash].js'
   },
   plugins: [
     // Removes/cleans build folders and unused assets when rebuilding
@@ -64,20 +64,41 @@ module.exports = {
         generator: {
           filename: 'fonts/[name].[hash:6][ext]'
         }
+      },
+      {
+        test: /\.(json)$/,
+        type: 'javascript/auto',
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[folder]/[name][fullhash].[ext]',
+              outputPath: 'json/locales/'
+            }
+          }
+        ]
       }
     ]
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.tsx', '.ts', '.js', 'json'],
     modules: [path.resolve(__dirname, '../src'), 'node_modules']
   },
   optimization: {
     minimizer: [new CssMinimizerPlugin()]
   },
   devServer: {
+    port: 3002,
+    hot: true,
+    open: true,
     proxy: {
-      '/': {
-        target: 'https://quattrogatewayassetclient.dev.bordatech.com/'
+      '/api': {
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api': ''
+        },
+        target: 'https://quattrogatewayassetclient.dev.bordatech.com',
+        secure: false
       }
     }
   }
