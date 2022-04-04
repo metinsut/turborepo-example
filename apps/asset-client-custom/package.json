@@ -1,5 +1,5 @@
 {
-  "name": "asset-client",
+  "name": "asset-client-custom",
   "version": "1.0.0",
   "main": "index.js",
   "author": "BORDA SOFTWARE",
@@ -23,7 +23,7 @@
     "@mui/material": "^5.2.7",
     "@mui/styles": "^5.0.2",
     "@reduxjs/toolkit": "^1.6.2",
-    "axios": "^0.21.4",
+    "axios": "^0.26.1",
     "axios-mock-adapter": "^1.19.0",
     "clsx": "^1.1.1",
     "color": "^4.0.1",

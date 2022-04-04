@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-// import ErrorPage from 'views/Errors/Error500';
+import ErrorPage from 'views/Errors/Error500';
 import React from 'react';
 
 type MyProps = {};
@@ -29,15 +29,15 @@ class ErrorBoundary extends React.Component<MyProps, MyState> {
   render() {
     const { hasError } = this.state;
     const { children } = this.props;
-
+    console.log('error');
     if (hasError) {
       return (
-        <div>Error 500</div>
         // <ErrorPage
         //   onRedirect={() => {
         //     this.setState({ hasError: false });
         //   }}
         // />
+        <div>{hasError}</div>
       );
     }
 

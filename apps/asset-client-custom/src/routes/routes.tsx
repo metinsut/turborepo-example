@@ -124,7 +124,7 @@ const routes: RouteConfigExtended[] = [
         path: ERROR404
       },
       {
-        // component: lazy(() => import('views/Errors/Error500')),
+        //component: lazy(() => import('views/Errors/Error500')),
         component: <div>error 500</div>,
         exact: true,
         path: ERROR500
