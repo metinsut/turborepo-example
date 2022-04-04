@@ -1,6 +1,6 @@
+import { MyButton } from 'mylib';
 import { Button } from 'ui';
 import image from './assets/images/react-js.png';
-import { MyButton } from 'mylib';
 
 const App = () => {
   return (

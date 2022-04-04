@@ -7,7 +7,7 @@ export const MyButton = () => {
       className="bg-purple-500 hover:bg-purple-900"
       style={{ border: '1px solid grey' }}
     >
-      the snozzberries taste like what
+      test asdsad asdsad asdsaß sadsa
     </button>
   );
 };
