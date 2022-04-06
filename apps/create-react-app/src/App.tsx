@@ -1,4 +1,5 @@
 import { MyButton } from 'mylib';
+import { MyComponent } from 'tsup';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         Hello world! My love website...
       </h1>
       <MyButton />
+      <MyComponent />
     </div>
   );
 }
